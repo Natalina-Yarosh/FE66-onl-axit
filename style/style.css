@@ -92,7 +92,7 @@
 }
 
 .option__memory {
-    list-style-type: none; /* Убирает нумерацию списка */
+    list-style-type: none; /* Убирает нумерацию */
     line-height: 21px; 
     font-size: 18px;
     font-weight: 370px; 
