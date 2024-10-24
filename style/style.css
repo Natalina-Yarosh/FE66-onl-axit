@@ -5,6 +5,48 @@
     margin: 0;
     padding: 0;
 }
+                               /* Блок awesome */
+
+.awesome__title {
+    font-family: "Open Sans", sans-serif;
+    line-height: 32.68px; 
+    font-size: 24px;
+    font-weight: 700; 
+    text-align: center;
+    color: #000000;
+    margin-bottom: 26px;
+}
+.awesome__text {
+    line-height: 21.13px; 
+    font-size: 18px;
+    font-weight: 400; 
+    text-align: center;
+    color: #000000;
+}
+.awesome__item {
+    display: inline-block; /* Блочно-строчный вид */
+    max-width: 371px;
+    margin-right: 24.4px;
+}
+.awesome__items {
+    display: flex;
+}
+
+.awesome__items :nth-child(3) {  /*  Либо .awesome__items :last-child { margin-right: 0px; }  */
+    margin-right: 0px;
+}
+.awesome__wrapper-icon {
+    width: 92.25px;
+    height: 92px;
+    border: 1px solid #EC7979;
+    border-radius: 50%;
+    margin: 0 auto 24px;
+    display: flex;
+    justify-content: center; /* Горизонтальное выравнивание */ 
+    align-items: center; /* Вертикальное выравнивание */
+}
+
+                            /* Блок pricing */
 
 .pricing {  
     display: flex;
