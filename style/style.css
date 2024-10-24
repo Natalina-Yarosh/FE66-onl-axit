@@ -1,5 +1,109 @@
+
 *{
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
+
+.pricing {  
+    display: flex;
+    justify-content: center; /* Горизонтальное выравнивание */ 
+    align-items: center; /* Вертикальное выравнивание */
+    background-color: #F5F5F5;
+    padding: 82px 168px 83px;
+}
+
+.container {
+       width: 1202px;
+       margin: 0 auto;
+       padding: 0px 16px;
+       background-color: #F5F5F5;
+}
+
+.title {
+    text-transform: uppercase; /* Вся строка с большой буквы */
+    line-height: 45px; 
+    font-size: 36px;
+    font-weight: 400; 
+    text-align: center;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.line {
+    width: 170px;
+    border-bottom: 1px solid #EC7979;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.text {
+    line-height: 21px; 
+    font-size: 18px;
+    font-weight: 400; 
+    text-align: center;
+    color: #86878B;
+    margin-bottom: 79px;
+}
+
+.pricing__options {
+    display: flex;
+}
+
+.pricing__options :nth-child(3) { 
+    margin-right: 0px;
+}
+
+.pricing__option {
+        display: inline-block; /* Блочно-строчный вид */
+        width: 370px;
+        margin-right: 30px;
+    }
+
+.option__title {
+    font-family: "Open Sans", sans-serif;
+    line-height: 60px; 
+    font-size: 24px;
+    font-weight: bold; 
+    text-align: center;
+    color: #fff;
+    background-color: #333333;
+    border-bottom: 2px solid #f5f5f5;
+}
+
+.option__price {
+    line-height: 100px; 
+    font-size: 36px;
+    font-weight: bold; 
+    text-align: center;
+    color: #fff;
+    background-color: #333333;
+    border-bottom: 2px solid #f5f5f5;  
+}
+
+.option__rate {
+    line-height: 50px; 
+    font-size: 18px;
+    font-weight: 370px; 
+    text-align: center;
+    color: #86878B; 
+    background-color: #333333;
+}
+
+.option__memory {
+    list-style-type: none; /* Убирает нумерацию списка */
+    line-height: 21px; 
+    font-size: 18px;
+    font-weight: 370px; 
+    text-align: center;
+    color: #86878B; 
+    background-color: #fff;
+}
+
+.option__memory-element {
+    line-height: 50px;
+    border-bottom:3px solid #f5f5f5;
+    border-top:3px solid #f5f5f5;
+}
+
