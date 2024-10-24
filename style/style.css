@@ -8,9 +8,8 @@ body {
     font-family: "Raleway", sans-serif;
 }
 
-.options {
-    padding: 82px 0 83px;
-    background-color: #F5F5F5;
+.about {
+    margin-bottom: 107px;
 }
 
 .container {
@@ -43,6 +42,56 @@ body {
     font-size: 18px;
     line-height: 21px;
     color: #86878B;
+}
+
+.about-design {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about__card {
+    max-width: 371px;
+    text-align: center;
+}
+
+.about__wrapper-icon {
+    width: 91.86px;
+    height: 91.61px;
+    border: 1px solid rgba(236, 121, 121, 1);
+    border-radius: 50%;
+    margin: 0 auto 24px;
+
+    position: relative;
+}
+
+.about__icon {
+    position: absolute;
+    top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	display: inline-block;
+}
+
+.about__title {
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 30px;
+}
+
+.about__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.13px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.options {
+    padding: 82px 0 83px;
+    background-color: #F5F5F5;
 }
 
 .options__cards {
