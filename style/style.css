@@ -1,5 +1,46 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+}
+
+.banner{
+	background: linear-gradient(180deg, #E5EFFF 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(229, 239, 255, 0) 100%);
+	padding-top: 270px;
+	padding-bottom: 451px;
+}
+
+.container{
+	max-width: 1510px;
+	padding: 0px 15px;
+	margin: 0 auto; 
+}
+
+.banner__title{
+	font-size: 85px;
+	font-weight: bold;
+	line-height: 95px;
+	margin-bottom: 29px;
+	max-width: 818px;
+	color: #272D4E;
+}
+
+.banner__description{
+	color: #94A2B3;
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 31px;
+	max-width: 716px;
+}
+
+.banner__button{
+	max-width: 267px;
+	width: 100%;
+	background-color: #7854F7;
+	border-radius: 60px;
+	border: none;
+	color: #fff;
+	font-size: 18px;
+	line-height: 21px;
+	padding: 25.5px;
 }
