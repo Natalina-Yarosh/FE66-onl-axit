@@ -11,6 +11,46 @@
     margin: 82px 168px;
 }
 
+.options_container {
+    display: flex;
+    width: 1200px;
+    text-align: center;
+    padding: 0px 15px;
+}
+
+.lamp {
+    width: 371px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.icon {
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    border: 1px solid rgba(236, 121, 121, 1);
+    text-align: center;
+    position: relative;
+    margin: 0px 139px 24px;
+}
+
+.icon svg{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	display: inline-block;
+	width: 63px;
+	height: 63px;
+}
+
+.options_container--text {
+    font-family: "Open Sans", sans-serif;
+    margin: 24px 0px 26px;
+}
+
+
+
 .container {
     max-width: 1200px;
     text-align: center;
@@ -54,7 +94,7 @@
     margin-right: 30px;
 }
 
-.option_title {
+.option__title {
     height: 60px;
     font-family: "Open Sans", serif;
     font-weight: 700;
