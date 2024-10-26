@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Raleway", sans-serif;
-    color: #000;
 }
 body {
     background-color: #fff;
@@ -13,15 +12,8 @@ body {
     padding: 0 15px;
     margin: 0 auto;
 }
-.prices{
-    background-color: #F5F5F5;
-    padding: 80px 0 83px;
-}
-.about{
-    padding-bottom: 110px;
-}
 .head{
-    margin-bottom: 80px;
+    margin-bottom: 92px;
 }
 .head__title{
     font-size: 36px;
@@ -45,6 +37,10 @@ body {
     color: #86878B;
     margin-bottom: 80px;
 }
+/*about*/
+.about{
+    padding-bottom: 110px;
+}
 .about__element{
     display: inline-block;
     width: calc((100% - 27px - 27px)/3);
@@ -63,12 +59,19 @@ body {
     font-size: 24px;
     font-weight: 600;
     text-align: center;
+    color: #000;
     margin-bottom: 30px;
 }
 .about__text{
     font-size: 18px;
     font-weight: 400;
     text-align: center;
+    color: #000;
+}
+/*pricing*/
+.prices{
+    background-color: #F5F5F5;
+    padding: 80px 0 83px;
 }
 .price{
     display: inline-block;
