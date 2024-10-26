@@ -1,5 +1,115 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    color: #000;
+}
+body {
+    background-color: #fff;
+}
+.container{
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.prices{
+    background-color: #F5F5F5;
+    padding: 80px 0 83px;
+}
+.about{
+    padding-bottom: 110px;
+}
+.head{
+    margin-bottom: 80px;
+}
+.head__title{
+    font-size: 36px;
+    font-weight: 400;
+    color: #000;
+    line-height: 42px;
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.head__line{
+    border: 1px solid #EC7979;
+    width: 170px;
+    margin: 0 auto 40px;
+}
+.head__text{
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    text-align: center;
+    color: #86878B;
+    margin-bottom: 80px;
+}
+.about__element{
+    display: inline-block;
+    width: calc((100% - 27px - 27px)/3);
+    margin: 0 auto;
+}
+.about__circle{
+    width:92px;
+    height: 92px;
+    border: 1px solid #EC7979;
+    border-radius: 50%;
+    margin: 0 auto 24px;
+    text-align: center;
+}
+.about__title{
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.about__text{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.price{
+    display: inline-block;
+    max-width: 370px;
+    width: 100%;
+    margin-bottom: 83px;
+}
+.price__title{
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33px;
+    color:#FFFFFF;
+    text-align: center;
+    background-color: #333333;
+    border: 2px solid #F5F5F5;
+    padding: 11.5px 11.5px;
+}
+.price__value{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 42px;
+    color:#FFFFFF;
+    text-align: center;
+    background-color: #333333;
+    border: 2px solid #F5F5F5;
+    padding: 27px 27px;
+}
+.price__list{
+    list-style-type: none;
+}
+.price__item:first-child{
+    color:#FFFFFF, 0.5;
+    background-color: #333333;
+}
+.price__item{
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    background-color: #FFFFFF;
+    border: 2px solid #F5F5F5;
+    padding: 13px 12px;
 }
