@@ -45,22 +45,21 @@
     justify-content: center; /* Горизонтальное выравнивание */ 
     align-items: center; /* Вертикальное выравнивание */
 }
+.awesome {
+    margin-bottom: 110px;
+}
 
                             /* Блок pricing */
 
 .pricing {  
-    display: flex;
-    justify-content: center; /* Горизонтальное выравнивание */ 
-    align-items: center; /* Вертикальное выравнивание */
     background-color: #F5F5F5;
     padding: 82px 168px 83px;
 }
 
 .container {
-       width: 1202px;
+       max-width: 1202px;
        margin: 0 auto;
        padding: 0px 16px;
-       background-color: #F5F5F5;
 }
 
 .title {
@@ -93,19 +92,17 @@
     display: flex;
 }
 
-.pricing__options :nth-child(3) { 
-    margin-right: 0px;
-}
-
 .pricing__option {
         display: inline-block; /* Блочно-строчный вид */
-        width: 370px;
+        max-width: 370px;
+        width: 100%;
         margin-right: 30px;
     }
 
-.option__title {
+.pricing__tittle {
     font-family: "Open Sans", sans-serif;
-    line-height: 60px; 
+    line-height: 34px;
+    padding: 12px 10px; 
     font-size: 24px;
     font-weight: bold; 
     text-align: center;
@@ -114,7 +111,7 @@
     border-bottom: 2px solid #f5f5f5;
 }
 
-.option__price {
+.pricing__cost {
     line-height: 100px; 
     font-size: 36px;
     font-weight: bold; 
@@ -124,28 +121,27 @@
     border-bottom: 2px solid #f5f5f5;  
 }
 
-.option__rate {
+.pricing__desscription {
     line-height: 50px; 
     font-size: 18px;
-    font-weight: 370px; 
     text-align: center;
     color: #86878B; 
     background-color: #333333;
 }
 
-.option__memory {
+.pricing__list {
     list-style-type: none; /* Убирает нумерацию */
-    line-height: 21px; 
-    font-size: 18px;
-    font-weight: 370px; 
-    text-align: center;
-    color: #86878B; 
-    background-color: #fff;
+    
 }
 
-.option__memory-element {
-    line-height: 50px;
-    border-bottom:3px solid #f5f5f5;
-    border-top:3px solid #f5f5f5;
+.pricing__info {
+    padding: 14px;
+    border-bottom: 2px solid #f5f5f5;
+    border-top: none;
+    line-height: 21px; 
+    font-size: 18px;
+    text-align: center;
+    color: #86878B;
+    background-color: #fff; 
 }
 
