@@ -74,7 +74,9 @@ padding:0 16px;
 .head{
     margin-bottom: 79px;
 }
-
+.awesome{
+    margin-bottom: 110px;
+}
 .pricing-options__description{
     display: flex;
     width: 100%;
