@@ -32,8 +32,8 @@
     display: flex;
 }
 
-.awesome__items :nth-child(3) {  /*  Либо .awesome__items :last-child { margin-right: 0px; }  */
-    margin-right: 0px;
+.awesome__item:last-child {  /*  Либо .awesome__items :last-child { margin-right: 0px; }  */
+    margin: 0;
 }
 .awesome__wrapper-icon {
     width: 92.25px;
@@ -91,8 +91,8 @@
 .pricing__options {
     display: flex;
 }
-.pricing__options :nth-child(3) {
-    margin-right: 0px;
+.pricing__option:last-child{
+    margin: 0;
 }
 
 .pricing__option {
