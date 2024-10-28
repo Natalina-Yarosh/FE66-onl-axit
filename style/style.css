@@ -53,7 +53,7 @@
 
 .pricing {  
     background-color: #F5F5F5;
-    padding: 82px 168px 83px;
+    padding: 82px 0px;
 }
 
 .container {
@@ -91,6 +91,9 @@
 .pricing__options {
     display: flex;
 }
+.pricing__options :nth-child(3) {
+    margin-right: 0px;
+}
 
 .pricing__option {
         display: inline-block; /* Блочно-строчный вид */
@@ -99,7 +102,7 @@
         margin-right: 30px;
     }
 
-.pricing__tittle {
+.pricing__title {
     font-family: "Open Sans", sans-serif;
     line-height: 34px;
     padding: 12px 10px; 
@@ -112,7 +115,7 @@
 }
 
 .pricing__cost {
-    line-height: 100px; 
+    padding: 27.5px 0;
     font-size: 36px;
     font-weight: bold; 
     text-align: center;
@@ -122,7 +125,7 @@
 }
 
 .pricing__desscription {
-    line-height: 50px; 
+    padding: 14.5px 0; 
     font-size: 18px;
     text-align: center;
     color: #86878B; 
@@ -135,7 +138,7 @@
 }
 
 .pricing__info {
-    padding: 14px;
+    padding: 13.5px 0;
     border-bottom: 2px solid #f5f5f5;
     border-top: none;
     line-height: 21px; 
