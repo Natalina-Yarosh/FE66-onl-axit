@@ -7,7 +7,7 @@
 /* about start */
 
 .about {
-    padding-bottom: 110px;
+    margin-bottom: 110px;
 }
 
 .container {
@@ -18,6 +18,7 @@
 
 .head {
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .head__title {
@@ -27,7 +28,6 @@
     line-height: 42px;
     color: #000000;
     font-family: "Raleway", sans-serif;
-    margin-bottom: 40px;
 }
 
 .head__line {
@@ -102,21 +102,21 @@
     font-size: 24px;
     line-height: 33px;
     color: #FFFFFF;
-    padding: 16px;
-    border: 2px solid #F5F5F5;
+    padding: 12.5px 16px;
+    border: 1px solid #F5F5F5;
     background: #333333;
     font-weight: 700;
 }
 
-.pricing__price {
+.pricing__value {
     font-family: "Raleway", sans-serif;
     text-align: center;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     color: #FFFFFF;
-    padding: 32px;
-    border: 2px solid #F5F5F5;
+    padding: 28px 10px;
+    border: 1px solid #F5F5F5;
     background: #333333;
 }
 
@@ -127,12 +127,12 @@
     font-size: 18px;
     line-height: 21px;
     color: rgb(255, 255, 255, 0.5);
-    padding: 16px;
-    border: 2px solid #F5F5F5;
+    padding: 13.5px 10px;
+    border: 1px solid #F5F5F5;
     background: #333333;
 }
 
-.pricing__list-item {
+.pricing__list {
     list-style-type: none;
     font-family: "Raleway", sans-serif;
     text-align: center;
@@ -140,8 +140,8 @@
     font-size: 18px;
     line-height: 21px;
     color: #86878B;
-    padding: 16px;
-    border: 2px solid #F5F5F5;
+    padding: 13.5px 10px;
+    border: 1px solid #F5F5F5;
     background: #FFFFFF;
 }
 
