@@ -44,7 +44,7 @@ body {
     color: #86878B;
 }
 
-.about-design {
+.about__design {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -100,18 +100,18 @@ body {
     justify-content: space-between;
 }
 
-.options__card {
+.option {
     max-width: 371px;
     width: 100%;
     text-align: center;
     margin-right: 30px;
 }
 
-.options__card:last-child {
+.option:last-child {
     margin-right: 0;
 }
 
-.card__title {
+.option__title {
     font-family: "Open Sans", sans-serif;
     font-size: 24px;
     font-weight: bold;
@@ -119,40 +119,37 @@ body {
     color: #FFFFFF;
     background-color: #333333;
     padding: 15px 5px 15px;
-    border: 2px solid #F5F5F5;
+    border: 1px solid #F5F5F5;
 }
 
-.card__price {
+.option__price {
     font-size: 36px;
     font-weight: bold;
     line-height: 42px;
     color: #FFFFFF;
     background-color: #333333;
     padding: 29px 5px 29px;
-    border: 2px solid #F5F5F5;
-    border-top: none;
+    border: 1px solid #F5F5F5;
 }
 
-.card__text{
+.option__text{
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
     background-color: #333333;
     padding: 14.5px 5px 14.5px;
-    border: 2px solid #F5F5F5;
-    border-top: none;
+    border: 1px solid #F5F5F5;
 }
 
-.card__list {
+.option__list {
     list-style-type: none;
 }
 
-.card__list-item {
+.option__item {
     font-size: 18px;
     line-height: 21px;
     color: #86878B;
     background-color: #FFFFFF;
     padding: 14.5px 5px 14.5px;
-    border: 2px solid #F5F5F5;
-    border-top: none;
+    border: 1px solid #F5F5F5;
 }
