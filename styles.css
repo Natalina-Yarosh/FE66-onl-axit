@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.head {
+  background-color: #F5F5F5;
+  padding: 80px 0px 0px 0px;
+}
+
+.head__title {
+  font-size: 36px;
+  color: #000;
+  text-align: center;
+  font-weight: 400;
+  line-height: 36px;
+  margin-bottom: 40px;
+}
+
+.head__separator {
+  width: 170px;
+  height: 1px;
+  margin: 0 auto 40px;
+  background-color: #EC7979;
+}
+
+.head__text {
+  font-size: 18px;
+  font-weight: 400;
+  color: #86878B;
+  margin-bottom: 92px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+.about__items {
+ 
+}
+
+.about__item {
+  display: inline-block;
+  max-width: 371px;
+  text-align: center;
+
+}
+
+.about__wraper-icon {
+  margin: 0 auto 24px;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #EC7979;
+  height: 97px;
+  width: 97px;
+
+}
+
+.about__title {
+  font-weight: 700px;
+  font-size: 24px;
+  line-height: 33px;
+  margin-bottom: 26px;
+  font-family: "Open Sans", sans-serif;
+  color: #000;
+}
+
+
+.about_text {
+  font-size: 18px;
+  line-height: 21px;
+  color: #000;
+}
+
+
+/* PRICING */
+
+.pricing {
+  background-color: #F5F5F5;
+  padding: 80px 0 85px;
+}
+
+.price__tariffs {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.price__tariffs-rate {
+  display: inline-block;
+  max-width: 370px;
+  width: 100%;
+  text-align: center;
+}
+
+.price__tariffs-tarif {
+  border: 1px solid #fff;
+  font-family: "Open Sans", serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  color: #fff;
+  background-color: #333333;
+  padding: 12.5px 0px 12.5px 0px;
+}
+
+.price__tariffs-money {
+  border: 1px solid #fff;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: #fff;
+  background-color: #333333;
+  padding: 28px 0px 28px 0px;
+}
+
+.price__tariffs-live {
+  border: 1px solid #fff;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgb(255, 255, 255, .5);
+  background-color: #333333;
+  padding: 13.5px 0px 13.5px 0px;
+}
+
+.price__list {
+  list-style-type: none;
+}
+
+.price__list-item {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #86878B;
+  background-color: #fff;
+  border: 1px solid #F5F5F5;
+  padding: 13.5px 0px 13.5px 0px;
+}
