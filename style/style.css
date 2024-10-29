@@ -6,7 +6,7 @@
 }
 
 .pricing{
-    padding: 82px 170px;
+    padding: 82px 82px;
     background-color: #F5F5F5;
 }
 
@@ -38,29 +38,29 @@
     line-height:21px ;
 }
 
-.pricing__body{
+.pricing__tariffs{
     display: flex;
     text-align: center;
   }
 
-  .pricing__tariffs{
+  .pricing__tariff{
     max-width: 370px;
     width: 100%;
     margin-right:30px;
 }
 
-.pricing__body-title{
-    font-family: "Open Sans", serif;
+.pricing__title{
+    font-family: "Open Sans", sans-serif;
     font-weight: bold;
     font-size: 24px;
     border: 1px solid #F5F5F5;
     background-color: #333333;
     color: #FFFFFF;
     line-height:33px;
-    padding: 12px 10px;
+    padding: 12.7px 10px;
 }
 
-.pricing__price{
+.pricing__value{
     font-weight: bold;
     font-size: 36px;
     border: 1px solid #F5F5F5;
@@ -72,21 +72,21 @@
 
 .pricing__list{
     list-style-type:none;
-    box-shadow:10px;
 }
 
 
-.pricong__list-items_first { 
-    background-color:#333333;
-    color: rgba(255, 255, 255,50%);
-}
 
-.pricong__list-items{
+.pricing__list-item{
     border: 1px solid #F5F5F5;
     font-size: 18px;
     line-height:21px;
     color:#86878B;
     padding: 13.5px 10px;
+}
+
+.pricing__list-item_first { 
+    background-color:#333333;
+    color:rgba(255, 255, 255, 0.5)
 }
 
 
