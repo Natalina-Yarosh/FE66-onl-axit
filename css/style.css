@@ -19,7 +19,7 @@
 }
 
 .head {
-   margin: 0 auto 40px;
+   margin: 0 0 92px;
 }
 
 .head__title {
@@ -35,13 +35,13 @@
 .head__divider {
    width: 170px;
    border-top: 1px solid #EC7979;
+   margin: 0 auto 40px;
 }
 
 .head__text {
    font-size: 18px;
    line-height: 21px;
    color: #86878B;
-   margin: 0 0 92px;
 }
 
 .advantages__item {
@@ -87,6 +87,10 @@
    margin: 0 auto;
 }
 
+.header {
+   margin: 0 0 80px;
+}
+
 .header__title {
    font-weight: 500;
    font-size: 36px;
@@ -105,12 +109,6 @@
    font-size: 18px;
    line-height: 21px;
    color: #86878B;
-   margin: 0 0 80px;
-}
-
-.pricing__options {
-
-   background-color: #fff;
 }
 
 .option {
@@ -156,7 +154,6 @@
 .option__item--condition {
    background-color: #333333;
    color: rgba(255, 255, 255, 0.5);
-   padding: 14.5px 0 14.5px;
-   line-height: 21px;
    font-size: 18px;
+   line-height: 21px;
 }
