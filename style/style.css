@@ -1,111 +1,93 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
-    background: #F5F5F5;
-    font-family: 'Raleway', sans-serif;
+body {
+    background: #f5f5f5;
+    font-family: "Raleway", sans-serif;
 }
 
-.pricing{
-    background: #F5F5F5;
+.pricing {
+    background: #f5f5f5;
     padding: 80px 0 85px;
 }
 
-.container{
+.container {
     max-width: 1202px;
     margin: 0 auto;
     padding: 0 16px;
-
 }
 
-.head{
+.head {
     margin-bottom: 79px;
 }
 
-.head__title{
-    font-family: 'Raleway', sans-serif;
+.head__title {
+    font-family: "Raleway", sans-serif;
     font-weight: 400;
     line-height: 42px;
     font-size: 36px;
     text-align: center;
     margin: 0 0 40px;
-
-
-
 }
-.head__line{
+.head__line {
     width: 170px;
     height: 1px;
-    background-color: #EC7979;
+    background-color: #ec7979;
     margin: 0 auto 40px auto;
 }
 
-.head__text{
-    font-family: 'Raleway', sans-serif;
+.head__text {
+    font-family: "Raleway", sans-serif;
     text-align: center;
     font-size: 18px;
     color: #555;
     line-height: 21px;
-
 }
 
-.pricing__content{
+.pricing__content {
     text-align: center;
-
 }
-.pricing__tariffs{
+.pricing__tariff {
     max-width: 370px;
     width: 100%;
     display: inline-block;
-    background: #FFF;
-
+    background: #fff;
 }
-.pricing__title{
-    font-family: 'Open Sans', sans-serif;
+.pricing__title {
+    font-family: "Open Sans", sans-serif;
     font-weight: bold;
     font-size: 24px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #ffffff;
     background-color: #333;
     color: #fff;
     line-height: 33px;
     padding: 12.5px 10px;
-
 }
-.pricing__cost{
+.pricing__cost {
     font-weight: bold;
     font-size: 36px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #ffffff;
     background-color: #333;
     color: #fff;
     line-height: 42px;
     padding: 28px 10px;
-
 }
-.pricing__list{
+.pricing__list {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-li:first-child{
+li:first-child {
     background: #333333;
-    color: rgba(255, 255, 255, .5);
-
+    color: rgba(255, 255, 255, 0.5);
 }
-.pricing__item{
+.pricing__item {
     width: 100%;
-    border: 2px solid #F5F5F5;
+    border: 2px solid #f5f5f5;
     font-size: 18px;
     line-height: 21px;
-    color: #868788;
-    padding: 12.5px;
-    background-color: #FFF;
-
+    padding: 13.5px 10px;
 }
-
-
-
-
-
