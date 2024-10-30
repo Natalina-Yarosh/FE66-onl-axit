@@ -7,8 +7,7 @@
 }
 /* hmw4 */
 .head {
-  background-color: #F5F5F5;
-  padding: 80px 0px 0px 0px;
+ padding-bottom: 92px;
 }
 
 .head__title {
@@ -31,7 +30,6 @@
   font-size: 18px;
   font-weight: 400;
   color: #86878B;
-  margin-bottom: 92px;
   line-height: 21px;
   text-align: center;
 }
@@ -67,7 +65,7 @@
 }
 
 .about__title {
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 24px;
   line-height: 33px;
   margin-bottom: 26px;
@@ -76,7 +74,9 @@
 }
 
 
-.about_text {
+.about__text {
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
   font-size: 18px;
   line-height: 21px;
   color: #000;
@@ -103,7 +103,7 @@
   text-align: center;
 }
 
-.price__tariffs-tarif {
+.price__tarif {
   border: 1px solid #fff;
   font-family: "Open Sans", serif;
   font-weight: bold;
@@ -111,27 +111,27 @@
   line-height: 33px;
   color: #fff;
   background-color: #333333;
-  padding: 12.5px 0px 12.5px 0px;
+  padding: 12.5px 10px 12.5px 10px;
 }
 
-.price__tariffs-money {
+.price__money {
   border: 1px solid #fff;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
   color: #fff;
   background-color: #333333;
-  padding: 28px 0px 28px 0px;
+  padding: 28px 10px 28px 10px;
 }
 
-.price__tariffs-live {
+.price__live {
   border: 1px solid #fff;
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
   color: rgb(255, 255, 255, .5);
   background-color: #333333;
-  padding: 13.5px 0px 13.5px 0px;
+  padding: 13.5px 10px 13.5px 10px;
 }
 
 .price__list {
@@ -145,5 +145,5 @@
   color: #86878B;
   background-color: #fff;
   border: 1px solid #F5F5F5;
-  padding: 13.5px 0px 13.5px 0px;
+  padding: 13.5px 10px 13.5px 10px;
 }
