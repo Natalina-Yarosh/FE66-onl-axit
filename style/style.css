@@ -115,7 +115,7 @@
 }
 
 .pricing__cost {
-    padding: 27.5px 0;
+    padding: 27.5px 10px;
     font-size: 36px;
     font-weight: bold; 
     text-align: center;
@@ -125,7 +125,7 @@
 }
 
 .pricing__desscription {
-    padding: 14.5px 0; 
+    padding: 14.5px 10px; 
     font-size: 18px;
     text-align: center;
     color: #86878B; 
@@ -138,7 +138,7 @@
 }
 
 .pricing__info {
-    padding: 13.5px 0;
+    padding: 13.5px 10px;
     border-bottom: 2px solid #f5f5f5;
     border-top: none;
     line-height: 21px; 
@@ -148,3 +148,58 @@
     background-color: #fff; 
 }
 
+.customers {
+    padding: 107px 0px;
+}
+.customers__items {
+    display: flex;
+}
+.customers__item:last-child {
+    margin: 0;
+}
+.customers__item {
+    display: inline-block;
+    max-width: 370px;
+    width: 100%;
+    margin-right: 30px;
+}
+.customers__text {
+    background-color: #E2E2E2;
+    padding: 37.5px 25px;
+    line-height: 21px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+    color: #86878B;
+    margin-bottom: 66px;
+}
+
+.customers__wrapper-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customers__person {
+    display: flex;
+    max-width: 370px;
+    width: 100%;
+}
+.customers__names {
+    font-family: "Open Sans", sans-serif;
+    line-height: 30px; 
+    font-size: 24px; 
+    text-align: left;
+    color: #000000;
+    margin-bottom: 18px;
+}
+.customers__position {
+    line-height: 21px; 
+    font-size: 18px;
+    text-align: left;
+    color: #000000;
+}
