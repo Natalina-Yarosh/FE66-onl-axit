@@ -6,7 +6,7 @@
 }
 
 .about {
-    
+    margin-bottom: 110px;
 }
 
 .about__container {
@@ -17,10 +17,14 @@
 }
 
 .options {
-    margin: 0 auto;
-    padding: 0 15px;
+    background-color: rgba(245, 245, 245, 1);
+}
+
+.container {
     max-width: 1200px;
-    margin-bottom: 110px;
+    text-align: center;
+    padding: 0px 15px;
+    margin: 0 auto;
 }
 
 .about__content {
@@ -60,12 +64,6 @@
     color: #000000;
 }
 
-
-
-.about--color {
-    background-color: rgba(245, 245, 245, 1);
-}
-
 .title {
     font-weight: 400;
     font-size: 36px;
@@ -99,9 +97,6 @@
 .options__content{
     display: flex;
     text-align: center;
-    margin: 0 auto;
-    padding: 0 15px;
-    max-width: 1200px;
 }
 
 .option {
