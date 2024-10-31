@@ -62,11 +62,7 @@
 
 
 
-.container {
-    max-width: 1200px;
-    text-align: center;
-    padding: 0px 15px;
-    margin: 0 auto;
+.about--color {
     background-color: rgba(245, 245, 245, 1);
 }
 
@@ -103,6 +99,9 @@
 .options__content{
     display: flex;
     text-align: center;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px;
 }
 
 .option {
