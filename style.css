@@ -145,21 +145,18 @@
 }
 
 .sayings {
-    padding: 107px 0;
+    margin: 107px 0;
 }
 
 .sayings__content {
     display: flex;
-    text-align: center;
 }
 
 .saying {
-    max-width: 370px;
-    width: 100%;
-    padding-right: 30px;
+    margin-right: 30px;
 }
 
-.sayings__container--text{
+.saying__text{
     background-color: rgba(226, 226, 226, 1);
     font-size: 18px;
     font-weight: 400;
@@ -170,26 +167,34 @@
     border-radius: 10px;
 }
 
-.saying img {
-    float: left;
-    margin-right: 30px;
+.saying__content {
+    display: flex;
+    text-align: left;
 }
 
-.sayings__container--desc {
+.saying__img {
+    margin-right: 30px;
+    height: 70px;
+    width: 70px;
+}
+
+.saying__desc {
+    color: rgba(0, 0, 0, 1);
+}
+
+.saying__name {
     font-family: "Open Sans", serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 30px;
-    color: rgba(0, 0, 0, 1);
-    text-align: left;
     margin-bottom: 18px;
+    padding: 3px 5px
 }
 
-.sayings__container--desc_small {
-    color: rgba(0, 0, 0, 1);
+.saying__position {
     font-size: 18px;
     font-weight: 400;
-    line-height: 21.13px;
-    text-align: left;
+    line-height: 21.13px; 
+    padding: 1.5px 5px;
 }
 
