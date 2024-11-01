@@ -143,3 +143,53 @@
     padding: 13.5px 10px;
     text-transform: capitalize;
 }
+
+.sayings {
+    padding: 107px 0;
+}
+
+.sayings__content {
+    display: flex;
+    text-align: center;
+}
+
+.saying {
+    max-width: 370px;
+    width: 100%;
+    padding-right: 30px;
+}
+
+.sayings__container--text{
+    background-color: rgba(226, 226, 226, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    padding: 37.5px 10px;
+    margin-bottom: 66px;
+    color: rgba(134, 135, 139, 1);
+    border-radius: 10px;
+}
+
+.saying img {
+    float: left;
+    margin-right: 30px;
+}
+
+.sayings__container--desc {
+    font-family: "Open Sans", serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 1);
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.sayings__container--desc_small {
+    color: rgba(0, 0, 0, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.13px;
+    text-align: left;
+}
+
