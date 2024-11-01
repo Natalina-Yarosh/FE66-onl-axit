@@ -88,8 +88,6 @@
         width: 100%;
         display: inline-block;
         text-align: center;
-        margin-right: 30;
-        border: 2px solid #F5F5F5;
     }
     .pricing__title{
         font-family: "Open Sans", sans-serif; 
@@ -108,7 +106,6 @@
         line-height: 42px;
         background-color: #333333;
         color: #FFFFFF;
-        margin: 0 auto;
         border: 1px solid #F5F5F5;
         padding: 28px 10px;
     }
