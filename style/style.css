@@ -117,3 +117,44 @@ body {
     color:rgba(255,255,255,0.5);
     background-color: #333333;
 }
+
+/*customers*/
+.customers{
+    padding: 107px 0;
+}
+.feedback{
+    display: inline-block;
+    max-width: 370px;
+    width: 100%; 
+}
+.feedback__text{
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    padding: 38px 25px 37px;
+    background-color: #E2E2E2;
+    border-radius: 10px;
+    margin-bottom: 66px;
+}
+.feedback__img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 30px;
+}
+.feedback_wrapper{
+    display: inline-block;
+}
+.persone__name{
+    font-family: "Open Sans", sans-serif;
+    font-size: 21px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+.persone__job{
+    font-size: 18px;
+    line-height: 21px;
+}
