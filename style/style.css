@@ -94,9 +94,13 @@ li:first-child{
     color: rgba(255, 255, 255, .5);
 
 }
+.pricing__description{
+    background: #333333;
+    color: rgba(255, 255, 255, .5);
+}
 .pricing__item{
     width: 100%;
-    border: 2px solid #F5F5F5;
+    border: 1px solid #F5F5F5;
     font-size: 18px;
     line-height: 21px;
     color: #868788;
