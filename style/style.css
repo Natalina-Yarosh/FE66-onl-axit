@@ -130,3 +130,59 @@
         background-color: #FFFFFF;
         list-style-type:  none;
     }
+    .review{
+        padding: 80px 0;
+      margin-bottom: 108px;
+    }
+
+    .review__element{
+     width: 370px;
+     display: inline-block;
+     text-align: center;
+    }
+    
+    .review__wrapper-image{
+        width: 70px;
+        height: 70px;
+        margin: 66px 30px 0 0;
+        border: 1px solid transparent;
+      
+    }
+
+    .review__content{
+       color: #86878B;
+     font-size: 18px;
+     line-height: 21px;
+     font-weight: 400;
+     padding: 37.5px 25px;
+     border: 0px solid transparent;
+     border-radius: 10px;
+     background-color: #E2E2E2;
+     margin-bottom: 66px;
+
+    }
+
+    .review__name{
+     font-size: 24px;
+     font-family: "Open Sans", sans-serif; 
+     line-height: 30px;
+     color: #000000;
+     margin-bottom: 18px;
+     text-align: center;
+     width: 269px;
+     
+    
+    }
+
+    .review__job-title{
+      line-height: 21px;
+     font-size: 18px;
+     font-weight: 400;
+     color: #000000;
+     text-align: right;
+     width: 270px;
+    
+    }
+
+
+
