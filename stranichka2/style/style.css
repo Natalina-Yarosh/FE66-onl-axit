@@ -9,7 +9,7 @@
 .price{
 		background: #F5F5F5;
 		padding-top: 82px;
-		padding-bottom: 83px;	
+		padding-bottom: 82px;	
 		text-align: center;
 }
 
@@ -25,6 +25,7 @@
 	margin-bottom: 40px;
 	font-size: 36px;
 	line-height: 42px;
+	text-transform: uppercase;
 }
 
 .separator{
@@ -35,7 +36,7 @@
 }
 
 .description{
-	margin-bottom: 59px;
+	margin-bottom: 80px;
 	color: #86878B;
 	font-size: 18px;
 	line-height: 21px;
@@ -107,4 +108,70 @@
 } */
 
 
+.rewiews{
+		padding-top: 106px;
+		padding-bottom: 106px;	
+		text-align: center;
+}
 
+.rewiews__content{
+	display: flex;
+	justify-content: center;
+}
+
+.rewiews__box{
+	margin-right: 30px;
+	background-color: #FFFFFF;
+	max-width: 364px;	
+	width: 100%;	
+	text-align: center;
+}
+
+.rewiews__text{
+	color: #86878B;
+	font-size: 18px;
+	line-height: 21px;
+	font-weight: 400;
+	background-color: #E2E2E2;
+	padding: 38px 24px;
+	border: none;
+	border-radius: 10px;
+	margin-bottom: 66px;
+}
+
+.rewiews__rectangle{
+
+}
+
+.rewiews__person{
+	display: flex;
+	justify-content:left;
+
+}
+
+.rewiews__person-text{
+	text-align: left;
+	padding-left: 30px;
+	/* так низя */
+}
+
+.rewiews__name{
+	color: #000;
+	font-size: 24px;
+	line-height: 30px;
+	font-family: "Open Sans", serif; 
+	font-weight: bold;
+	padding-bottom: 18px;
+}
+
+.rewiews__description{
+	color: #000;
+	font-size: 18px;
+	line-height: 21px;
+	font-weight: 400;
+}
+
+.photo{
+	max-width: 70px;
+	
+}
