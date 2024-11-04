@@ -84,6 +84,7 @@
     background-color: #F5F5F5;
     padding: 83px 0 83px;
     max-height: 900px;
+    margin-bottom: 107px;
 }
 .pricing__items
 {
@@ -143,7 +144,8 @@
 }
 .reviews
 {
-    padding: 85.5px 0 85.5px;  
+    margin-bottom: 107px;  
+
 }
 .reviews__item
 {
@@ -161,13 +163,7 @@
     color: #86878B;
     margin-bottom: 66px;
 }
-.reviews__person
-{
-    display: inline-block;
-    max-width: 370px;
-    width: 100%;
-}
-.reviews__img
+.reviews__wrapper-image
 {
     max-width: 70px;
     width: 100%;
@@ -177,11 +173,13 @@
     margin-right: 30px;
     display: inline-block;
 }
-.reviews__img img{
+.reviews__image
+{
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
-.reviews__person-item
+.reviews__description
 {
     max-width: 235px;
     width: 100%;
