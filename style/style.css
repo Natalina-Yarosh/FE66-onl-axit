@@ -54,6 +54,7 @@
 .pricing {  
     background-color: #F5F5F5;
     padding: 82px 0px;
+    margin-bottom: 107px;
 }
 
 .container {
@@ -148,9 +149,6 @@
     background-color: #fff; 
 }
 
-.customers {
-    margin: 107px 0px;
-}
 .customers__items {
     display: flex;
 }
@@ -185,11 +183,10 @@
 
 .customers__wrapper-icon img {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 70px;
-    height: 70px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
