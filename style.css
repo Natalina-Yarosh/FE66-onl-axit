@@ -7,17 +7,18 @@
 
 .about {
     margin-bottom: 110px;
+    text-align: center;
 }
 
 .options {
     background-color: rgba(245, 245, 245, 1);
     padding: 82px 0px;
     margin-bottom: 107px;
+    text-align: center;
 }
 
 .container {
     max-width: 1200px;
-    text-align: center;
     padding: 0px 15px;
     margin: 0 auto;
 }
@@ -147,6 +148,7 @@
 
 .sayings {
     margin-bottom: 107px;
+    text-align: center;
 }
 
 .sayings__content {
