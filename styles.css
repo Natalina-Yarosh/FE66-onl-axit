@@ -92,6 +92,7 @@
 .pricing {
   background-color: #F5F5F5;
   padding: 82px 0px;
+  margin-bottom: 192px;
   
 }
 
@@ -154,13 +155,15 @@
 }
 
 /* castomerss*/
+.castomers {
+  margin-bottom: 110px;
+}
 
 .castomers__feedback {
   display: inline-block;
   max-width: 370px;
   text-align: center;
   width: 100%;
-
 }
 
 
@@ -177,21 +180,30 @@
   background-color: #E2E2E2;
 }
 
-.feedback__photo {
-  width: 71px;
-  height: 71px;
-  margin: 0 auto 30px;
-  align-content: center;
-  display: flex;
-  justify-content: center;
+.feedback__info {
+  display: flex; 
+  justify-content: flex-start;
+  text-align: center;
   align-items: center;
-  border-radius: 50%;
-  border: 1px solid none;
-  display: inline-block;
+  text-align: left;
 }
 
+
+  .feedback__photo {
+  
+    width: 71px;
+    height: 71px;
+    display: flex; 
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid ;
+}
+
+
 .feedback__info {
-  text-align: left;
+  display: flex; 
+  align-items:center
 }
 
 .feedback__personality {
