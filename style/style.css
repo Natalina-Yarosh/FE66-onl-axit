@@ -67,6 +67,7 @@ margin-bottom: 92px;
 .options{
     background-color: #F5F5F5;
     padding: 80px 0 85px;
+    margin-bottom: 107px;
 }
 .option{
     display: inline-block;
@@ -118,7 +119,7 @@ margin-bottom: 92px;
 /*customers*/
 
 .customers{
-    margin: 107px 0;
+    margin-bottom: 107px;
 }
 .customer{
     display: inline-block;
