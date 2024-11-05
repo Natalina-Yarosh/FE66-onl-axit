@@ -64,7 +64,8 @@ margin: 0 auto 24px;
 }
 .pricing-options{
     background-color: #F5F5F5;
-    padding: 85px 0 83px; ;
+    padding: 85px 0 83px;
+    margin-bottom: 107px;
 }
 .container{
 max-width: 1203px;
@@ -131,4 +132,58 @@ padding:0 16px;
     line-height: 21px;
     text-align: center;
     color: #86878B;
+}
+.reviews{
+    margin-bottom: 107px;
+}
+.review{
+    max-width: 370px;
+    width: 100%;
+    margin-right: 30px;
+}
+.reviews__description{
+    display: flex;
+    width: 100%;    
+}
+.review__wrapper-text{
+background-color: #E2E2E2;
+border-radius: 10px;
+padding: 37.5px 25px; 
+margin-bottom: 66px;
+}
+.review__text{
+    font-family: "Raleway", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: #86878B;
+}
+.review__wrapper-image{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 30px;
+    overflow: hidden;
+    }
+.review__description{
+    display: flex;
+}
+.review__name{
+    font-family: "Open Sans", serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 18px; 
+}
+.review__position{
+    font-family: "Raleway", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.review__image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
