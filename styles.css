@@ -92,7 +92,7 @@
 .pricing {
   background-color: #F5F5F5;
   padding: 82px 0px;
-  margin-bottom: 192px;
+  margin-bottom: 107px;
   
 }
 
@@ -155,11 +155,11 @@
 }
 
 /* castomerss*/
-.castomers {
-  margin-bottom: 110px;
+.customers {
+  margin-bottom: 107px;
 }
 
-.castomers__feedback {
+.customer{
   display: inline-block;
   max-width: 370px;
   text-align: center;
@@ -167,7 +167,7 @@
 }
 
 
-.feedback__text {
+.customer__text {
   border-radius: 10px;
  
   width: 100%;
@@ -180,7 +180,7 @@
   background-color: #E2E2E2;
 }
 
-.feedback__info {
+.customer__info {
   display: flex; 
   justify-content: flex-start;
   text-align: center;
@@ -189,28 +189,33 @@
 }
 
 
-  .feedback__photo {
+  .customer__wrapper-photo {
   
     width: 71px;
     height: 71px;
-    display: flex; 
-    justify-content: flex-start;
-    align-items: center;
     border-radius: 50%;
     border: 1px solid ;
+    margin-right: 30px;
 }
 
+.castomer__photo {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 
-.feedback__info {
+}
+
+.customer__info {
   display: flex; 
   align-items:center
 }
 
-.feedback__personality {
+.customer__personality {
   display: inline-block;
+  margin-right: 31px;
 }
 
-.feedback__surname {
+.customer__surname {
   font-family: "Open Sans", serif;
   font-weight: bold;
   line-height: 30px;
@@ -218,7 +223,7 @@
   margin-bottom: 18px;
 }
 
-.feedback__job {
+.customer__job {
   font-weight: normal;
   line-height: 21px;
   font-size: 18px;
