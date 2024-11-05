@@ -73,6 +73,7 @@ body {
 .prices{
     background-color: #F5F5F5;
     padding: 80px 0 83px;
+    margin-bottom: 107px;
 }
 .price{
     display: inline-block;
@@ -120,14 +121,14 @@ body {
 
 /*customers*/
 .customers{
-    padding: 107px 0;
+    margin-bottom: 107px;
 }
-.feedback{
+.review{
     display: inline-block;
     max-width: 370px;
     width: 100%; 
 }
-.feedback__text{
+.review__text{
     text-align: center;
     font-size: 18px;
     line-height: 21px;
@@ -137,24 +138,29 @@ body {
     border-radius: 10px;
     margin-bottom: 66px;
 }
-.feedback__img{
+.review__wrapper-img{
     width: 70px;
     height: 70px;
     border-radius: 50%;
     overflow: hidden;
     margin-right: 30px;
 }
-.feedback_wrapper{
+.review__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.review__wrapper{
     display: inline-block;
 }
-.persone__name{
+.review__person-name{
     font-family: "Open Sans", sans-serif;
     font-size: 21px;
     line-height: 30px;
     font-weight: 600;
     margin-bottom: 18px;
 }
-.persone__job{
+.review__person-job{
     font-size: 18px;
     line-height: 21px;
 }
