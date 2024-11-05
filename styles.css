@@ -44,9 +44,9 @@
   margin: 0 auto;
 }
 
-.about__items {
+/* .about__items {
  
-}
+} */
 
 .about__item {
   display: inline-block;
@@ -92,6 +92,7 @@
 .pricing {
   background-color: #F5F5F5;
   padding: 82px 0px;
+  margin-bottom: 107px;
   
 }
 
@@ -151,4 +152,79 @@
   background-color: #fff;
   border: 1px solid #F5F5F5;
   padding: 13.5px 10px 13.5px 10px;
+}
+
+/* castomerss*/
+.customers {
+  margin-bottom: 107px;
+}
+
+.customer{
+  display: inline-block;
+  max-width: 370px;
+  text-align: center;
+  width: 100%;
+}
+
+
+.customer__text {
+  border-radius: 10px;
+ 
+  width: 100%;
+  padding: 42px 25px;
+  margin-bottom: 66px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 21px;
+  color: #86878B;
+  background-color: #E2E2E2;
+}
+
+.customer__info {
+  display: flex; 
+  justify-content: flex-start;
+  text-align: center;
+  align-items: center;
+  text-align: left;
+}
+
+
+  .customer__wrapper-photo {
+  
+    width: 71px;
+    height: 71px;
+    border-radius: 50%;
+    border: 1px solid ;
+    margin-right: 30px;
+}
+
+.castomer__photo {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+}
+
+.customer__info {
+  display: flex; 
+  align-items:center
+}
+
+.customer__personality {
+  display: inline-block;
+  margin-right: 31px;
+}
+
+.customer__surname {
+  font-family: "Open Sans", serif;
+  font-weight: bold;
+  line-height: 30px;
+  color: #000000;
+  margin-bottom: 18px;
+}
+
+.customer__job {
+  font-weight: normal;
+  line-height: 21px;
+  font-size: 18px;
 }
