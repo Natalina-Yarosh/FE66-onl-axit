@@ -5,6 +5,83 @@
     margin: 0;
     padding: 0;
 }
+                           /* Блок tabs */
+.tabs {
+    margin-top: 100px;
+    margin-bottom: 110px;
+ 
+}                          
+.tabs__items {
+    display: flex;
+}
+.tabs__item {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 10.5px 10px;
+    max-width: 203px;
+    width: 100%;
+    color: #333333;
+    
+}  
+.tabs__item:first-child {
+    border-radius: 5px;
+    border: 1px solid #C6CBCD;
+}
+.tabs__info {
+    border: 1px solid #C6CBCD;
+    display: flex;
+    justify-content: space-between;
+
+}  
+.tabs__info-text {
+    padding-top: 55px;
+    padding-left: 101px;
+}
+.tabs__title {
+    font-family: "Open Sans", sans-serif;
+    max-width: 570px;
+    width: 100%;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 57px;
+} 
+.tabs__text {
+    max-width: 570px;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 26px;
+}        
+.button {
+    font-family: "Open Sans", sans-serif;
+    margin-top: 84px;
+    max-width: 270px;
+    width: 100%;
+    font-size: 18px;
+    padding: 20px 10px;
+    color: #fff;
+    background-color: #EC7979;
+    border: none;
+}     
+.tabs__wrapper-icon {
+    position: relative; 
+    overflow:hidden;
+    width: 470px;
+    height: 500px;
+}
+.tabs__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}     
+
                                /* Блок awesome */
 
 .awesome__title {
@@ -148,7 +225,7 @@
     color: #86878B;
     background-color: #fff; 
 }
-
+                           /* Блок custumers */
 .customers__items {
     display: flex;
 }
