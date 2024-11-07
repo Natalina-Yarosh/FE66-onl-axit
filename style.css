@@ -20,13 +20,15 @@
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     font-weight: 400;
-    line-height: 19.07px;
+    line-height: 19px;
     text-align: center;
     text-transform: uppercase;
     color: rgba(51, 51, 51, 1);
-    padding: 10px 73px;
+    padding: 9.5px 10px;
     border: 1px solid rgba(198, 203, 205, 1);
     text-decoration: none;
+    width: 100%;
+    max-width: 203px;
 }
 
 .tab{
@@ -35,52 +37,51 @@
 }
 
 .tab__content{
-    margin: 55px 29px 0 100px;
-    max-width: 570px;
+    margin: 55px 29px 55px 100px;
+    width: 60%;
 }
 
-.tab__content--caption{
+.tab__title{
     font-family: "Open Sans", sans-serif;
     font-size: 30px;
     font-weight: 700;
     line-height: 40.85px;
-    margin-bottom: 57px;
 }
 
-.tab__content--text{
-    margin-bottom: 26px;
+.tab__text{
+    margin-top: 57px;
     font-size: 18px;
     font-weight: 400;
     line-height: 21.13px;
     color: rgba(0, 0, 0, 1);
 }
 
-.tab__content--desc{
-    margin-bottom: 84px;
+.tab__desc{
+    margin-top: 26px;
     font-size: 18px;
     font-weight: 400;
     line-height: 21.13px;
     color: rgba(0, 0, 0, 1);
 }
 
-.tab__content--button{
-    width: 270px;
-    height: 58px;
+.tab__button{
+    max-width: 270px;
+    width: 100%;
+    padding: 17px 10px;
     background-color: rgba(236, 121, 121, 1);
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-weight: 600;
-    line-height: 24.51px;
+    line-height: 24px;
     text-align: center;
     color: rgba(255, 255, 255, 1);
     border: none;
-    margin-bottom: 54px;
+    margin-top: 84px;
 }
 
 .tab__wrapper--img{
     overflow: hidden;
-    max-width: 470px;
-    max-height: 500px;
+    width: 40%;
 }
 
 .tab__img{
@@ -110,6 +111,7 @@
 .about__content {
     display: flex;
     text-align: center;
+    column-gap: 27px;
 }
 
 .about__item {
@@ -177,6 +179,7 @@
 .options__content{
     display: flex;
     text-align: center;
+    column-gap: 27px;
 }
 
 .option {
@@ -237,10 +240,11 @@
 
 .sayings__content {
     display: flex;
+    column-gap: 27px;
 }
 
 .saying {
-    margin-right: 30px;
+    max-width: 370px;
 }
 
 .saying__text{
@@ -257,10 +261,10 @@
 .saying__content {
     display: flex;
     text-align: left;
+    column-gap: 30px;
 }
 
 .saying__wrapper-img {
-    margin-right: 30px;
     height: 70px;
     width: 70px;
     border-radius: 50%;
@@ -274,7 +278,7 @@
 }
 
 .saying__desc {
-
+    flex-grow: 1;
 }
 
 .saying__name {
