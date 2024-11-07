@@ -48,15 +48,17 @@
  
 } */
 
+.about__items {
+  display: flex;
+}
 .about__item {
-  display: inline-block;
   max-width: 371px;
   text-align: center;
 
 }
 
 .about__wraper-icon {
-  margin: 0 auto 24px;
+  margin: 0 auto 27px;
   align-content: center;
   display: flex;
   justify-content: center;
@@ -91,22 +93,23 @@
 
 .pricing {
   background-color: #F5F5F5;
-  padding: 82px 0px;
+  padding:  82px 0px 0px 82px ;
   margin-bottom: 107px;
   
 }
 
 .price__tariffs {
-  display: inline-block;
+  display: flex;
   width: 100%;
   text-align: center;
 }
 
 .price__tariffs-rate {
-  display: inline-block;
+  
   max-width: 370px;
   width: 100%;
   text-align: center;
+  margin: 0px 31px 82px 0px;
 }
 
 .price__tarif {
@@ -159,11 +162,15 @@
   margin-bottom: 107px;
 }
 
+.customers__item{
+  display: flex;
+  width: 100%;
+}
 .customer{
-  display: inline-block;
   max-width: 370px;
   text-align: center;
   width: 100%;
+  margin-right: 30px;
 }
 
 
@@ -228,3 +235,103 @@
   line-height: 21px;
   font-size: 18px;
 }
+
+/* tabs */
+
+.tabs {
+  margin-top: 100px;
+  margin-bottom: 110px;
+}
+.tabs__tab {
+  display: flex;
+    
+}
+
+.tabs__tab-list:first-child {
+  border: 1px solid #C6CBCD;
+  border-radius: 5px 5px 0 0;
+  border-bottom: none;
+  }
+  
+
+.tabs__tab-list {
+  width: 100%;
+  max-width: 203px;
+  font-size: 14px;
+  line-height: 19px;
+  font-family: "Open Sans", sans-serif;
+  color: #333333;
+  font-weight: normal;
+  padding: 10px 10.5px ;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  
+}
+.tabs__block {
+  border: 1px solid #C6CBCD;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.tabs__info {
+  padding: 55px 30px 54px 100px ;
+  width: 60%
+  
+}
+
+.tabs__info-title {
+  margin-bottom: 57px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: bold;  
+}
+
+.tabs__text--primary{
+  margin-bottom: 26px;
+}
+
+.tabs__text--secondary {
+  margin-bottom: 84px;
+}
+
+.tabs__text {
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000;
+  
+}
+
+.tabs__wrapper-pictures {
+  object-fit: cover;
+  overflow: hidden;
+  width: 41.6%;
+      
+}
+
+.tabs__pictures {    
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+.table__button{
+  background-color: #EC7979; 
+  color:#ffffff;
+  border: none; 
+  text-align: center; 
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600; 
+  font-size: 18px; 
+  cursor: pointer;
+  padding: 10px 19px 10px 19px;
+  max-width: 270px;
+  margin-bottom: 54px;
+
+  
+  }
