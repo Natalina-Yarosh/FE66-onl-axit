@@ -121,7 +121,6 @@
 
 .rewiews__box{
 	margin-right: 30px;
-	background-color: #FFFFFF;
 	max-width: 364px;	
 	width: 100%;	
 	text-align: center;
@@ -133,14 +132,9 @@
 	line-height: 21px;
 	font-weight: 400;
 	background-color: #E2E2E2;
-	padding: 38px 24px;
-	border: none;
+	padding: 38px 25px;
 	border-radius: 10px;
 	margin-bottom: 66px;
-}
-
-.rewiews__rectangle{
-
 }
 
 .rewiews__person{
@@ -173,13 +167,12 @@
 	width: 70px;
 	height: 70px;
 	overflow: hidden;
-	/* что оно делает? */
 	border-radius: 50%;
 	margin-right: 30px;
 }
 
 .rewiews__photo{
-	max-width: 70px;
-	max-height: 70px;
+	width: 100%;
+	height: 100%;
 	object-fit: cover;
 }
