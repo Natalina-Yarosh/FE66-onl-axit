@@ -5,6 +5,58 @@
 	font-family: "Raleway", serif;
 }
 
+.about{
+		text-align: center;
+		margin-top: 118px;
+		margin-bottom: 110px;
+}
+
+.about__content{
+	display: flex;
+	justify-content: center;
+}
+
+.about__box{	
+	max-width: 371px;	
+	width: 100%;
+	text-align: center;
+	display: flex;
+    flex-direction: column;  
+    align-items: center;
+	/* не уверен что правильно */
+}
+
+.about__box:nth-child(2){
+	margin: 0 27px;
+}
+
+.about__wrap-icon{
+	border: 1px solid #EC7979;
+	border-radius: 50%;
+	width: 92px;
+	height: 92px;
+	margin-bottom: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* не уверен что правильно */
+}
+
+.about__subtitle{
+	margin-bottom: 30px;
+	font-size: 24px;
+	line-height: 33px;
+	font-family: "Open Sans", serif; 
+	font-weight: bold;
+}
+
+.about__text{
+	font-size: 18px;
+	line-height: 21px;
+	font-weight: 400;
+}
+
+/* ------------------------- */
 
 .price{
 		background: #F5F5F5;
@@ -50,7 +102,6 @@
 }
 
 .price__box{
-	display: inline-block;
 	background-color: #FFFFFF;
 	max-width: 364px;	
 	width: 100%;
@@ -106,6 +157,7 @@
 	margin: 0 30px;
 }
 
+/* --------------------------------- */
 
 .rewiews{
 		margin-top: 107px;
