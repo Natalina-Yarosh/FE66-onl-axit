@@ -5,6 +5,75 @@
     margin: 0;
     padding: 0;
 }
+                           /* Блок tabs */
+.tabs {
+    margin-top: 100px;
+    margin-bottom: 110px;
+ 
+}                          
+.tabs__items {
+    display: flex;
+}
+.tabs__item {
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 10.5px 10px;
+    max-width: 203px;
+    width: 100%;
+    color: #333333;
+    
+}  
+.tabs__item:first-child {
+    border-radius: 5px;
+    border: 1px solid #C6CBCD;
+}
+.tab {
+    border: 1px solid #C6CBCD;
+    display: flex;
+    justify-content: space-between;
+
+}  
+.tab__wrapper-text {
+    padding: 55px 30px 55px 101px ;
+    width: 60%;
+}
+.tab__title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 57px;
+} 
+.tab__text {
+    line-height: 21px;
+    font-size: 18px;
+    margin-top: 26px;
+}        
+.button {
+    font-family: "Open Sans", sans-serif;
+    margin-top: 84px;
+    max-width: 270px;
+    width: 100%;
+    line-height: 24px;
+    font-size: 18px;
+    padding: 15px 10px;
+    color: #fff;
+    background-color: #EC7979;
+    border: none;
+}     
+.tab__wrapper-image {
+    overflow:hidden;
+    width: 40%;
+}
+.tab__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}     
+
                                /* Блок awesome */
 
 .awesome__title {
@@ -24,12 +93,12 @@
     color: #000000;
 }
 .awesome__item {
-    display: inline-block; /* Блочно-строчный вид */
     max-width: 371px;
-    margin-right: 24.4px;
+    width: 100%;
 }
 .awesome__items {
     display: flex;
+    column-gap: 27px;
 }
 
 .awesome__item:last-child {  /*  Либо .awesome__items :last-child { margin-right: 0px; }  */
@@ -91,16 +160,15 @@
 
 .pricing__options {
     display: flex;
+    column-gap: 30px;
 }
 .pricing__option:last-child{
     margin: 0;
 }
 
 .pricing__option {
-        display: inline-block; /* Блочно-строчный вид */
         max-width: 370px;
         width: 100%;
-        margin-right: 30px;
     }
 
 .pricing__title {
@@ -148,18 +216,17 @@
     color: #86878B;
     background-color: #fff; 
 }
-
+                           /* Блок custumers */
 .customers__items {
     display: flex;
+    column-gap: 30px;
 }
 .customers__item:last-child {
     margin: 0;
 }
 .customers__item {
-    display: inline-block;
     max-width: 370px;
     width: 100%;
-    margin-right: 30px;
 }
 .customers__text {
     background-color: #E2E2E2;
@@ -178,7 +245,6 @@
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    margin-right: 30px;
 }
 
 .customer__img {
@@ -189,9 +255,13 @@
     height: 100%;
     object-fit: cover;
 }
+.customers__data {
+    flex-grow: 1;
+}
 
 .customers__person {
     display: flex;
+    column-gap: 30px;
 }
 .customers__names {
     font-family: "Open Sans", sans-serif;
