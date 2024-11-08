@@ -70,7 +70,7 @@ margin-bottom: 92px;
     border: 1px solid #C6CBCD;
 }
 .tabs__desk{
-    max-width: 700px;
+    max-width: 60%;
     padding: 55px 29px 54px 100px;
 }
 .tabs__title{
@@ -78,26 +78,17 @@ margin-bottom: 92px;
     font-size: 30px;
     font-weight: bold;
     line-height: 41px;
-    text-align: center;
     color: #000;
     margin-bottom: 57px;
     text-align: left;
 }
-.tabs__text-big{
+.tabs__text{
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
     text-align: left;
     color: #000;
     margin-bottom: 26px;
-}
-.tabs__text-small{
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 21px;
-    text-align: left;
-    color: #000;
-    margin-bottom: 84px;
 }
 .tabs__btn{
     border: none;
@@ -109,10 +100,12 @@ margin-bottom: 92px;
     font-size: 18px;
     line-height: 20px;
     color: #FFFFFF;
+    margin-top: 84px;
 }
-.tabs__img-wrapper{
+.tabs__wrapper-img{
     border: none;
     overflow: hidden;
+    width: 40%;
 }
 .tabs__img{
     object-fit: cover;
@@ -252,7 +245,7 @@ margin-bottom: 92px;
     object-fit: cover;
 }
 .customer__desk{
-    display: inline-block;
+    flex-grow: 1;
 }
 .customer__tite{
     margin-bottom: 18px;
