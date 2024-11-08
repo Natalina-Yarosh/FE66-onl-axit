@@ -45,6 +45,7 @@ body {
 
 .tabs__description {
     padding: 55px 30px 54px 101px;
+    width: 60%;
 }
 
 .tabs__title{
@@ -67,10 +68,6 @@ body {
     margin-bottom: 26px;
 }
 
-.text_mrg2 {
-    margin-bottom: 84px;
-}
-
 .tabs__button {
     border: none;
     max-width: 270px;
@@ -82,12 +79,12 @@ body {
     font-size: 18px;
     line-height: 21px;
     padding: 18.5px 5px;
+    margin-top: 84px;
 }
 
 .tabs__wrapper-image {
-    width: 470px;
-    height: 500px;
-    overflow: visible;
+    width: 40%;
+    overflow: hidden;
     aspect-ratio: 1/1.06;
 }
 
@@ -271,10 +268,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: left;
+    column-gap: 30px;
 }
 
 .customer__wrapper-photo {
-    margin-right: 30px;
     border-radius: 50%; 
     width: 70px;
     height: 70px; 
@@ -285,6 +282,10 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.customer__about {
+    flex-grow: 1;
 }
 
 .customer__name {
