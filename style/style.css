@@ -73,6 +73,7 @@ body {
 .prices{
     background-color: #F5F5F5;
     padding: 80px 0 83px;
+    margin-bottom: 107px;
 }
 .price{
     display: inline-block;
@@ -116,4 +117,50 @@ body {
 .price__item--description{
     color:rgba(255,255,255,0.5);
     background-color: #333333;
+}
+
+/*customers*/
+.customers{
+    margin-bottom: 107px;
+}
+.review{
+    display: inline-block;
+    max-width: 370px;
+    width: 100%; 
+}
+.review__text{
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    padding: 38px 25px 37px;
+    background-color: #E2E2E2;
+    border-radius: 10px;
+    margin-bottom: 66px;
+}
+.review__wrapper-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 30px;
+}
+.review__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.review__wrapper{
+    display: inline-block;
+}
+.review__person-name{
+    font-family: "Open Sans", sans-serif;
+    font-size: 21px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+.review__person-job{
+    font-size: 18px;
+    line-height: 21px;
 }
