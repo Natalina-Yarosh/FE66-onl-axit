@@ -59,6 +59,10 @@
     margin-bottom: 26px;
 }
 
+.tab__text:last-of-type {
+    margin: 0;
+}
+
 .tab__button{
     max-width: 270px;
     width: 100%;
@@ -74,7 +78,7 @@
     margin-top: 58px;
 }
 
-.tab__wrapper--img{
+.tab__wrapper-img{
     overflow: hidden;
     width: 40%;
 }
