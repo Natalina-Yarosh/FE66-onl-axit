@@ -4,6 +4,98 @@
     box-sizing: border-box;
 }
 
+
+/* tabs start */
+
+.tabs__btns {
+    display: flex;
+}
+
+.tabs__btn:first-child {
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 19px;
+    color: #333333;
+    background-color: #FFFFFF;
+    padding: 9px 81px;
+    border: 1px solid #C6CBCD;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.tabs__btn {
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 19px;
+    color: #333333;
+    background-color: #FFFFFF;
+    padding: 9px 81px;
+    border: none;
+}
+
+.tabs__content {
+    border: 1px solid #C6CBCD;
+    display: flex;
+}
+
+.tabs__title {
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #000000;
+    padding: 55px 0px 0px 100px;
+    margin-bottom: 57px;
+}
+
+.tabs__text-first {
+    font-family: "Raleway", serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-left: 100px;
+    margin-bottom: 26px;
+}
+
+.tabs__text-second {
+    font-family: "Raleway", serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-left: 100px;
+    margin-bottom: 84px;
+}
+
+.download {
+    font-family: "Open Sans", serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background-color: #EC7979;
+    padding: 19.5px 91.5px;
+    border: none;
+    margin-left: 100px;
+}
+
+.tabs__wrapper {
+    height: 500px;
+    width: 470px;
+    max-width: 100%;
+}
+
+.tabs {
+    margin-bottom: 118px;
+}
+
+/* tabs end */
+
+
 /* about start */
 
 .about {
@@ -27,7 +119,7 @@
     text-transform: uppercase;
     line-height: 42px;
     color: #000000;
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway", serif;
     margin-bottom: 40px;
 }
 
@@ -42,7 +134,12 @@
     font-size: 18px;
     line-height: 21px;
     color: #86878B;
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway", serif;
+}
+
+.about__elements {
+    display: flex;
+    column-gap: 27px;
 }
 
 .about__element {
@@ -57,11 +154,11 @@
     width: 92px;
     height: 92px;
     border: 1px solid #EC7979;
-    /* align-content: center; */
+    align-content: center;
 }
 
 .about__title {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", serif;
     text-align: center;
     font-size: 24px;
     line-height: 33px;
@@ -70,7 +167,7 @@
 }
 
 .about__text {
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway", serif;
     text-align: center;
     font-weight: 400;
     font-size: 18px;
@@ -81,12 +178,18 @@
 /* about end */
 
 
+
 /* pricing start */
 
 .pricing {
     background: #F5F5F5;
     padding-top: 82px;
     padding-bottom: 83px;
+}
+
+.pricing__boxes {
+    display: flex;
+    column-gap: 30px;
 }
 
 .pricing__box {
@@ -97,7 +200,7 @@
 }
 
 .pricing__title {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", serif;
     text-align: center;
     font-size: 24px;
     line-height: 33px;
@@ -109,7 +212,7 @@
 }
 
 .pricing__value {
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway", serif;
     text-align: center;
     font-weight: 700;
     font-size: 36px;
@@ -121,7 +224,7 @@
 }
 
 .pricing__text {
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway", serif;
     text-align: center;
     font-weight: 400;
     font-size: 18px;
@@ -134,7 +237,7 @@
 
 .pricing__list {
     list-style-type: none;
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway", serif;
     background: #FFFFFF;
 }
 
@@ -155,3 +258,71 @@
 }
 
 /* pricing end */
+
+
+
+/* reviews start */
+
+.reviews {
+    margin-top: 107px;
+    margin-bottom: 107px;
+}
+
+.reviews__elements {
+    display: flex;
+    column-gap: 30px;
+}
+
+.reviews__element {
+    display: inline-block;
+    max-width: 370px;
+}
+
+.reviews__text {
+    font-family: "Raleway", serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    background: #E2E2E2;
+    padding: 37.5px 25px;
+    border-radius: 10px;
+    margin-bottom: 66px;
+}
+
+.reviews__wrapper-icon {
+    width: 70px;
+    height: 70px;
+    max-width: 100%;
+}
+
+.reviews__customer {
+    display: flex;
+}
+
+.reviews__customer-about {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.reviews__name {
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 18px;
+    margin-left: 30px;
+}
+
+.reviews__job {
+    font-family: "Raleway", serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-left: 30px;
+}
+
+/* reviews end */
