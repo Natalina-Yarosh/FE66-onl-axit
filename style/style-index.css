@@ -277,7 +277,6 @@
 }
 .tab__text
 {
-    width: 570px;
     font-size: 18px;
     line-height: 21px;
     color: var(--font-color);
