@@ -14,32 +14,24 @@
 .about__content{
 	display: flex;
 	justify-content: center;
+	column-gap: 27px;
 }
 
 .about__box{	
 	max-width: 371px;	
 	width: 100%;
 	text-align: center;
-	display: flex;
-    flex-direction: column;  
-    align-items: center;
-	/* не уверен что правильно */
-}
-
-.about__box:nth-child(2){
-	margin: 0 27px;
 }
 
 .about__wrap-icon{
+	margin: 0 auto 24px;
 	border: 1px solid #EC7979;
 	border-radius: 50%;
 	width: 92px;
 	height: 92px;
-	margin-bottom: 24px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* не уверен что правильно */
 }
 
 .about__subtitle{
@@ -99,6 +91,7 @@
 .price__content{
 	display: flex;
 	justify-content: center;
+	column-gap: 27px;
 }
 
 .price__box{
@@ -152,15 +145,9 @@
 	text-transform: capitalize;
 }
 
-.price__box:nth-child(2){
-	/* box-shadow: 0 4px 10px 0 rgba(51, 51, 51, 0.2); */
-	margin: 0 30px;
-}
-
 /* --------------------------------- */
 
 .rewiews{
-		margin-top: 107px;
 		margin-bottom: 107px;	
 		text-align: center;
 }
@@ -168,10 +155,10 @@
 .rewiews__content{
 	display: flex;
 	justify-content: center;
+	column-gap: 30px;
 }
 
 .rewiews__box{
-	margin-right: 30px;
 	max-width: 364px;	
 	width: 100%;	
 	text-align: center;
@@ -191,11 +178,12 @@
 .rewiews__person{
 	display: flex;
 	justify-content:left;
-
+	column-gap: 30px;
 }
 
 .rewiews__person-text{
 	text-align: left;
+	flex-grow: 1;
 }
 
 .rewiews__name{
@@ -219,7 +207,6 @@
 	height: 70px;
 	overflow: hidden;
 	border-radius: 50%;
-	margin-right: 30px;
 }
 
 .rewiews__photo{
