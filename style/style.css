@@ -6,14 +6,107 @@
 }
 
 .tabs{
-	
+	/* убрать топ?просто плохо видно бордер будет */
+	margin-top: 100px;
+	margin-bottom: 118px;
 }
+
+.tabs__content-tabs{
+}
+
+.tab-active{
+	color: #333333;
+	background-color: #FFFFFF;
+	border: 1px solid #C6CBCD;
+	border-radius: 5px 5px 0 0;
+	border-bottom: none;
+	text-transform: uppercase;
+	font-family: "Open Sans", serif; 
+	font-size: 14px;
+	line-height: 19px;
+	font-weight: 400;
+	padding: 10px 4px;
+	max-width: 203px;
+	width: 100%;
+}
+
+.tab{
+	color: #333333;
+	background-color: #FFFFFF;
+	border: none;
+	text-transform: uppercase;
+	font-family: "Open Sans", serif;
+	font-size: 14px;
+	line-height: 19px;
+	font-weight: 400;
+	padding: 10px 4px;
+	max-width: 184px;
+	width: 100%;
+}
+
+.tabs__content{
+	border: 1px solid #C6CBCD;
+	display: flex;
+	justify-content: flex-end;
+	column-gap: 29px;
+	align-items: center;
+}
+
+.tabs__content-description{
+	max-width: 570px;
+	width: 100%;
+}
+
+.tabs__title{
+	font-family: "Open Sans", serif;
+	font-size: 30px;
+	line-height: 41px;
+	font-weight: 700;
+	margin-bottom: 57px;
+}
+
+.tabs__text{
+	font-size: 18px;
+	line-height: 21px;
+	font-weight: 400;
+	margin-bottom: 26px;
+}
+
+.tabs__text:last-of-type{
+	/* по другому не придумал( */
+	margin-bottom: 84px;
+}
+
+.tabs__btn{
+	border: none;
+	background-color: #EC7979;
+	color: #fff;
+	font-family: "Open Sans", serif;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: 600;
+	max-width: 270px;
+	width: 100%;
+	padding: 19px 4px;
+}
+
+.tabs__wrapper{
+	max-width: 470px;
+}
+
+.tabs__img{
+	/* много способов перепробовал вернулся к базовому
+	почему то не растягивается, флекс-энд убирал вроде не влияет */
+	/* height: 100%; */
+	width: 100%;
+	object-fit: cover;
+}
+
 
 /* -------------------- */
 
 .about{
 		text-align: center;
-		margin-top: 118px;
 		margin-bottom: 110px;
 }
 
