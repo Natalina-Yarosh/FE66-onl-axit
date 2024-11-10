@@ -1,0 +1,91 @@
+*{
+    font-family: "Raleway", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.pricing{
+    background-color: #F5F5F5;
+    padding: 80px 0 85px;
+}
+
+.pricing_container{
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0;
+}
+
+.pricing_title{
+    font-weight: 500;
+    line-height: 40px;
+    font-size: 36px;
+    text-align: center;
+    margin: 0 0 40.4px;
+}
+
+.pricing_line{
+    width: 170px;
+    border-top: 1px solid #EC7979;
+    margin: 0 auto 40px;
+}
+
+.pricing_text{
+    font-size: 18px;
+    text-align: center;
+    margin: 0 0 80px;
+    color: #86878B;
+    line-height: 21px;
+}
+
+.pricing_body{
+display: flex;
+text-align: center;
+}
+
+.pricing_tariffs{
+    max-width: 370px;
+    margin-right: 30px;
+    background-color: #fff;
+    display: inline-block;
+}
+
+.pricing_list-item{
+    width: 370px;
+    border: 1px solid #F5F5F5;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    padding: 16px;
+    background-color: #fff;
+}
+
+.pricing_body-title{
+    font-family: "Open Sans", serif;
+    font-weight: bold;
+    font-size: 24px;
+    border: 1px solid #fff;
+    background-color: #333333;
+    color: #FFFFFF;
+    line-height: 33px;
+    padding: 18px;
+}
+
+.pricing_price{
+    font-weight: bold;  
+    font-size: 36px;
+    border: 1px solid #fff;
+    background-color: #333333;
+    color: #FFFFFF;
+    line-height: 42px;
+    padding: 32px;
+}
+
+.pricing_list{
+    list-style-type: none;
+}
+
+li:first-child{
+    background-color: #333333;
+    color: rgba(255, 255, 255, .5);
+}
