@@ -3,3 +3,120 @@
     padding: 0;
     box-sizing: border-box;
 }
+.about{
+    margin-bottom:  110px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.title{
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.line{
+    color: #EC7979;
+    width: 170px;
+    border-bottom: 1px solid;
+    margin: 0 auto 40px;
+}
+.text{
+    color: #000000;
+    text-align: center;
+    font-family: Raleway, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 92px;
+}
+
+.about__item{
+    max-width: 371px;
+    display: inline-block;
+    /*text-align: center;
+    align-content: center;*/
+}
+.about__wrapper-icon{
+    width: 92.25px;
+    height: 92px;
+    margin: 0 auto 24px;
+    border: 1px solid #EC7979;
+    border-radius: 50%;
+}
+.about__title{
+    font-family: Open Sans, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    margin-bottom: 26px;
+    text-align: center;
+}
+.about__text{
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+}
+
+/*PRICING*/
+
+.pricing{
+    background-color: #F5F5F5;
+    /*text-align: center;*/
+    padding: 82px 0 83px;
+}
+.text_pricing{
+    margin-bottom: 79px;
+}
+.pricing__content{
+    text-align: center;
+}
+.pricing__element{
+    display: inline-block;
+    max-width: 370px;
+    width: 100%;
+    /*margin-right: 15px;*/
+}
+.pricing__tarif{
+    background-color: #333333;
+    font-family: Open Sans, sans-serif;
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 600;
+    line-height: 33px;
+    border: 1px solid #F5F5F5;
+    padding: 12.5px 10px;
+}   
+.pricing__price{
+    background-color: #333333;
+    font-family: Raleway, sans-serif;
+    font-size: 36px;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 42px;
+    border: 1px solid #F5F5F5;
+    padding: 28px 10px;
+}
+.pricing__list{
+    list-style-type: none;
+}
+.pricing__list-item{
+    background-color: #FFFFFF;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #86878B;
+    border: 1px solid #F5F5F5;
+    padding: 13.5px 10px;
+}
+.pricing__list-item_descripcion{
+    background-color: #333333;
+}
