@@ -52,7 +52,7 @@
   
    .about__element{
                   max-width: 371px;
-                  display: inline-block;
+                  
                   text-align: center;
                  
                }
@@ -63,7 +63,11 @@
                   margin: 0 auto 24px;
                   border: 1px solid #EC7979;
                   border-radius: 50%;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
               }
+
   
   .about__heading{
       font-family: "Open Sans", sans-serif; 
@@ -83,6 +87,7 @@
   .pricing{
     background-color: #F5F5F5;
     padding: 80px 0;
+    margin-bottom: 107px;
 }
 .pricing__wrapper{
     display: flex;
@@ -91,10 +96,9 @@
     .pricing__element{
         max-width: 370px;
         width: 100%;
-        display: inline-block;
         text-align: center;
-        margin-right: 30;
-        border: 2px solid #F5F5F5;
+       
+        
     }
     .pricing__title{
         font-family: "Open Sans", sans-serif; 
@@ -147,7 +151,7 @@
       }
   
       .review__element{
-       width: 370px;
+       max-width: 370px;
        display: inline-block;
        text-align: center;
       }
@@ -161,8 +165,6 @@
           height: 70px;
           border: 1px solid transparent;
           border-radius: 50%;
-          display: inline-block;
-          margin-right: 30px;
           overflow: hidden;
       }
       .review__image{
@@ -171,7 +173,7 @@
           object-fit: cover;
       }
       .review__person-text{
-          display: inline-block;
+          flex-grow: 1;
       }
   
       .review__content{
@@ -206,26 +208,15 @@
 
       .tabs{
         margin-bottom: 117px;
+        margin-top: 100px;
       }
-     .tabs__container{
-        margin: 0 auto;
-        max-width: 1170px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-       
-      }
+     
       .tabs__wrapper{
         display: flex;
-        flex-direction: row;
         justify-content: flex-start;
-        border: 1px solid #C6CBCD;
-        border-top: none;
-        border-right: none;
-      
-       
       }
-      .tab{
+
+      .tabs__item{
         font-size: 14px;
         color: #333333;
         background-color: #ffffff;
@@ -233,24 +224,21 @@
         text-transform: uppercase;
         font-weight: 400;
         border:1px solid #C6CBCD;
-        padding: 10px 82.5px 11px;
+        border-radius: 5px 5px 0 0;
+        padding: 9.5px 10px;
+        max-width: 203px;
+        width: 100%;
+
       }
       .tabs__content{
         display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        column-gap: 30px;
         border: 1px solid #C6CBCD;
        
     
       }
       .tabs__description{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: 0 auto;
-        padding-left: 100px;
-        width: 670px;
+        padding: 55px 30px 55px 100px;
+        width: 60%;
         
       }
      .tabs__title{
@@ -266,6 +254,9 @@
         font-weight: 400;
         line-height: 21px;
      }
+     .tabs__text:last-of-type{
+      margin-bottom: 0;
+     }
        
     .tabs__button{
     background-color: #EC7979;
@@ -273,9 +264,13 @@
     font-size: 18px;
     border: none;
     line-height: 20px;
-    align-self: flex-start;
-    padding: 20px 125px;
+    padding: 19px 10px;
     margin-top: 84px;
+    max-width: 270px;
+    width: 100%;
+    }
+    .tabs__wrapper-img{
+      width: 40%;
     }
     .tabs__img{
         object-fit: cover;
