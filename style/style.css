@@ -52,23 +52,23 @@ body {
     color: #333;
     background-color: #fff;
     border: none;
-    padding: 9.5px 5px;
-    max-width: 184px;
+    padding: 9.5px 10px;
+    max-width: 203px;
     width: 100%;
 }
 .tabs__wrapper-button{
     border: 1px solid #C6CBCD;
     border-bottom: none;
     border-radius: 5px 5px 0 0;
-    max-width: 283px;
+    max-width: 203px;
 }
 .tabs__content{
     display: flex;
     border: 1px solid #C6CBCD;
 }
 .tabs__wrapper-img{
-    width: 470px;
-    height: 500px;
+    
+    width: 40%;
     overflow: hidden;
 }
 .tabs__img{
@@ -78,7 +78,7 @@ body {
 }
 .tabs__info{
     padding: 55px 29px 54px 100px;
-    max-width: 700px;
+    width: 60%;
 }
 .tabs__title{
     font-size: 30px;
@@ -89,22 +89,24 @@ body {
 .tabs__text{
     font-size: 18px;
     line-height: 21px;
-}
-.tabs__text-big{
     margin-bottom: 26px;
 }
-.tabs__text-small{
-    margin-bottom: 84px;
+.tabs__text:last-of-type{
+    margin-bottom: 0;
 }
-.tabs__dowland-btn{
+
+.tabs__btn{
     background-color: #EC7979;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
     font-size: 18px;
     line-height: 20px;
     color: #FFF;
     border: none;
-    padding: 19px 5px;
+    padding: 19px 10px;
     max-width: 270px;
     width: 100%;
+    margin-top: 84px;
 }
 /*about*/
 .about{
@@ -125,7 +127,9 @@ body {
     border: 1px solid #EC7979;
     border-radius: 50%;
     margin: 0 auto 24px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .about__title{
     font-family: "Open Sans", sans-serif;
@@ -219,24 +223,27 @@ body {
     border-radius: 10px;
     margin-bottom: 66px;
 }
+.review__info{
+    display: flex;
+    column-gap: 30px;
+}
 .review__wrapper-img{
     width: 70px;
     height: 70px;
     border-radius: 50%;
     overflow: hidden;
-    margin-right: 30px;
 }
 .review__img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.review__wrapper{
-    display: inline-block;
+.review__person{
+    flex-grow: 1;
 }
 .review__person-name{
     font-family: "Open Sans", sans-serif;
-    font-size: 21px;
+    font-size: 24px;
     line-height: 30px;
     font-weight: 600;
     margin-bottom: 18px;
