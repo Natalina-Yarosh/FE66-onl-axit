@@ -47,7 +47,7 @@ margin-bottom: 92px;
     border: none;
     max-width: 184px;
     width: 100%;
-    padding: 10.5px 10px;
+    padding: 10px 10px;
     background-color: #fff;
     font-family: "Open Sans", serif;
     font-size: 14px;
@@ -220,7 +220,6 @@ margin-bottom: 92px;
 .customer{
     max-width: 370px;
     width: 100%;
-    text-align: center;
 }
 .customer__text{
     background-color: #E2E2E2;
@@ -230,6 +229,7 @@ margin-bottom: 92px;
     margin-bottom: 66px;
     border-radius: 10px;
     color: #86878B;
+    text-align: center;
 }
 .customer__item{
     display: flex;
@@ -256,14 +256,12 @@ margin-bottom: 92px;
     font-weight: bold;
     line-height: 30px;
     color: #000;
-    text-align: left;
 }
 .customer__post{
     font-size: 18px;
     line-height: 21px;
     color: #000;
     font-weight: 400;
-    text-align: left;
 }
 
 
