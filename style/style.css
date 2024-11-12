@@ -71,11 +71,11 @@ height:100%;
 object-fit: cover;
 }
 
-.clients__desk{
+.clients__wrapper-info{
 display: inline-block;
 }
 
-.clients__title{
+.clients__name{
     font-family: "Open Sans", serif;
     font-weight: bold;
     line-height: 30px;
@@ -83,7 +83,7 @@ display: inline-block;
     margin-bottom: 18px;
 }
 
-.clients__text2{
+.clients__position{
     font-size: 18px;
     line-height: 21px;
 }
