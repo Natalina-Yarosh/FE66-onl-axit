@@ -172,7 +172,7 @@
   max-width: 370px;
   text-align: center;
   width: 100%;
-  column-gap: 27px;
+  
 }
 
 
@@ -207,6 +207,7 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
+  
 
 }
 
@@ -216,11 +217,11 @@
 }
 
 .customer__personality {
-  display: inline-block;
-  margin-right: 31px;
+flex-grow: 1;
 }
 
 .customer__surname {
+  font-size: 24px;
   font-family: "Open Sans", serif;
   font-weight: bold;
   line-height: 30px;
@@ -245,14 +246,14 @@
     
 }
 
-.tabs__wrapper-tab:first-child {
+.tabs__item:first-child {
   border: 1px solid #C6CBCD;
   border-radius: 5px 5px 0 0;
   border-bottom: none;
   }
   
 
-.tabs__wrapper-tab {
+.tabs__item {
   width: 100%;
   max-width: 203px;
   font-size: 14px;
@@ -266,20 +267,20 @@
   text-decoration: none;
   
 }
-.tabs__wrapper-content {
+.tabs__block {
   border: 1px solid #C6CBCD;
   display: flex;
   justify-content: space-between; 
   max-width: 100%;
 }
 
-.tabs__content-info {
+.tabs__info {
   padding: 55px 30px 54px 100px ;
   width: 60%
   
 }
 
-.tabs__info-title {
+.tabs__title {
   margin-bottom: 57px;
   font-family: "Open Sans", sans-serif;
   font-size: 30px;
@@ -287,38 +288,32 @@
   font-weight: bold;  
 }
 
-.tabs__info-text--primary{
-  margin-bottom: 26px;
-}
 
-.tabs__info-text--secondary {
-  
-}
 
-.tabs__info-text {
+.tabs__text {
   font-family: 'Raleway', sans-serif;
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
   color: #000;
+  margin-bottom: 26px;
   
 }
 
-.tabs__content-pictures-wrapper {
-  object-fit: cover;
+.tabs__wrapper-picture {
   overflow: hidden;
   width: 40%;
       
 }
 
-.tabs__content-pictures {    
+.tabs__picture {    
   object-fit: cover;
   width: 100%;
   height: 100%;
 }
 
 
-.tabs__content-button{
+.table__button{
   width: 100%;
   background-color: #EC7979; 
   color:#ffffff;
@@ -329,7 +324,7 @@
   font-weight: 600; 
   font-size: 18px; 
   cursor: pointer;
-  padding: 10px 19px 10px 19px;
+  padding: 17px 10px;
   max-width: 270px;
   margin-top: 84px;
 
