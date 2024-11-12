@@ -90,6 +90,9 @@ margin-bottom: 92px;
     color: #000;
     margin-bottom: 26px;
 }
+.tabs__text:last-of-type{
+    margin: 0;
+}
 .tabs__btn{
     border: none;
     background-color: #EC7979;
@@ -215,7 +218,6 @@ margin-bottom: 92px;
     column-gap: 30px;
 }
 .customer{
-    display: inline-block;
     max-width: 370px;
     width: 100%;
     text-align: center;
@@ -247,7 +249,7 @@ margin-bottom: 92px;
 .customer__desk{
     flex-grow: 1;
 }
-.customer__tite{
+.customer__name{
     margin-bottom: 18px;
     font-family: "Open Sans", serif;
     font-size: 24px;
