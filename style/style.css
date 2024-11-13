@@ -6,6 +6,7 @@
 
 body {
     font-family: "Raleway", serif;
+    color: #000000;
 }
 
 .tabs {
@@ -35,6 +36,18 @@ body {
     border: 1px solid #C6CBCD;
     border-bottom: none;
     border-radius: 5px 5px 0 0;
+    position: relative;
+}
+
+.btn1--active::before {
+    content: '';
+    display: inline-block;
+    width: 201px;
+    height: 1px;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    background-color: #FFFFFF;
 }
 
 .tabs__card {
@@ -53,7 +66,6 @@ body {
     font-weight: bold;
     font-size: 30px;
     line-height: 40px;
-    color: #000000;
     margin-bottom: 57px;
 }
 
@@ -61,7 +73,6 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-    color: #000000;
 }
 
 .text_mrg1 {
@@ -113,7 +124,6 @@ body {
     font-size: 36px;
     font-weight: 400;
     line-height: 42px;
-    color: rgba(0, 0, 0, 1);
     margin-bottom: 40px;
 }
 
@@ -149,15 +159,9 @@ body {
     border-radius: 50%;
     margin: 0 auto 24px;
 
-    position: relative;
-}
-
-.about__wrapper-icon svg {
-    position: absolute;
-    top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .about__title {
@@ -165,7 +169,6 @@ body {
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
-    color: rgba(0, 0, 0, 1);
     margin-bottom: 30px;
 }
 
@@ -173,7 +176,6 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 21.13px;
-    color: rgba(0, 0, 0, 1);
 }
 
 .options {
@@ -193,6 +195,12 @@ body {
     max-width: 371px;
     width: 100%;
     text-align: center;
+}
+
+.option:hover {
+    position: relative;
+    top: -20px;
+    box-shadow: 0 4px 10px 0 rgba(51, 51, 51, 0.2);
 }
 
 .option__title {
@@ -262,6 +270,17 @@ body {
     padding: 38px 25px;
     border-radius: 10px;
     margin-bottom: 66px;
+    position: relative;
+}
+
+.customer__opinion::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    border: 15px solid transparent; 
+    border-top: 26px solid #E2E2E2;
+    left: 70px;
+    bottom: -41px;
 }
 
 .customer__card {
@@ -293,12 +312,10 @@ body {
     font-size: 24px;
     font-weight: bold;
     line-height: 30px;
-    color: #000000;
     margin-bottom: 18px;
 }
 
 .customer__job {
     font-size: 18px;
     line-height: 21px;
-    color: #000000;
 }
