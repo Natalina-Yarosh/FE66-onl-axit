@@ -5,8 +5,57 @@
     font-family: "Raleway", sans-serif;
 }
 
+body {
+    color:#000;
+}
+
+.socials {
+    background-color: rgba(248, 239, 239, 1);
+}
+
+.socials__footer {
+    display: flex;
+}
+
+.social {
+    max-width: 470px;
+    margin: 32px 30px 18px 0;
+}
+
+.social__name {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 16px;
+}
+
+.social__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(134, 135, 139, 1);
+}
+
+.socials__content {
+    display: flex;
+    column-gap: 30px;
+    margin: 35px auto;
+}
+
+.socials__wrapper-icon {
+    height: 70px;
+    width: 70px;
+}
+
+.socials__wrapper-icon svg{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
 .tabs {
     margin-bottom: 118px;
+    margin-top: 100px;
 }
 
 .tabs__list{
@@ -16,7 +65,7 @@
 
 
 
-.tabs__item{
+.tabs__list a{
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -25,12 +74,28 @@
     text-transform: uppercase;
     color: rgba(51, 51, 51, 1);
     padding: 9.5px 10px;
-    border: 1px solid rgba(198, 203, 205, 1);
     text-decoration: none;
     width: 100%;
     max-width: 203px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+}
+
+.tabs__item {
+    border: 1px solid rgba(198, 203, 205, 1);
+    border-bottom: none;
+    position: relative;
+}
+
+.tabs__item::before {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 5px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
 }
 
 .tab{
@@ -116,6 +181,11 @@
 .about__item {
     max-width: 371px;
     text-align: center;
+}
+
+#optima {
+    position: relative;
+    top: -20px;
 }
 
 .about__wrapper-icon {
@@ -255,6 +325,17 @@
     margin-bottom: 66px;
     color: rgba(134, 135, 139, 1);
     border-radius: 10px;
+    position: relative;
+}
+
+.saying__text::after {
+    content: "";
+    display: inline-block;
+    border: 15px solid transparent;
+    border-top: 25px solid rgba(226, 226, 226, 1);
+    position: absolute;
+    left: 70px;
+    bottom: -35px;
 }
 
 .saying__content {
