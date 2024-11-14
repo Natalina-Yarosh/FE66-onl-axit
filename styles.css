@@ -290,10 +290,8 @@ flex-grow: 1;
 }
 
 
-.tabs__text:last-of-type {
-  margin-bottom: 0px;
 
-}
+
 .tabs__text {
   font-family: 'Raleway', sans-serif;
   font-weight: normal;
@@ -302,6 +300,10 @@ flex-grow: 1;
   color: #000;
   margin-bottom: 26px;
    
+}
+
+.tabs__text:last-of-type {
+  margin-bottom: 0px;
 }
 
 .tabs__wrapper-picture {
