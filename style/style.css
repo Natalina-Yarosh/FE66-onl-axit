@@ -8,6 +8,55 @@ body {
     font-family: "Raleway", serif;
     color: #000000;
 }
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.media {
+    background-color: #F8EFEF;
+}
+
+.media__content {
+    padding: 32px 0 18px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.media__description {
+    width: 43%;
+}
+
+.media__title {
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #333333;
+    margin-bottom: 16px;
+}
+
+.media__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+}
+
+.media__icons {
+    width: 57%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.media__wrapper-icon {
+    width: 70px;
+    height: 70px;
+}
 
 .tabs {
     margin-bottom: 118px;
@@ -107,12 +156,6 @@ body {
 
 .about {
     margin-bottom: 107px;
-}
-
-.container {
-    max-width: 1202px;
-    padding: 0 16px;
-    margin: 0 auto;
 }
 
 .head {
@@ -280,7 +323,7 @@ body {
     border: 15px solid transparent; 
     border-top: 26px solid #E2E2E2;
     left: 70px;
-    bottom: -41px;
+    bottom: -40px;
 }
 
 .customer__card {
