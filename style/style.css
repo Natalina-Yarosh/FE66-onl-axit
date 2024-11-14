@@ -24,6 +24,13 @@
     width: 100%;
     max-width: 203px;
     text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.tabs__item--active{
+    border:1px solid #C6CBCD;
+    border-radius: 5px 5px 0 0;
 }
 
 .tabs__section{
