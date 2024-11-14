@@ -286,11 +286,12 @@ flex-grow: 1;
   font-size: 30px;
   line-height: 40px;
   font-weight: bold;  
+  margin-top: 26px;
 }
 
 
 .tabs__text:last-of-type {
-  margin-top: 26px;
+  margin-top: 0px;
 
 }
 .tabs__text {
