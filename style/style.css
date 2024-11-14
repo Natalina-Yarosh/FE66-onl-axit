@@ -14,6 +14,7 @@ body {
 .social-media {
     background-color: #F8EFEF;
     margin-bottom: 100px;
+    padding: 32px 0 18px;
 }
 
 .social-media__container {
@@ -54,7 +55,9 @@ body {
 .social-media__icon {
     width: 70px;
     height: 70px;
-    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* social-media end */
@@ -315,7 +318,10 @@ body {
     border: 1px solid #F5F5F5;
 }
 
-.pricing__box:nth-child(2):hover {
+.pricing__box:hover {
+    max-width: 370px;
+    width: 100%;
+    text-align: center;
     position: relative;
     top: -20px;
     box-shadow: 0px 4px 10px rgb(51, 51, 51, 0.2);
