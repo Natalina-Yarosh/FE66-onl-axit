@@ -74,7 +74,7 @@ body {
     width: 100%;
     position: relative;
 }
-.tabs__item-active::before {
+.tabs__item--active::before {
     content: '';
     display: inline-block;
     width: 100%;
