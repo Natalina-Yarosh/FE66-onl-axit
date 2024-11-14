@@ -56,16 +56,20 @@ a.tabs__item--border::after {
    content: "";
    display: block;
    position: absolute;
-   top: 95%;
    left: 0;
+   bottom: -2px;
    width: 100%;
    height: 5px;
-   background: #fff ;
+   background: #fff;
 }
 
 .tabs__box {
    display: flex;
    border: 1px solid #C6CBCD;
+}
+
+.tabs__box--empt {
+   display: none;
 }
 
 .tabs__wrapper-text {
@@ -208,6 +212,10 @@ a.tabs__item--border::after {
    max-width: 371px;
 }
 
+div.option--active:hover {
+   transform: translate(0, -20px);
+}
+
 .option__title {
    font-family: 'Open Sans', sans-serif;
    font-weight: 700;
@@ -282,6 +290,7 @@ p.customer__text::after {
    position: absolute;
    left: 18%;
    bottom: -38px;
+   /*есть 40, то видна линия*/
    display: inline-block;
    border: 15px solid transparent;
    border-top: 25px solid #E2E2E2;
