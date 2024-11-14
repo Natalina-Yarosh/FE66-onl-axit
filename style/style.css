@@ -65,7 +65,7 @@ body {
     width: 100%;
     color: #333333;   
 }  
-.tabs__item-active {
+.tabs__item--active {
     border: 1px solid #C6CBCD;
     border-bottom: none;
     border-top-left-radius: 5px;
