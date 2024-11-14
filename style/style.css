@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -36,11 +36,15 @@
     margin-bottom: 92px;
 }
 
+.about__items{
+    max-width: 1170px;
+    display: flex;
+   justify-content: space-between;
+}
 .about__item{
     max-width: 371px;
-    display: inline-block;
-    /*text-align: center;
-    align-content: center;*/
+    width: 100%;
+    align-items: center;
 }
 .about__wrapper-icon{
     width: 92.25px;
@@ -48,6 +52,9 @@
     margin: 0 auto 24px;
     border: 1px solid #EC7979;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .about__title{
     font-family: Open Sans, sans-serif;
@@ -69,7 +76,6 @@
 
 .pricing{
     background-color: #F5F5F5;
-    /*text-align: center;*/
     padding: 82px 0 83px;
 }
 .pricing_text{
@@ -82,7 +88,12 @@
     display: inline-block;
     max-width: 370px;
     width: 100%;
-    /*margin-right: 15px;*/
+    position: relative;
+}
+.pricing__element:hover{
+    box-shadow: 0 4px 8px #333333;
+    top: -20px;
+    right: 10px;
 }
 .pricing__tarif{
     background-color: #333333;
@@ -119,4 +130,77 @@
 }
 .pricing__list-item_descripcion{
     background-color: #333333;
+}
+
+
+/* CUSTOMERS */
+.customers{
+    padding: 107px 171px 168px;
+}
+.customers__items{
+    display: flex;
+    column-gap: 30px;
+}
+.customer{
+    max-width: 370px;
+    width: 100%;
+}
+.customer__wrapper-text{
+    background-color: #E2E2E2;
+    border-radius: 10px;
+    margin-bottom: 66px;
+    padding: 37.5px 25px;
+    text-align: center;
+    position: relative;
+}
+.customer__text{
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #86878B;
+    line-height: 21px;
+    
+}
+.customer__text::after{
+    content: "";
+    display: inline-block;
+	border: 20px solid transparent; 
+	border-top: 25px solid #e2e2e2;
+    position: absolute;
+    left: 60px;
+    bottom: -36px;
+}
+.customer__info{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+.customer__wrapper-image{
+    border: none;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.customer__image{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+.customer__description{
+    max-width: 270px;
+    width: 100%;
+}
+.customer__name{
+    font-family: Open Sans, serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #000;
+    margin-bottom: 18px;
+}
+.customer__position{
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    line-height: 21px;
 }
