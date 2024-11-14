@@ -20,7 +20,10 @@
     font-size: 14px;
     text-transform: uppercase;
     line-height: 19px;
-    padding:10px 82.5px;
+    padding:10.5px 10px;
+    width: 100%;
+    max-width: 203px;
+    text-align: center;
 }
 
 .tabs__section{
