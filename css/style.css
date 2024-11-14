@@ -6,6 +6,10 @@
 
 }
 
+.body {
+   color: #000000;
+}
+
 .container {
    max-width: 1200px;
    padding: 0 15px;
@@ -16,27 +20,26 @@
 
 .tabs {
    margin-bottom: 110px;
-   margin-top: 40px; /* просто чтобы увидеть границу табов*/
+   margin-top: 40px;
+   /* просто чтобы увидеть границу табов*/
 }
 
-.tabs__nav {
+.tabs__items {
    display: flex;
 }
 
 .tabs__item {
    border: none;
-   max-width: 184px;
+   max-width: 203px;
    width: 100%;
-   padding: 10.5px 10px;
+   padding: 10px;
    background-color: #fff;
    font-family: "Open Sans", serif;
-   height: 40px;
    font-size: 14px;
    font-weight: 400;
    line-height: 19px;
    text-align: center;
    text-transform: uppercase;
-   color: #333333;
    text-decoration: none;
 }
 
@@ -45,16 +48,11 @@
    border-top-left-radius: 5px;
    border-top-right-radius: 5px;
    border-bottom: none;
-   max-width: 203px;
-   width: 100%;
-}
-
-.tabs__block {
-   border: 1px solid #C6CBCD;
 }
 
 .tabs__box {
    display: flex;
+   border: 1px solid #C6CBCD;
 }
 
 .tabs__wrapper-text {
@@ -68,16 +66,12 @@
    font-size: 30px;
    line-height: 41px;
    margin-bottom: 57px;
-   color: #000000;
-   text-align: left;
 }
 
 .tabs__text {
    font-size: 18px;
    line-height: 21px;
-   color: #000000;
    margin-bottom: 26px;
-   text-align: left;
 }
 
 .tabs__text:last-of-type {
@@ -88,7 +82,7 @@
    font-family: 'Open Sans', sans-serif;
    font-size: 18px;
    font-weight: 600;
-   line-height: 25px;
+   line-height: 26px;
    background-color: #EC7979;
    color: #fff;
    border: none;
@@ -96,7 +90,7 @@
    text-align: center;
    max-width: 270px;
    width: 100%;
-   padding: 19px 10px;
+   padding: 16px 10px;
    margin-top: 84px;
 }
 
@@ -129,7 +123,6 @@
    font-size: 36px;
    line-height: 42px;
    margin-bottom: 40px;
-   color: #000000;
 }
 
 .head__divider {
@@ -151,7 +144,6 @@
 }
 
 .advantages__item {
-   display: inline-block;
    max-width: 371px;
 }
 
@@ -172,7 +164,6 @@
    font-weight: 700;
    font-size: 24px;
    line-height: 33px;
-   color: #000000;
    margin-bottom: 30px;
 }
 
@@ -181,7 +172,6 @@
    font-weight: 400;
    font-size: 18px;
    line-height: 21px;
-   color: #000000;
 }
 
 /* секция pricing */
@@ -201,7 +191,6 @@
 }
 
 .option {
-   display: inline-block;
    width: 100%;
    max-width: 371px;
 }
@@ -272,7 +261,17 @@
    background-color: #E2E2E2;
    padding: 37px 25px;
    margin-bottom: 46px;
+   position: relative;
+}
 
+p.customer__text::after {
+   content: '';
+   position: absolute;
+   left: 18%;
+   bottom: -38px;
+   display: inline-block;
+   border: 15px solid transparent;
+   border-top: 25px solid #E2E2E2;
 }
 
 .customer__info {
@@ -294,7 +293,7 @@
 }
 
 .customer__wrapper-text {
-   flex-grow: 1; /* это сво-во у меня и было*/
+   flex-grow: 1;
 }
 
 .customer__name {
@@ -302,17 +301,11 @@
    font-weight: bold;
    font-size: 24px;
    line-height: 30px;
-   color: #000000;
    margin-bottom: 18px;
-   text-align: left;
-   justify-items: center;
 }
 
 .customer__position {
    font-weight: 400;
    font-size: 18px;
    line-height: 21px;
-   color: #000000;
-   text-align: left;
-   justify-items: center;
 }
