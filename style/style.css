@@ -83,9 +83,10 @@
 }
 .pricing__content{
     text-align: center;
+    display: flex;
+    column-gap: 30px;
 }
 .pricing__element{
-    display: inline-block;
     max-width: 370px;
     width: 100%;
     position: relative;
@@ -93,7 +94,7 @@
 .pricing__element:hover{
     box-shadow: 0 4px 8px #333333;
     top: -20px;
-    right: 10px;
+    right: 1px;
 }
 .pricing__tarif{
     background-color: #333333;
@@ -135,7 +136,7 @@
 
 /* CUSTOMERS */
 .customers{
-    padding: 107px 171px 168px;
+    padding: 107px 171px 107px 168px;
 }
 .customers__items{
     display: flex;
