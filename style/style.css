@@ -5,17 +5,17 @@
 }
 
 /*SOCIAL_MEDIA*/
-/*
+
 .social{
     margin-bottom: 81px;
     background-color: #F8EFEF;
     padding: 32px 170px 18px 170px;
     align-content: center;
 }
-.social__info{
+/*.social__info{
     display: flex;
     align-content: center;
-}
+}*/
 .social__icon{
     display: flex;
     justify-content: space-between;
@@ -26,7 +26,7 @@
     height: 70px;
 }
 /*TABS*/
-/*.tabs{
+.tabs{
     margin-bottom: 137px;
 }
 .tabs__menu{
@@ -84,7 +84,7 @@
     border: none;
     padding: 20px 10px;
 }
-*/
+
 /*ABOUT*/
 .about{
     margin-bottom:  110px;
@@ -220,7 +220,7 @@
 
 /* CUSTOMERS */
 .customers{
-   
+   margin-bottom: 107px;
 }
 .customers__items{
     display: flex;
