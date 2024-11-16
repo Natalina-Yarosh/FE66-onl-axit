@@ -6,6 +6,55 @@
 
 }
 
+.social_media {
+ 
+  margin-bottom: 81px;
+  padding: 32px 0 18px;
+  background-color: #F8EFEF;
+}
+
+.social__wrapper{
+     display: flex;
+     width: 1510px;
+     max-width: 100%;
+      
+   
+  
+}
+.social__info-wrapper{
+  max-width: 470px;
+  width: 100%;
+}
+
+.social__title {
+  font-family: "Open Sans", serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;  
+  margin-bottom: 16px;
+}  
+.social_text {
+  font-family: "Raleway", serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.social__network-wrapper{
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.social__network-icon {
+
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*  */
 .about{
   margin-bottom: 110px;
 }
@@ -19,7 +68,7 @@
   color: #000;
   text-align: center;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 37px;
   margin-bottom: 40px;
 }
 
@@ -106,7 +155,7 @@
 }
 
 .price__tariffs-rate {
-  
+  filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
   max-width: 370px;
   width: 100%;
   text-align: center;
@@ -167,6 +216,7 @@
   display: flex;
   width: 100%;
   column-gap: 30px;
+  
 }
 .customer{
   max-width: 370px;
@@ -186,7 +236,22 @@
   line-height: 21px;
   color: #86878B;
   background-color: #E2E2E2;
+  position: relative; 
 }
+
+.customer__text::after {
+  content: ''; 
+  position: absolute;
+  bottom: -23px; 
+  left: 23%; 
+  transform: translateX(-50%);
+  width: 0;
+  height: 0; 
+  border-left: 15px solid transparent; 
+  border-right: 15px solid transparent;
+  border-top: 24px solid #E2E2E2;
+}
+
 
 .customer__info {
   justify-content: flex-start;
@@ -203,7 +268,7 @@
     overflow: hidden;
 }
 
-.castomer__photo {
+.customer__photo {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -267,6 +332,33 @@ flex-grow: 1;
   text-decoration: none;
   
 }
+
+.tabs__item--active{
+  font-family: "Open Sans", serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  padding: 10px; 
+  border-style: none;
+  background-color: #fff;
+  max-width: 203px;
+  width: 100%;
+  cursor: pointer;
+  position: relative; 
+}
+
+.tabs__item--active::before{
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 5px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+}
+
+
 .tabs__block {
   border: 1px solid #C6CBCD;
   display: flex;
