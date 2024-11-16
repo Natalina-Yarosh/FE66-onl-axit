@@ -9,45 +9,86 @@
 .social{
     margin-bottom: 81px;
     background-color: #F8EFEF;
-    padding: 32px 170px 18px 170px;
-    align-content: center;
+    /*align-content: center;*/
+    padding: 32px 0 18px 0;
 }
-/*.social__info{
+.container__social{
     display: flex;
-    align-content: center;
-}*/
+    column-gap: 30px;
+    justify-content: center;
+}
+.social__info{
+    max-width: 470px;
+    width: 100%;
+}
 .social__icon{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
+    align-items: center;
     column-gap: 30px;
 }
 .social__icon-item{
     width: 70px;
     height: 70px;
 }
+.social__title{
+    font-family: Open Sans, serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 33px;
+    color: #333333;
+    margin-bottom: 36px;
+}
+.social__text{
+    font-family: Raleway, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #86878B;
+}
 /*TABS*/
 .tabs{
     margin-bottom: 137px;
 }
-.tabs__menu{
+.menu{
     display: flex;
     max-width: 571px;
     align-content: center;
 }
-.tabs__menu-item{
-    max-width: 203px;
-    width: 184px;
-    padding: 9.5px 57px;
+.menu__item{
+    width: 203px;
+    padding: 10px;
     font-family: Open Sans, serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 19px;
     color: #333333;
+    text-align: center;
 }
-.tabs__menu-item:first-child{
+.menu__item:first-child{
     border: 1px solid #C6CBCD;
     border-radius: 5px 5px 0 0;
 }
+.menu__item--active{
+    width: 203px;
+    padding: 10px;
+    font-family: Open Sans, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #333333;
+    text-align: center;
+}
+.menu__item--active::before{
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 5px;
+    background-color: #8e3c3c;
+    position: absolute;
+    left:20px;
+}
+
 .tabs__content{
     display: flex;
     border: 1px solid #C6CBCD;
@@ -56,6 +97,7 @@
 }
 .tabs__description{
     max-width: 700px;
+    width: 60%;
     padding: 54.5px 29px 54.5px 100px;
 }
 .tabs__title{
@@ -80,11 +122,17 @@
     max-width: 270px;
     width: 100%;
     font-family: Open Sans, serif;
-    font-weight: Semibold;
+    text-align: center;
     border: none;
     padding: 20px 10px;
+    margin-top: 84px;
 }
-
+.tabs__button:hover{
+    background-color: #AB4949;
+}
+.tabs__image{
+    width: 40%;
+}
 /*ABOUT*/
 .about{
     margin-bottom:  110px;
