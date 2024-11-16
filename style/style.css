@@ -11,10 +11,11 @@
 	margin-bottom: 118px;
 }
 
-.tabs__content-tabs{
+.tabs__items{
+	display: flex;
 }
 
-.tab-active{
+.tabs__item-active{
 	color: #333333;
 	background-color: #FFFFFF;
 	border: 1px solid #C6CBCD;
@@ -25,12 +26,12 @@
 	font-size: 14px;
 	line-height: 19px;
 	font-weight: 400;
-	padding: 10px 4px;
+	padding: 10px 10px;
 	max-width: 203px;
 	width: 100%;
 }
 
-.tab{
+.tabs__item{
 	color: #333333;
 	background-color: #FFFFFF;
 	border: none;
@@ -47,14 +48,12 @@
 .tabs__content{
 	border: 1px solid #C6CBCD;
 	display: flex;
-	justify-content: flex-end;
-	column-gap: 29px;
-	align-items: center;
 }
 
-.tabs__content-description{
+.tabs__wrapper-text{
 	max-width: 570px;
-	width: 100%;
+	width: 60%;
+	padding: 56px 29px 54px 100px;
 }
 
 .tabs__title{
@@ -73,8 +72,8 @@
 }
 
 .tabs__text:last-of-type{
-	/* по другому не придумал( */
-	margin-bottom: 84px;
+
+	margin-bottom: 0px;
 }
 
 .tabs__btn{
@@ -87,17 +86,17 @@
 	font-weight: 600;
 	max-width: 270px;
 	width: 100%;
-	padding: 19px 4px;
+	padding: 19px 10px;
+	margin-top: 84px;
 }
 
-.tabs__wrapper{
+.tabs__wrapper-image{
 	max-width: 470px;
+	width: 40%;
 }
 
-.tabs__img{
-	/* много способов перепробовал вернулся к базовому
-	почему то не растягивается, флекс-энд убирал вроде не влияет */
-	/* height: 100%; */
+.tabs__image{
+	height: 100%;
 	width: 100%;
 	object-fit: cover;
 }
