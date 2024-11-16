@@ -5,9 +5,58 @@
 	font-family: "Raleway", serif;
 }
 
+.contacts{
+	background: #F8EFEF;
+	padding-top: 32px;
+	padding-bottom: 18px;	
+	margin-bottom: 81px;
+}
+
+.contacts__content{
+	display: flex;
+	column-gap: 30px;
+	/* какая разница паддинг или колумн геп */
+}
+
+.contacts__wrapper-text{
+
+}
+
+.contacts__title{
+	font-family: "Open Sans", serif;
+	font-size: 24px;
+	line-height: 33px;
+	font-weight: 700;
+	margin-bottom: 16px;
+	color: #333333;
+}
+
+.contacts__text{
+	font-size: 18px;
+	line-height: 21px;
+	font-weight: 400;
+	color: #86878B;
+}
+
+.contacts__wrapper-icons{
+	display: flex;
+	align-items: center;
+	column-gap: 30px;
+	padding-top: 3px;
+	padding-bottom: 17px;
+}
+
+.contacts__wrapper-icon{
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+
+	/* ненужно ничего писать? */
+}
+
+/* ------------------------------------- */
+
 .tabs{
-	/* убрать топ?просто плохо видно бордер будет */
-	margin-top: 100px;
 	margin-bottom: 118px;
 }
 
