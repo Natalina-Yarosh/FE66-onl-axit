@@ -588,8 +588,6 @@
 }
 .banner__button
 {
-    display: flex;
-    justify-content: center;
     max-width: 270px;
     width: 100%;
     font-family: "Open Sans", sans-serif;
