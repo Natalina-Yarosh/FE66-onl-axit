@@ -15,7 +15,6 @@
 .contacts__content{
 	display: flex;
 	column-gap: 30px;
-	/* какая разница паддинг или колумн геп */
 }
 
 .contacts__wrapper-text{
@@ -44,14 +43,6 @@
 	column-gap: 30px;
 	padding-top: 3px;
 	padding-bottom: 17px;
-}
-
-.contacts__wrapper-icon{
-	/* display: flex;
-	justify-content: center;
-	align-items: center; */
-
-	/* ненужно ничего писать? */
 }
 
 /* ------------------------------------- */
