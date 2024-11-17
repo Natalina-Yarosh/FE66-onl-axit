@@ -2,7 +2,6 @@
 {
     --font-color: black;
 }
-
 *{
     font-family: "Raleway", sans-serif;
     margin: 0;
@@ -46,13 +45,15 @@
 {
     margin-bottom: 110px;
 }
-
+.about__items
+{
+    display: flex;
+    column-gap: 27px;
+}
 .about__item
 {
     max-width: 371px;
-    display: inline-block; 
 }
-
 .about__wrapper-icon
 {
     width:91.86px;
@@ -60,6 +61,9 @@
     border-radius: 91.86px;
     border: 1px solid #EC7979;
     margin: 0 auto 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .about__title
 {
@@ -87,13 +91,14 @@
 }
 .pricing__items
 {
-    display: inline-block;
+    display: flex;
     text-align: center;
+    column-gap: 30px;
 }
 .pricing__item
 {
-    width: 370px;
-    display: inline-block;
+    max-width: 370px;
+    width: 100%;
 }
 .pricing__title
 {
@@ -141,15 +146,26 @@
     text-transform: capitalize;
     padding: 13.5px 10px;
 }
+.pricing__item:hover
+{
+    position: relative;
+    top:-20px;
+    filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
+}
 .reviews
 {
     margin-bottom: 107px;  
 
 }
+.reviews__items
+{
+    display: flex;
+    column-gap: 30px;
+}
 .reviews__item
 {
-    display: inline-block;
     max-width: 370px;
+    width: 100%;
 }
 .reviews__text
 {
@@ -161,16 +177,32 @@
     text-align: center;
     color: #86878B;
     margin-bottom: 66px;
+    position: relative;
+}
+.reviews__text::after
+{
+    content: '';
+    display: inline-block;
+    width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 20px solid #E2E2E2;
+    position: absolute;
+    left: 70px;
+    bottom: -20px;
+}
+.reviews__person
+{
+    display: flex;
+    column-gap: 30px;
 }
 .reviews__wrapper-image
 {
-    max-width: 70px;
-    width: 100%;
+    width: 70px;
     height: 70px;
     border-radius: 100%;
     overflow: hidden;
-    margin-right: 30px;
-    display: inline-block;
 }
 .reviews__image
 {
@@ -180,11 +212,9 @@
 }
 .reviews__description
 {
-    max-width: 235px;
-    width: 100%;
-    display: inline-block;
+    flex-grow: 1;
 }
-.reviews__title
+.reviews__name
 {
     font-family: "Open Sans", sans-serif;
     font-size: 24px;
@@ -198,5 +228,221 @@
     line-height: 21px;
     color: var(--font-color);
 }
-
-
+.social-media
+{
+    margin-bottom: 100px;
+}
+.tabs
+{
+    margin-bottom: 118px;
+}
+.tabs__items
+{
+    display: flex;
+}
+.tabs__item
+{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    max-width: 203px;
+    width: 100%;
+    text-align: center;
+    color: var(--font-color);
+    text-decoration: none;
+}
+.tabs__item_details
+{
+    border: 1px solid #C6CBCD;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: 0px;
+    position: relative;
+}
+.tabs__item_details::after
+{
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 5px;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+}
+.tab
+{
+   border: 1px solid #C6CBCD;
+   display: flex;
+}
+.tab__wrapper-text
+{
+    width: 60%;
+    padding: 55px 30px 55px 100px ;
+}
+.tab__title
+{
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    line-height: 41px;
+    margin-bottom: 31px;
+    color: var(--font-color);
+}
+.tab__text
+{
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--font-color);
+    margin-top: 26px;
+}
+.tab__button
+{
+    max-width: 270px;
+    width: 100%;
+    padding: 19px 10px;
+    line-height: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #EC7979;
+    border: 0;
+    cursor: pointer;
+    margin-top: 84px;
+}
+.tab__wrapper-image
+{
+    width: 40%;
+    overflow: hidden;
+}
+.tab__image
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.social-media
+{
+    padding: 32px 0px 18px;
+    background-color: #F8EFEF;
+}
+.container.social-media__container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+.social-media__wrapper-text
+{
+    max-width: 470px;
+    width: 100%;
+}
+.social-media__title
+{
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: var(--font-color);
+}
+.social-media__text
+{
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+}
+.social-media__wrapper-icon
+{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+.social-media__link
+{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header
+{
+    background-color: #000;
+    padding: 22px 0 22px;
+}
+.header__wrapper-icon
+{
+    width: 86px;
+    display: flex;
+}
+.header__items
+{
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+    list-style-type: none;
+}
+.container.header__container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+/*.header__item
+{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+}*/
+.header__item-link
+{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.footer
+{
+    background-color: #000;
+    padding: 35px 0 27px;
+}
+.container.footer__container
+{
+  text-align: center;
+}
+.footer__wrapper-icon
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    margin-bottom: 27px;
+}
+.footer__link
+{
+    width: 53px;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer svg
+{
+    width: 100%;
+    height: 100%;
+}
+.footer__text
+{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+    line-height: 21px;
+}
