@@ -15,22 +15,6 @@
 	display: flex;
 }
 
-.tabs__item--active{
-	color: #333333;
-	background-color: #FFFFFF;
-	border: 1px solid #C6CBCD;
-	border-radius: 5px 5px 0 0;
-	border-bottom: none;
-	text-transform: uppercase;
-	font-family: "Open Sans", serif; 
-	font-size: 14px;
-	line-height: 19px;
-	font-weight: 400;
-	padding: 10px 10px;
-	max-width: 203px;
-	width: 100%;
-}
-
 .tabs__item{
 	color: #333333;
 	background-color: #FFFFFF;
@@ -43,6 +27,13 @@
 	padding: 10px 4px;
 	max-width: 184px;
 	width: 100%;
+}
+
+
+.tabs__item--active{
+	border: 1px solid #C6CBCD;
+	border-radius: 5px 5px 0 0;
+	border-bottom: none;
 }
 
 .tabs__content{
