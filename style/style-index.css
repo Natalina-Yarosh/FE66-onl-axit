@@ -527,8 +527,6 @@
 }
 .banner
 {
-    text-align: center;
-    height: 1026px;
     background: url(../media/2.jpg) center/cover no-repeat;
     padding: 306px 0 185px;
     position: relative;
@@ -556,7 +554,6 @@
 .banner__items
 {
     width: 60%;
-    text-align: left;
 }
 .banner__wrapper-logo
 {
