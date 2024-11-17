@@ -15,7 +15,7 @@
 	display: flex;
 }
 
-.tabs__item-active{
+.tabs__item--active{
 	color: #333333;
 	background-color: #FFFFFF;
 	border: 1px solid #C6CBCD;
