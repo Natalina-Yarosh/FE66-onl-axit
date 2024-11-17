@@ -49,6 +49,8 @@
 }
 
 .contacts__icon{
+	height: 70px;
+	width: 70px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
