@@ -54,16 +54,22 @@
     display: flex;
     max-width: 571px;
     align-content: center;
+  
 }
 .menu__item{
     width: 203px;
     padding: 10px;
+    text-align: center;
+}
+.menu__link{
     font-family: Open Sans, serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 19px;
     color: #333333;
+    border: none;
     text-align: center;
+    text-decoration: none;
 }
 .menu__item:first-child{
     border: 1px solid #C6CBCD;
@@ -78,15 +84,18 @@
     line-height: 19px;
     color: #333333;
     text-align: center;
+    position: relative;
 }
 .menu__item--active::before{
     content: "";
     display: inline-block;
     width: 100%;
     height: 5px;
-    background-color: #8e3c3c;
+    background-color: #FFF;
     position: absolute;
-    left:20px;
+    left:0px;
+    top: 38px;
+    
 }
 
 .tabs__content{
@@ -125,7 +134,7 @@
     text-align: center;
     border: none;
     padding: 20px 10px;
-    margin-top: 84px;
+    margin-top: 58px;
 }
 .tabs__button:hover{
     background-color: #AB4949;
