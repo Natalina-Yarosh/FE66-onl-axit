@@ -15,10 +15,12 @@
 .contacts__content{
 	display: flex;
 	column-gap: 30px;
+	/* не добавлял центр потому что там не по центру (17 и 3px) */
 }
 
 .contacts__wrapper-text{
-
+	max-width: 470px;
+	width: 100%;
 }
 
 .contacts__title{
