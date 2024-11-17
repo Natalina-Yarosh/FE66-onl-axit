@@ -42,10 +42,9 @@
 .contacts__wrapper-icons{
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: flex-end	;
 	column-gap: 30px;
-	padding-top: 3px;
-	padding-bottom: 17px;
+
 }
 
 .contacts__icon{
