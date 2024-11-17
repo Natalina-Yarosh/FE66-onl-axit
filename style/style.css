@@ -10,11 +10,10 @@
     max-width: 1202px;
     padding: 0px 16px;
     margin: 0 auto;
-    background-color: #F8EFEF;
 }
 
 .social{
-    background-color: #F5F5F5;
+    background-color: #F8EFEF;
     padding: 32px 0px 18px;
     margin-bottom: 80px;
 }
@@ -64,7 +63,7 @@
 
 
 .title{
-    font-weight: 500;
+    font-weight: 400;
     line-height:40px ;
     font-size: 36px;
     text-align: center;
@@ -97,7 +96,7 @@
     width: 100%;
 }
 
-.pricing__tariffs > :nth-child(2):hover {
+.pricing__tariff:hover {
     transform: translateY(-20px);
     filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
   }
@@ -135,6 +134,7 @@
     line-height:21px;
     color:#86878B;
     padding: 13.5px 10px;
+    background-color: #fff;
 }
 
 .pricing__list-item_first { 
