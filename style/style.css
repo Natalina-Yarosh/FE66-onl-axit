@@ -5,26 +5,35 @@
     box-sizing: border-box;
 }
 
-body{
+
+.container{
+    max-width: 1202px;
+    padding: 0px 16px;
+    margin: 0 auto;
     background-color: #F8EFEF;
 }
 
-.container{
-    max-width: 1510px;
-    padding: 0px 170px;
-    margin: 0 auto;
+.social{
+    background-color: #F5F5F5;
+    padding: 32px 0px 18px;
+    margin-bottom: 80px;
+}
+
+.social__container{
     display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
 }
 
-.social__left-block{
-    width: 470px;
-    margin-right: 30px;
+.social__wrapper-text{
+    max-width: 470px;
+    width: 100%;
 }
 
-.social__right-block{
-    width:600px;
-    flex: 1 1 auto;
-    margin-top: 35px;
+.social__wrapper-icons{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
 }
 
 .social__title{
@@ -32,7 +41,6 @@ body{
     line-height: 33px;
     color: #333333;
     margin-bottom: 16px;
-    margin-top: 32px;
 }
 
 .social__text{
@@ -41,8 +49,12 @@ body{
     line-height: 21px;
 }
 
-.social__icon{
-    margin-right: 30px;
+.social__link{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .pricing{
@@ -50,11 +62,6 @@ body{
     background-color: #F5F5F5;
 }
 
-.pricing__container{
-    max-width: 1200px;
-    padding: 0px 15px;
-    margin: 0 auto;
-}
 
 .title{
     font-weight: 500;
@@ -82,12 +89,12 @@ body{
 .pricing__tariffs{
     display: flex;
     text-align: center;
+    column-gap: 30px;
   }
 
   .pricing__tariff{
     max-width: 370px;
     width: 100%;
-    margin-right:30px;
 }
 
 .pricing__tariffs > :nth-child(2):hover {
