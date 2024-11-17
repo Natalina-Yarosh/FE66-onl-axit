@@ -23,23 +23,21 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    column-gap: 528px;
+    column-gap: 30px;
 }
 
 .header__wrapper-icon {
     width: 86.8px;
-    height: 31px;
-}
-
-.header__navs {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 570px;
-    width: 100%;
 }
 
-.header__nav {
+.header__nav-list {
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+}
+
+.header__nav-link {
     text-decoration: none;
     font-family: "Open Sans", serif;
     font-weight: 600;
