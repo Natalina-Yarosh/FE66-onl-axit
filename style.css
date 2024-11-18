@@ -11,34 +11,26 @@ body {
 
 .header {
     background-color: rgba(0, 0, 0, 1);
-    padding: 22px 122px 22px 152px;
+    padding: 22px 0 22px;
 }
 
-.header__container {
+.header_container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
-    padding: 0 15px;
-    max-width: 1200px;
 }
 
 .header__logo {
-    height: 31px;
     width: 87px;
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.header__link {
-    max-width: 570px;
-    width: 100%;
+.nav {
     display: flex;
     justify-content: space-between;
 }
 
-.header__link_item {
+.nav__link {
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     font-size: 14px;
@@ -46,20 +38,20 @@ body {
     text-align: center;
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
+    min-width: 113px;
 }
 
 .header__link_item::first-letter {
     text-transform: uppercase;
 }
 
-.banner {
+.stylish {
     background: url(../photo/6.jpg) center/cover no-repeat;
-    height: 425px;
     position: relative;
-    padding: 70px 171px 70px 167px;
+    padding: 70px 0 70px;
 }
 
-.banner::before {
+.stylish::before {
     content: '';
     display: block;
     width: 100%;
@@ -68,17 +60,14 @@ body {
     position: absolute;
     left: 0;
     top: 0;
-    opacity: 0;
 }
 
-.banner__container {
-    padding: 0px 15px;
-    margin: 0 auto;
-    max-width: 1200px;
+.stylish_container {
     text-align: center;
+    position: relative;
 }
 
-.banner__title {
+.stylish__title {
     font-size: 36px;
     font-weight: 400;
     line-height: 42px;
@@ -87,13 +76,13 @@ body {
     margin-bottom: 40px;
 }
 
-.banner__line {
+.stylish__line {
     width: 170px;
     border: 1px solid rgba(255, 255, 255, 1);
     margin: 0 auto 40px;
 }
 
-.banner__text {
+.stylish__text {
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
@@ -102,7 +91,7 @@ body {
     margin-bottom: 80px;
 }
 
-.banner__button {
+.stylish__button {
     max-width: 370px;
     width: 100%;
     padding: 20px 10px;
@@ -116,14 +105,13 @@ body {
     background: transparent;
 }
 
-.axit {
+.banner {
     background: url(../photo/5.png) center/cover no-repeat;
-    height: 1026px;
     position: relative;
-    padding: 306px 99px 185px 170px;
+    padding: 306px 0 185px;
 }
 
-.axit::before {
+.banner::before {
     content: '';
     display: block;
     width: 100%;
@@ -132,33 +120,27 @@ body {
     position: absolute;
     left: 0;
     top: 0;
-    opacity: 0;
 }
 
-.axit__container {
+.banner_container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 15px;
-    max-width: 1200px;
-    margin: 0 auto;
+    position: relative;
 }
 
-.axit__content {
+.banner__content {
     max-width: 670px;
     width: 100%;
 }
 
-.axit__logo {
-    height: 55px;
+.banner__logo {
     width: 170px;
     display: flex;
-    align-items: center;
-    justify-content: center;
     margin-bottom: 73px;
 }
 
-.axit__title {
+.banner__title {
     font-size: 48px;
     font-weight: 500;
     line-height: 56px;
@@ -167,14 +149,14 @@ body {
     margin-bottom: 55px;
 }
 
-.axit__line {
+.banner__line {
     width: 170px;
     border: 1px solid rgba(255, 255, 255, 1);
     margin-bottom: 42px;
 }
 
-.axit__text {
-    width: 270px;
+.banner__text {
+    max-width: 270px;
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
@@ -182,7 +164,7 @@ body {
     margin-bottom: 42px;
 }
 
-.axit__button {
+.banner__button {
         max-width: 270px;
         width: 100%;
         padding: 20px 10px;
