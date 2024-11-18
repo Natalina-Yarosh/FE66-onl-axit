@@ -17,12 +17,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 15px;
     margin: 0 auto;
+    padding: 22px 122px 22px 152px;
 }
 
 .header__logo {
-    margin: 22px 0 22px 152px;
     height: 31px;
     width: 87px;
     display: flex;
@@ -35,7 +34,6 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin: 28px 122px 28px 0;
 }
 
 .header__link_item {
@@ -138,12 +136,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 15px;
+    padding: 306px 99px 185px 170px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .axit__content {
-    margin: 306px 99px 185px 170px;
+    max-width: 670px;
+    width: 100%;
 }
 
 .axit__logo {
@@ -156,7 +156,6 @@ body {
 }
 
 .axit__title {
-    max-width: 670px;
     font-size: 48px;
     font-weight: 500;
     line-height: 56px;
