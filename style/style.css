@@ -6,11 +6,97 @@
 
 body {
     font-family: "Raleway", serif;
+    color: #000000;
+}
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #000000;
+    padding: 22px 0 22px;
+}
+
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.header__wrapper-icon {
+    width: 86.8px;
+    display: flex;
+}
+
+.header__nav-list {
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+}
+
+.header__nav-link {
+    text-decoration: none;
+    font-family: "Open Sans", serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.media {
+    background-color: #F8EFEF;
+    margin-bottom: 110px;
+    padding: 32px 0 18px;
+}
+
+.media__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.media__description {
+    max-width: 470px;
+    width: 100%;
+}
+
+.media__title {
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #333333;
+    margin-bottom: 16px;
+}
+
+.media__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+}
+
+.media__icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.media__wrapper-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
 }
 
 .tabs {
     margin-bottom: 118px;
-    margin-top: 100px;
 }
 
 .tabs__btns {
@@ -31,10 +117,23 @@ body {
     padding: 10px 5px;
 }
 
-.btn1 {
+.tabs__btn--active {
     border: 1px solid #C6CBCD;
     border-bottom: none;
     border-radius: 5px 5px 0 0;
+    position: relative;
+}
+
+.tabs__btn--active::before {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    background-color: #FFFFFF;
+    
 }
 
 .tabs__card {
@@ -53,7 +152,6 @@ body {
     font-weight: bold;
     font-size: 30px;
     line-height: 40px;
-    color: #000000;
     margin-bottom: 57px;
 }
 
@@ -61,7 +159,6 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-    color: #000000;
 }
 
 .text_mrg1 {
@@ -98,12 +195,6 @@ body {
     margin-bottom: 107px;
 }
 
-.container {
-    max-width: 1202px;
-    padding: 0 16px;
-    margin: 0 auto;
-}
-
 .head {
     margin-bottom: 79px;
     text-align: center;
@@ -113,7 +204,6 @@ body {
     font-size: 36px;
     font-weight: 400;
     line-height: 42px;
-    color: rgba(0, 0, 0, 1);
     margin-bottom: 40px;
 }
 
@@ -149,15 +239,9 @@ body {
     border-radius: 50%;
     margin: 0 auto 24px;
 
-    position: relative;
-}
-
-.about__wrapper-icon svg {
-    position: absolute;
-    top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .about__title {
@@ -165,7 +249,6 @@ body {
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
-    color: rgba(0, 0, 0, 1);
     margin-bottom: 30px;
 }
 
@@ -173,7 +256,6 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 21.13px;
-    color: rgba(0, 0, 0, 1);
 }
 
 .options {
@@ -193,6 +275,12 @@ body {
     max-width: 371px;
     width: 100%;
     text-align: center;
+}
+
+.option:hover {
+    position: relative;
+    top: -20px;
+    box-shadow: 0 4px 10px 0 rgba(51, 51, 51, 0.2);
 }
 
 .option__title {
@@ -262,6 +350,17 @@ body {
     padding: 38px 25px;
     border-radius: 10px;
     margin-bottom: 66px;
+    position: relative;
+}
+
+.customer__opinion::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    border: 15px solid transparent; 
+    border-top: 26px solid #E2E2E2;
+    left: 70px;
+    bottom: -40px;
 }
 
 .customer__card {
@@ -293,12 +392,39 @@ body {
     font-size: 24px;
     font-weight: bold;
     line-height: 30px;
-    color: #000000;
     margin-bottom: 18px;
 }
 
 .customer__job {
     font-size: 18px;
     line-height: 21px;
-    color: #000000;
+}
+
+.footer {
+    background-color: #000000;
+    padding: 35px 0 27px;
+}
+
+.footer__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 33px;
+    margin-bottom: 28px;
+}
+
+.footer__wrapper-icon {
+    width: 53px;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__text {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
 }
