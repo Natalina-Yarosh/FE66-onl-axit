@@ -117,7 +117,7 @@ body {
     padding: 10px 5px;
 }
 
-.tabs__btn-border {
+.tabs__btn--active {
     border: 1px solid #C6CBCD;
     border-bottom: none;
     border-radius: 5px 5px 0 0;
@@ -133,6 +133,7 @@ body {
     bottom: -3px;
     left: 0;
     background-color: #FFFFFF;
+    
 }
 
 .tabs__card {
