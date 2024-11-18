@@ -52,10 +52,10 @@
 .tabs{
     margin-bottom: 137px;
 }
-.menu{
+.tabs__links{
     display: flex;
 }
-.menu__item{
+.tabs__link{
     width: 100%;
     max-width: 203px;
     padding: 10.5px 10px;
@@ -68,17 +68,17 @@
     text-align: center;
     text-decoration: none;
 }
-.menu__item:first-child{
+.tabs__link:first-child{
     border: 1px solid #C6CBCD;
     border-radius: 5px 5px 0 0;
 }
-.menu__item_active{
+.tabs__link_active{
     border: 1px solid #C6CBCD;
     border-radius: 5px 5px 0 0;
     border-bottom: none;
     position: relative;
 }
-.menu__item_active::before{
+.tabs__link_active::before{
     content: "";
     display: inline-block;
     width: 100%;
