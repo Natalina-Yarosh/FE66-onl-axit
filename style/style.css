@@ -116,8 +116,7 @@
         color: #F5F5F5;
         background-color: #333333;
         border: 1px solid #F5F5F5;
-        padding: 12.5px 10px;
-        
+        padding: 12.5px 10px; 
     }
     .pricing__cost{
         font-size: 36px;
@@ -125,7 +124,6 @@
         line-height: 42px;
         background-color: #333333;
         color: #FFFFFF;
-        margin: 0 auto;
         border: 1px solid #F5F5F5;
         padding: 28px 10px;
     }
