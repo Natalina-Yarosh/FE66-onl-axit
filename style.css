@@ -9,6 +9,191 @@ body {
     color:#000;
 }
 
+.header {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.header__logo {
+    margin: 22px 0 22px 152px;
+    height: 31px;
+    width: 87px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__link {
+    max-width: 570px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 28px 122px 28px 0;
+}
+
+.header__link_item {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+.header__link_item::first-letter {
+    text-transform: uppercase;
+}
+
+.banner {
+    background: url(../photo/6.jpg) center/cover no-repeat;
+    height: 425px;
+    position: relative;
+}
+
+.banner::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.banner__container {
+    padding: 0px 15px;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 70px 171px 70px 167px;
+    text-align: center;
+}
+
+.banner__title {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.banner__line {
+    width: 170px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    margin: 0 auto 40px;
+}
+
+.banner__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 80px;
+}
+
+.banner__button {
+    max-width: 370px;
+    width: 100%;
+    padding: 20px 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    border: 2px solid rgba(255, 255, 255, 1);
+    background: transparent;
+}
+
+.axit {
+    background: url(../photo/5.png) center/cover no-repeat;
+    height: 1026px;
+    position: relative;
+}
+
+.axit::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.axit__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.axit__content {
+    margin: 306px 99px 185px 170px;
+}
+
+.axit__logo {
+    height: 55px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 73px;
+}
+
+.axit__title {
+    max-width: 670px;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 55px;
+}
+
+.axit__line {
+    width: 170px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    margin-bottom: 42px;
+}
+
+.axit__text {
+    width: 270px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 42px;
+}
+
+.axit__button {
+        max-width: 270px;
+        width: 100%;
+        padding: 20px 10px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+        border: 2px solid rgba(255, 255, 255, 1);
+        background: transparent;
+}
+
 .social {
     background-color: rgba(248, 239, 239, 1);
     padding: 32px 0 15px;
@@ -381,3 +566,41 @@ body {
     color: rgba(0, 0, 0, 1);
 }
 
+.footer {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.footer__container {
+    max-width: 1200px;
+    padding: 35px 171px 27px 170px;
+    margin: 0 auto;
+}
+
+.footer__icon {
+    display: flex;
+    column-gap: 32px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 27px;
+    
+}
+
+.footer__icon_wrapper {
+    height: 53.2px;
+    width: 53.2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.footer__text::first-letter {
+    text-transform: uppercase;
+}
