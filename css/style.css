@@ -15,13 +15,58 @@
    padding: 0 15px;
    margin: 0 auto;
 }
+ /* секция social */
+
+.social {
+   background-color: #f8efef;
+   padding: 32px 0 18px;
+   margin-bottom: 99px;
+}
+
+.social__content {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   column-gap: 30px;
+}
+
+.social__info {
+   max-width: 470px;
+   width: 100%;
+}
+
+.social__title {
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 33px;
+   margin-bottom: 16px;
+}
+
+.social__text {
+   font-size: 18px;
+   line-height: 21px;
+   color: #86878B;
+}
+
+.social__icons {
+   display: flex;
+   justify-content: space-between;
+   column-gap: 30px;
+}
+
+.social__icon {
+   width: 70px;
+   height: 70px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
 
 /* секция tabs */
 
 .tabs {
    margin-bottom: 110px;
-   margin-top: 40px;
-   /* просто чтобы увидеть границу табов*/
 }
 
 .tabs__items {
