@@ -11,6 +11,7 @@ body {
 
 .header {
     background-color: rgba(0, 0, 0, 1);
+    padding: 22px 122px 22px 152px;
 }
 
 .header__container {
@@ -18,7 +19,8 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    padding: 22px 122px 22px 152px;
+    padding: 0 15px;
+    max-width: 1200px;
 }
 
 .header__logo {
@@ -54,6 +56,7 @@ body {
     background: url(../photo/6.jpg) center/cover no-repeat;
     height: 425px;
     position: relative;
+    padding: 70px 171px 70px 167px;
 }
 
 .banner::before {
@@ -72,7 +75,6 @@ body {
     padding: 0px 15px;
     margin: 0 auto;
     max-width: 1200px;
-    padding: 70px 171px 70px 167px;
     text-align: center;
 }
 
@@ -118,6 +120,7 @@ body {
     background: url(../photo/5.png) center/cover no-repeat;
     height: 1026px;
     position: relative;
+    padding: 306px 99px 185px 170px;
 }
 
 .axit::before {
@@ -136,7 +139,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 306px 99px 185px 170px;
+    padding: 0 15px;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -567,11 +570,12 @@ body {
 
 .footer {
     background-color: rgba(0, 0, 0, 1);
+    padding: 35px 171px 27px 170px;
 }
 
 .footer__container {
     max-width: 1200px;
-    padding: 35px 171px 27px 170px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
