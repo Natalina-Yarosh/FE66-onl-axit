@@ -14,7 +14,7 @@
 .container__social{
     display: flex;
     column-gap: 30px;
-    justify-content: center;
+    justify-content: space-between;
 }
 .social__info{
     max-width: 470px;
