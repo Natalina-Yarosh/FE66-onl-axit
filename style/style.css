@@ -11,6 +11,7 @@ body {
                            /* Блок header */
 .header {
     background-color: #000;
+    padding: 22px 0;
 }
 .header__elements {
     display: flex;
@@ -22,7 +23,6 @@ body {
     width: 100%;
     max-height: 31px;
     height: 100%;
-    margin: 22px 0 22px;
 }
 .nav__list {
     display: flex;
@@ -34,21 +34,23 @@ body {
 }
 .nav__item {
     text-align: center;
-    font-size: 14px;
-    line-height: 19px;
-    width: 113.8px;
+    min-width: 113.8px;
 }
 .nav__link {
     color: #fff;
     text-decoration: none;
     font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 19px;
 }
-                           /* Блок main_mpage*/
-.main__page {
+                           /* Блок banner*/
+.banner {
     background: url(../images/main_background.jpg) center/cover no-repeat;
     position: relative;
+    padding-top: 306px;
+    padding-bottom: 185px;
 }
-.main__page::before {
+.banner::before {
     content: '';
     display: block;
     width: 100%;
@@ -58,26 +60,26 @@ body {
     top: 0;
     left: 0;
 }
-.main__items {
+.banner__container {
     display: flex;
 }
-.main__logo {
+.banner__logo {
     max-width: 170px;
     width: 100%;
     max-height: 55px;
     height: 100%;
     margin-bottom: 72.88px;
 }
-.main__logo svg {
+.banner__logo svg {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.main__wrapper-text {
-    padding-top: 306px;
-    padding-bottom: 185px;
+.banner__wrapper-text {
+    max-width: 670px;
+    width: 100%;
 }
-.main__title {
+.banner__title {
     font-size: 48px;
     line-height: 56px;
     font-weight: 500;
@@ -87,13 +89,13 @@ body {
     margin-bottom: 55.12px;
     text-transform: uppercase
 }
-.line.main__line {
+.line.banner__line {
     border-bottom: 1px solid #fff;
     margin-bottom: 42px;
     margin-left: 0;
     margin-right: 0;
 }
-.main__text {
+.banner__text {
     line-height: 21px;
     font-size: 18px;
     color: #fff;
@@ -101,7 +103,7 @@ body {
     width: 100%;
     margin-bottom: 42px;
 }
-.button.main__button {
+.button.banner__button {
     background-color: rgba(255, 255, 255, 0);
     border: 1px solid #fff;
     margin-top: 0;
@@ -313,7 +315,7 @@ body {
 .pricing__option:hover {
     position: relative;
     bottom: 20px;
-    box-shadow: 0px 4x 10px  rgba(51, 51, 51, 0.2);
+    filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
 }
 .pricing__title {
     font-family: "Open Sans", sans-serif;
@@ -357,10 +359,12 @@ body {
     background-color: #fff; 
 }
                            /* Блок custumers */
+.customers {
+    margin-bottom: 107px;
+}
 .customers__items {
     display: flex;
     column-gap: 30px;
-    margin-bottom: 107px;
 }
 .customers__item:last-child {
     margin: 0;
@@ -427,6 +431,8 @@ p.customers__text::after {
 .design {
     background: url(../images/design_background.jpg) center/cover no-repeat;
     position: relative;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 .design::before {
     content: '';
@@ -445,11 +451,8 @@ p.customers__text::after {
     font-size: 36px;
     line-height: 45px;
     font-weight: 400;
-    max-width: 1170px;
-    width: 100%;
     color: #fff;
     text-transform: uppercase;
-    padding-top: 70px;
     margin-bottom: 40px;
 }
 .line.design__line {
@@ -470,12 +473,13 @@ p.customers__text::after {
     border: 1px solid #fff;
     max-width: 370px;
     width: 100%;
-    margin-bottom: 70px;
     margin-top: 0;
 }
                            /* Блок footer */
 .footer {
     background-color: #000;
+    padding-top: 35px;
+    padding-bottom: 27px;
 }
 .footer__icons {
     display: flex;
@@ -487,7 +491,6 @@ p.customers__text::after {
     display: flex;
     justify-content: center; /* Горизонтальное выравнивание */ 
     align-items: center; /* Вертикальное выравнивание */
-    margin-top: 35px;
     margin-bottom: 27.8px;
     max-width: 53.2px;
     max-height: 53.2px;
@@ -498,5 +501,4 @@ p.customers__text::after {
     font-size: 18px;
     text-align: center;
     color: #86878B;
-    padding-bottom: 27px;
 }
