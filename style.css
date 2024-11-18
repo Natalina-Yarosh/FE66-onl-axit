@@ -14,7 +14,7 @@ body {
     padding: 22px 0 22px;
 }
 
-.header_container {
+.header__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -62,7 +62,7 @@ body {
     top: 0;
 }
 
-.stylish_container {
+.stylish__container {
     text-align: center;
     position: relative;
 }
@@ -122,7 +122,7 @@ body {
     top: 0;
 }
 
-.banner_container {
+.banner__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -552,13 +552,7 @@ body {
 
 .footer {
     background-color: rgba(0, 0, 0, 1);
-    padding: 35px 171px 27px 170px;
-}
-
-.footer__container {
-    max-width: 1200px;
-    padding: 0 15px;
-    margin: 0 auto;
+    padding: 35px 0 27px;
 }
 
 .footer__icon {
@@ -570,7 +564,7 @@ body {
     
 }
 
-.footer__icon_wrapper {
+.footer__link {
     height: 53.2px;
     width: 53.2px;
     display: flex;
