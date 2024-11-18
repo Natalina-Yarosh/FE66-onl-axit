@@ -21,25 +21,20 @@ body {
     justify-content: space-between;
 }
 
-.header__nav {
-    max-width: 570px;
-    width: 100%;
+.header__logo {
+    display: flex;
+    width: 87px;
 }
 
 .header__nav-list {
     display: inline-flex;
     justify-content: flex-end;
-    max-width: 570px;
-    width: 100%;
     list-style-type: none;
 }
 
 .header__nav-list-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 570px;
-    width: 100%;
+    min-width: 113px;
+    text-align: center;
 }
 
 .header__nav-link {
@@ -59,6 +54,7 @@ body {
 .banner {
     background: url(../images/photo5.png) center/cover no-repeat;
     position: relative;
+    padding: 306px 0 182px;
 }
 
 .banner::before {
@@ -72,10 +68,13 @@ body {
     top: 0;
 }
 
+.banner__container {
+    position: relative;
+}
+
 .banner__desc {
     width: 100%;
-    padding: 306px 670px 185px 170px;
-    position: relative;
+    max-width: 670px;
 }
 
 .banner__logo {
@@ -88,6 +87,8 @@ body {
     font-size: 48px;
     line-height: 56px;
     color: #ffffff;
+    position: relative;
+    margin-bottom: 97px;
 }
 
 .banner__title::after {
@@ -95,7 +96,9 @@ body {
     display: block;
     width: 170px;
     border: 1px solid #ffffff;
-    margin: 55px 0px 42px;
+    position: absolute;
+    left: 0;
+    bottom: -55px;
 }
 
 .banner__text {
@@ -105,6 +108,7 @@ body {
     line-height: 21px;
     color: #ffffff;
     margin-bottom: 42px;
+    max-width: 270px;
 }
 
 .banner__button {
@@ -116,9 +120,8 @@ body {
     background-color: rgb(255, 255, 255, 0);
     padding: 16.5px 10px;
     width: 100%;
-    max-width: 370px;
+    max-width: 270px;
     border: 2px solid #ffffff;
-
 }
 
 /* banner end */
@@ -529,15 +532,16 @@ p.reviews__text::after {
 /* reviews end */
 
 
-/* banner2 start */
+/* design start */
 
-.banner2 {
+.design {
     background: url(../images/photo6.png) center/cover no-repeat;
     position: relative;
     text-align: center;
+    padding: 70px 0;
 }
 
-.banner2::before {
+.design::before {
     content: '';
     display: block;
     width: 100%;
@@ -548,30 +552,33 @@ p.reviews__text::after {
     top: 0;
 }
 
-.banner2__container {
-    width: 100%;
+.design__container {
     padding: 70px 170px;
     position: relative;
-    max-width: 1510px;
 }
 
-.banner2__title {
+.design__title {
     font-family: "Raleway", serif;
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
     color: #ffffff;
+    position: relative;
+    margin-bottom: 80px;
 }
 
-.banner2__title::after {
+.design2__title::after {
     content: '';
     display: block;
     width: 170px;
     border: 1px solid #ffffff;
-    margin: 40px auto;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-.banner2__text {
+.design__text {
     font-family: "Raleway", serif;
     font-weight: 400;
     font-size: 18px;
@@ -580,7 +587,7 @@ p.reviews__text::after {
     margin-bottom: 80px;
 }
 
-.banner2__button {
+.design__button {
     font-family: "Open Sans", serif;
     font-weight: 600;
     font-size: 18px;
@@ -591,10 +598,9 @@ p.reviews__text::after {
     width: 100%;
     max-width: 370px;
     border: 2px solid #ffffff;
-    margin-top: 84px;
 }
 
-/* banner2 end */
+/* design end */
 
 
 /* footer start */
