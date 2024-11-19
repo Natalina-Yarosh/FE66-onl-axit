@@ -27,6 +27,69 @@
 .social__wrapper-text{
     max-width: 470px;
     width: 100%;
+    max-width: 203px;
+}
+
+.title{
+    text-transform:uppercase;
+    font-weight: 400;
+    line-height:40px ;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom:40.4px;
+}
+
+.line{
+    width: 170px;
+    border-top: 1px solid #EC7979;
+    margin: 0 auto 40px;
+}
+
+.text{ 
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 83px;
+    color: #86878B;
+    line-height:21px ;
+}
+
+.clients__body{
+    display: flex;
+    column-gap: 30px;
+}
+
+.clients__section{
+    max-width: 370px;
+    width: 100%;
+}
+
+.clients__text{
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    background-color: #E2E2E2;
+    border-radius: 10px;
+    padding: 38px 25px;
+    margin-bottom:66px ;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.tabs__item--active{
+    border:1px solid #C6CBCD;
+    border-radius: 5px 5px 0 0;
+}
+.clients__person{
+    display: flex;
+    column-gap: 30px;
+}
+
+.clients__wrapper-img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .social__wrapper-icons{
@@ -42,8 +105,25 @@
     margin-bottom: 16px;
 }
 
+.tabs__title{
+    font-size: 30px;
+}
+.clients__wrapper-info{
+ flex-grow: 1;
+}
+
+.clients__name{
+    font-family: "Open Sans", serif;
+    font-weight: bold;
+    line-height: 41px;
+    margin-bottom: 57px;
+}
+
 .social__text{
     font-family: "Raleway", serif;
+}
+.clients__position
+{
     font-size: 18px;
     line-height: 21px;
 }
