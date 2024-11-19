@@ -5,9 +5,154 @@
 	font-family: "Raleway", serif;
 }
 
+.contacts{
+	background: #F8EFEF;
+	padding-top: 32px;
+	padding-bottom: 18px;	
+	margin-bottom: 81px;
+}
+
+.contacts__content{
+	display: flex;
+	column-gap: 30px;
+	/* не добавлял центр потому что там не по центру (17 и 3px) */
+}
+
+.contacts__wrapper-text{
+	max-width: 470px;
+	width: 100%;
+}
+
+.contacts__title{
+	font-family: "Open Sans", serif;
+	font-size: 24px;
+	line-height: 33px;
+	font-weight: 700;
+	margin-bottom: 16px;
+	color: #333333;
+}
+
+.contacts__text{
+	font-size: 18px;
+	line-height: 21px;
+	font-weight: 400;
+	color: #86878B;
+}
+
+.contacts__wrapper-icons{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end	;
+	column-gap: 30px;
+
+}
+
+.contacts__icon{
+	height: 70px;
+	width: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* ------------------------------------- */
+
+.tabs{
+	margin-bottom: 118px;
+}
+
+.tabs__items{
+	display: flex;
+}
+
+.tabs__item-active{
+	color: #333333;
+	background-color: #FFFFFF;
+	border: 1px solid #C6CBCD;
+	border-radius: 5px 5px 0 0;
+	border-bottom: none;
+	text-transform: uppercase;
+	font-family: "Open Sans", serif; 
+	font-size: 14px;
+	line-height: 19px;
+	font-weight: 400;
+	padding: 10px 10px;
+	max-width: 203px;
+	width: 100%;
+}
+
+.tabs__item{
+	color: #333333;
+	background-color: #FFFFFF;
+	border: none;
+	text-transform: uppercase;
+	font-family: "Open Sans", serif;
+	font-size: 14px;
+	line-height: 19px;
+	font-weight: 400;
+	padding: 10px 4px;
+	max-width: 184px;
+	width: 100%;
+}
+
+.tabs__content{
+	border: 1px solid #C6CBCD;
+	display: flex;
+}
+
+.tabs__wrapper-text{
+	width: 60%;
+	padding: 56px 29px 54px 100px;
+}
+
+.tabs__title{
+	font-family: "Open Sans", serif;
+	font-size: 30px;
+	line-height: 41px;
+	font-weight: 700;
+	margin-bottom: 57px;
+}
+
+.tabs__text{
+	font-size: 18px;
+	line-height: 21px;
+	font-weight: 400;
+	margin-bottom: 26px;
+}
+
+.tabs__text:last-of-type{
+	margin-bottom: 0px;
+}
+
+.tabs__btn{
+	border: none;
+	background-color: #EC7979;
+	color: #fff;
+	font-family: "Open Sans", serif;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: 600;
+	max-width: 270px;
+	width: 100%;
+	padding: 19px 10px;
+	margin-top: 84px;
+}
+
+.tabs__wrapper-image{
+	width: 40%;
+}
+
+.tabs__image{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+
+/* -------------------- */
+
 .about{
 		text-align: center;
-		margin-top: 118px;
 		margin-bottom: 110px;
 }
 
