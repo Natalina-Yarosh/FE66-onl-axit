@@ -6,9 +6,8 @@
 
 }
 
-.advantages {
-   text-align: center;
-   margin-bottom: 110px;
+.body {
+   color: #000000;
 }
 
 .container {
@@ -17,18 +16,130 @@
    margin: 0 auto;
 }
 
+/* секция tabs */
+
+.tabs {
+   margin-bottom: 110px;
+   margin-top: 40px;
+   /* просто чтобы увидеть границу табов*/
+}
+
+.tabs__items {
+   display: flex;
+}
+
+.tabs__item {
+   border: none;
+   max-width: 203px;
+   width: 100%;
+   padding: 10px;
+   background-color: #fff;
+   color: #000000;
+   font-family: "Open Sans", serif;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 19px;
+   text-align: center;
+   text-transform: uppercase;
+   text-decoration: none;
+}
+
+.tabs__item--border {
+   border: 1px solid #C6CBCD;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   border-bottom: none;
+   position: relative;
+}
+
+a.tabs__item--border::after {
+   content: "";
+   display: block;
+   position: absolute;
+   left: 0;
+   bottom: -2px;
+   width: 100%;
+   height: 5px;
+   background: #fff;
+}
+
+.tabs__box {
+   display: flex;
+   border: 1px solid #C6CBCD;
+}
+
+.tabs__box--empt {
+   display: none;
+}
+
+.tabs__wrapper-text {
+   padding: 54px 30px 55px 100px;
+   width: 60%;
+}
+
+.tabs__title {
+   font-family: "Open Sans", sans-serif;
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 41px;
+   margin-bottom: 57px;
+}
+
+.tabs__text {
+   font-size: 18px;
+   line-height: 21px;
+   margin-bottom: 26px;
+}
+
+.tabs__text:last-of-type {
+   margin: 0;
+}
+
+.tabs__btn {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 26px;
+   background-color: #EC7979;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+   text-align: center;
+   max-width: 270px;
+   width: 100%;
+   padding: 16px 10px;
+   margin-top: 84px;
+}
+
+.tabs__wrapper-img {
+   overflow: hidden;
+   width: 40%;
+}
+
+.tabs__img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+
+/* секция advantages */
+
+.advantages {
+   text-align: center;
+   margin-bottom: 110px;
+}
+
 .head {
    margin: 0 0 92px;
 }
 
 .head__title {
    font-family: "Open Sans", sans-serif;
-   font-style: normal;
    font-weight: 400;
    font-size: 36px;
    line-height: 42px;
    margin-bottom: 40px;
-   color: #000000;
 }
 
 .head__divider {
@@ -43,8 +154,13 @@
    color: #86878B;
 }
 
+.advantages__items {
+   display: flex;
+   justify-content: space-between;
+   column-gap: 30px;
+}
+
 .advantages__item {
-   display: inline-block;
    max-width: 371px;
 }
 
@@ -54,6 +170,9 @@
    height: 91.61px;
    border: 1px solid #EC7979;
    margin: 0 auto 24px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 .advantages__title {
@@ -62,7 +181,6 @@
    font-weight: 700;
    font-size: 24px;
    line-height: 33px;
-   color: #000000;
    margin-bottom: 30px;
 }
 
@@ -71,47 +189,36 @@
    font-weight: 400;
    font-size: 18px;
    line-height: 21px;
-   color: #000000;
 }
+
+/* секция pricing */
 
 .pricing {
    background-color: #F5F5F5;
    padding: 80px 0 85px;
    text-align: center;
+   margin-bottom: 80px;
 }
 
-.header {
-   margin: 0 0 80px;
-}
 
-.header__title {
-   font-weight: 500;
-   font-size: 36px;
-   line-height: 40px;
-   margin: 0 0 40px;
-   color: #000000;
-}
-
-.header__divider {
-   width: 170px;
-   border-top: 1px solid #EC7979;
-   margin: 0 auto 40px;
-}
-
-.header__text {
-   font-size: 18px;
-   line-height: 21px;
-   color: #86878B;
+.pricing__options {
+   display: flex;
+   justify-content: space-between;
+   column-gap: 30px;
 }
 
 .option {
-   display: inline-block;
    width: 100%;
    max-width: 371px;
+   filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
+}
+
+div.option:hover {
+   transform: translate(0, -20px);
 }
 
 .option__title {
-   font-family: "Open Sans", sans-serif;
+   font-family: 'Open Sans', sans-serif;
    font-weight: 700;
    font-size: 24px;
    line-height: 33px;
@@ -147,4 +254,81 @@
 .option__item--condition {
    background-color: #333333;
    color: rgba(255, 255, 255, 0.5);
+}
+
+/* секция reviews */
+
+.reviews {
+   margin-bottom: 85px;
+   text-align: center;
+}
+
+.reviews__customers {
+   display: flex;
+   justify-content: space-between;
+   column-gap: 30px;
+}
+
+.customer {
+   width: 100%;
+   max-width: 371px;
+}
+
+.customer__text {
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   border-radius: 10px;
+   color: #86878B;
+   background-color: #E2E2E2;
+   padding: 37px 25px;
+   margin-bottom: 46px;
+   position: relative;
+}
+
+p.customer__text::after {
+   content: '';
+   position: absolute;
+   left: 18%;
+   bottom: -38px;
+   /*есть 40, то видна линия*/
+   display: inline-block;
+   border: 15px solid transparent;
+   border-top: 25px solid #E2E2E2;
+}
+
+.customer__info {
+   display: flex;
+   column-gap: 30px;
+}
+
+.customer__wrapper-img {
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   overflow: hidden;
+}
+
+.customer__photo {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.customer__wrapper-text {
+   flex-grow: 1;
+}
+
+.customer__name {
+   font-family: "Open Sans", sans-serif;
+   font-weight: bold;
+   font-size: 24px;
+   line-height: 30px;
+   margin-bottom: 18px;
+}
+
+.customer__position {
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
 }
