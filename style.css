@@ -41,6 +41,14 @@ body {
     min-width: 113px;
 }
 
+.nav__link:hover {
+    background-color: rgba(236, 121, 121, 1);
+}
+
+.nav__link:active {
+    background-color: rgba(171, 73, 73, 1);
+}
+
 .header__link_item::first-letter {
     text-transform: uppercase;
 }
@@ -103,6 +111,87 @@ body {
     color: rgba(255, 255, 255, 1);
     border: 2px solid rgba(255, 255, 255, 1);
     background: transparent;
+}
+
+.stylish__button:hover {
+    border-color: rgba(236, 121, 121, 1);
+    color: rgba(236, 121, 121, 1);
+}
+
+.stylish__button:active {
+    background-color: rgba(171, 73, 73, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+}
+
+.contact {
+    margin: 66px 0;
+    text-align: center;
+}
+
+.contact__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(134, 135, 139, 1);
+    margin-bottom: 89px;
+}
+
+.contact__form {
+    display: flex;
+    column-gap: 30px;
+    margin: 50px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(189, 189, 189, 1);
+}
+
+.contact__content {
+    max-width: 571px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.contact__input {
+    height: 38px;
+    border: none;
+    border-bottom: 1px solid rgba(189, 189, 189, 1);
+}
+
+.contact__message {
+    resize: none;
+    max-width: 569px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(189, 189, 189, 1);
+}
+
+.contact__button {
+    max-width: 370px;
+    width: 100%;
+    background-color: rgba(236, 121, 121, 1);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    padding: 20px 10px;
+    border: none;
+}
+
+.contact__button:hover {
+    border-color: rgba(236, 121, 121, 1);
+    color: rgba(236, 121, 121, 1);
+}
+
+.contact__button:active {
+    background-color: rgba(171, 73, 73, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
 }
 
 .banner {
@@ -176,6 +265,93 @@ body {
         color: rgba(255, 255, 255, 1);
         border: 2px solid rgba(255, 255, 255, 1);
         background: transparent;
+}
+
+.banner__button:hover {
+    border-color: rgba(236, 121, 121, 1);
+    color: rgba(236, 121, 121, 1);
+}
+
+.banner__button:active {
+    background-color: rgba(171, 73, 73, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+}
+
+.banner__form {
+    max-width: 470px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    position: relative;
+}
+
+.banner__form_content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.banner__form_text {
+    padding: 36px 0 75px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: rgba(51, 51, 51, 1);
+    text-transform: uppercase;
+}
+
+.banner__form_text span {
+    color: rgba(236, 121, 121, 1);
+}
+
+.banner__form_input {
+    margin: 0 50px 31px;
+    position: relative;
+    border: none;
+    border-bottom: 1px solid rgba(189, 189, 189, 1);
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+}
+
+.banner__form_input:last-child {
+    margin-bottom: 0;
+}
+
+.banner__form_input::placeholder {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(189, 189, 189, 1);
+}
+
+.banner__form_button {
+    width: 100%;
+    margin-top: 75px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgba(236, 121, 121, 1);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+    padding: 20px 10px;
+    border: none;
+}
+
+.banner__form_button:hover {
+    background-color: rgba(171, 73, 73, 1);
+}
+
+.banner__form_button:active {
+    box-shadow: 0px 0px 10px 0px rgba(171, 73, 73, 1) inset;
+    background-color: rgba(236, 121, 121, 1);
 }
 
 .social {
@@ -258,7 +434,7 @@ body {
     position: relative;
 }
 
-.tabs__item::before {
+.tabs__item_active::before {
     content: "";
     display: inline-block;
     width: 100%;
@@ -312,6 +488,15 @@ body {
     color: rgba(255, 255, 255, 1);
     border: none;
     margin-top: 58px;
+}
+
+.tab__button:hover {
+    background-color: rgba(171, 73, 73, 1);
+}
+
+.tab__button:active {
+    background-color: rgba(236, 121, 121, 1);
+    box-shadow: 0px 0px 10px 0px rgba(171, 73, 73, 1) inset;
 }
 
 .tab__wrapper-img{
