@@ -184,14 +184,12 @@ body {
 }
 
 .contact__button:hover {
-    border-color: rgba(236, 121, 121, 1);
-    color: rgba(236, 121, 121, 1);
+    background-color: rgba(171, 73, 73, 1);
 }
 
 .contact__button:active {
-    background-color: rgba(171, 73, 73, 1);
-    color: rgba(255, 255, 255, 1);
-    border: none;
+    background-color: rgba(236, 121, 121, 1);
+    box-shadow: 0px 0px 10px 0px rgba(171, 73, 73, 1) inset;
 }
 
 .banner {
