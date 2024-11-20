@@ -47,7 +47,41 @@
                   line-height: 21px;
                   margin-bottom: 92px;
               }
+
   
+  .header{
+    background-color: #000000;
+  }
+.header__container{
+display: flex;
+justify-content: space-between;
+
+align-items: center;
+
+}
+
+  .nav{
+    display: flex;
+        align-items: center;
+        width: 570px;
+        justify-content: space-between;
+        padding: 28px 0;
+  }
+
+  .nav__item{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-decoration: none;
+    max-width: 113.8px;
+    width: 100%;
+    text-align: center;
+
+   
+  }
+
+
   .about__wrapper{
     display: flex;
     column-gap: 30px;
