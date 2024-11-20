@@ -141,7 +141,7 @@ body {
 .form__input {
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    padding-bottom: 16.84px 0;
+    padding: 16.84px 0;
     font-size: 14px;
     line-height: 19px;
     color: #000;
@@ -494,6 +494,7 @@ p.customers__text::after {
     position: relative;
     padding-top: 70px;
     padding-bottom: 70px;
+    margin-bottom: 67px;
 }
 .design::before {
     content: '';
@@ -539,7 +540,7 @@ p.customers__text::after {
 }
                            /* Блок contact */
 .contact {
-    padding: 67px 0;
+    margin-bottom: 67px;
 }
 .contact__form {
     text-align: center;
@@ -555,114 +556,27 @@ p.customers__text::after {
     margin-bottom: 50px;
 }
 .contact__wrapper-form .form__wrapper-input{
-    row-gap: 53px;
-    margin-left: 0;
-}
-.contact__input {
-    width: 570px;
-    max-width: 570px;
-    padding-bottom: 16px;
-}
-.contact__textarea {
-    width: 570px;
-    max-width: 570px;
-    height: 216px;
-    resize: none;
-}
-.contact__button {
-    font-family: "Open Sans", sans-serif;
-    max-width: 370px;
-    width: 100%;
-    line-height: 18px;
-    font-size: 20px;
-    padding: 20px 10px;
-    color: #fff;
-    background-color: #EC7979;
-    border: none;
-    cursor: pointer;
-}
-                           /* Блок contact */
-.contact {
-    padding: 67px 0;
-}
-.contact__form {
-    text-align: center;
-}
-.contact__text {
-    margin-bottom: 89px;
-}
-.contact__wrapper-form {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    column-gap: 30px;
-    margin-bottom: 50px;
-}
-.contact__wrapper-form .form__wrapper-input{
-    row-gap: 53px;
-    margin-left: 0;
-}
-.contact__input {
-    width: 570px;
-    max-width: 570px;
-    padding-bottom: 16px;
-}
-.contact__textarea {
-    width: 570px;
-    max-width: 570px;
-    height: 216px;
-    resize: none;
-}
-.contact__button {
-    font-family: "Open Sans", sans-serif;
-    max-width: 370px;
-    width: 100%;
-    line-height: 18px;
-    font-size: 20px;
-    padding: 20px 10px;
-    color: #fff;
-    background-color: #EC7979;
-    border: none;
-    cursor: pointer;
-}
-                           /* Блок contact */
-.contact {
-    padding: 67px 0;
-}
-.contact__form {
-    text-align: center;
-}
-.contact__text {
-    margin-bottom: 89px;
-}
-.contact__wrapper-form {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    column-gap: 30px;
-    margin-bottom: 50px;
-}
-.contact__wrapper-form .form__wrapper-input{
-    row-gap: 53px;
+    row-gap: 37px;
     margin-left: 0;
     padding: 0;
 }
 .contact__input {
     width: 570px;
     max-width: 570px;
-    padding-bottom: 16px;
+    padding: 16px 0;
 }
 .contact__textarea {
-    width: 570px;
     max-width: 570px;
-    height: 216px;
     resize: none;
+    padding-top: 16px;
+    padding-bottom: 176px;
 }
 .contact__button {
     font-family: "Open Sans", sans-serif;
     max-width: 370px;
-    font-size: 18px;
-    line-height: 20px;
+    width: 100%;
+    line-height: 18px;
+    font-size: 20px;
     padding: 20px 10px;
     color: #fff;
     background-color: #EC7979;
