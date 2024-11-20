@@ -553,7 +553,6 @@ p.reviews__text::after {
 }
 
 .design__container {
-    padding: 70px 170px;
     position: relative;
 }
 
@@ -567,7 +566,7 @@ p.reviews__text::after {
     margin-bottom: 80px;
 }
 
-.design2__title::after {
+.design__title::after {
     content: '';
     display: block;
     width: 170px;
