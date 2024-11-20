@@ -604,34 +604,38 @@
     background-color: #AB4949;
     border: 2px solid #AB4949;
 }
-.form
+.banner__form
 {
+    padding-top: 34px;
     max-width: 470px;
     background-color: #ffffff;
     border-radius: 10px;
-    margin: 0 auto;
     text-align: center;
 }
-.form__title
+.banner__form-title
 {
     font-family: "Open Sans", sans-serif;
     font-size: 24px;
     line-height: 33px;
     text-transform: uppercase;
     font-weight: 700;
-    margin: 34px 0 46px 0;
+    margin-bottom:61.5px;
     color: #000;
 }
-.form__title span
+.banner__form-title span
 {
     color: #EC7979;
 }
-.form__item
+.banner__form-items
 {
-    max-width: 370px;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+.banner__form-item
+{
     width: 100%;
     padding: 16.84px 0 16.84px;
-    margin-top: 31px;
+    margin: 15.5px 0 15.5px;
     border: none;
     border-bottom: 1px solid #BDBDBD;
     font-family: "Open Sans", sans-serif;
@@ -640,12 +644,12 @@
     text-transform: capitalize;
     outline:none;
 }
-.form__button
+.banner__form-button
 {
     max-width: 470px;
     width: 100%;
     border-radius: 0 0 10px 10px;
-    margin-top: 77px;
+    margin-top: 61.5px;
     font-family: "Open Sans", sans-serif;
     font-size: 15px;
     line-height: 20px;
