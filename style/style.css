@@ -60,7 +60,6 @@
     content: "";
     display: block;
     background: rgba(0, 0, 0, 0.5);
-    position: absolute;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -129,9 +128,13 @@
     background-color: #FFFFFF;
     border-radius: 10px;
     display: flex;
-    
+    /* flex-direction: column; */
+    position: relative;
+    z-index: 1;
 }
-.banner__form::before{
+/* .banner__form::before{
+    content: "";
+    display: block;
     width: 470px;
     height: 450px;
     background: linear-gradient(to right, #FFFFFF 10%,#EC7979 10%);
@@ -139,7 +142,7 @@
     position: absolute;  
     left: 0px;
     top: 0px;
-}
+} */
 
 /*SOCIAL_MEDIA*/
 
