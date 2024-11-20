@@ -149,7 +149,7 @@ body {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
-.banner__form::before {
+/* .banner__form::before {
     content: '';
     display: block;
     top: 0;
@@ -162,7 +162,7 @@ body {
     position: absolute;
     opacity: 0.2;
     z-index: 1;
-}
+} */
 
 .banner__legend {
     color: #333333;
@@ -173,8 +173,6 @@ body {
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 75px;
-    position: relative;
-    z-index: 10;
 }
 
 .banner__form-group {
@@ -196,6 +194,11 @@ body {
     line-height: 19px;
     margin-bottom: 31px;
     padding: 10px 0;
+}
+
+.banner__form-input:focus {
+    box-shadow: 5px 5px 10px 0 #EC7979;
+    outline: none;
 }
 
 .banner__form-input:last-child {
@@ -658,6 +661,12 @@ body {
 
 .contact__input:last-child {
     margin-bottom: 0;
+}
+
+.contact__input:focus,
+.contact__textarea:focus {
+    box-shadow: 5px 5px 10px 5px #EC7979;
+    outline: none;
 }
 
 .contact__textarea {
