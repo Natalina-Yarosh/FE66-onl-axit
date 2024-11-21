@@ -14,6 +14,10 @@
             href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
             rel="stylesheet">
         <link rel="stylesheet" href="style/style.css">
+        <style>html {
+            scroll-behavior: smooth;
+          }
+          </style>
         <title>Pricing</title>
     </head>
 <body>
@@ -29,11 +33,11 @@
               </svg>            
           </a>
           <nav class="nav">
-            <a class="nav__link" href="#">Features</a>
-            <a class="nav__link" href="#">About</a>
-            <a class="nav__link" href="#">Pricing</a>
-            <a class="nav__link" href="#">Reviews</a>
-            <a class="nav__link" href="#">Contact</a>
+            <a class="nav__link" href="#feat">Features</a>
+            <a class="nav__link" href="#about">About</a>
+            <a class="nav__link" href="#pricing">Pricing</a>
+            <a class="nav__link" href="#reviews">Reviews</a>
+            <a class="nav__link" href="#contact">Contact</a>
           </nav>
         </div>
       </header>
@@ -128,7 +132,7 @@
                 <div class="head__separator"></div>
                 <p class="head__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-                <div class="about__items">
+                <div class="about__items " id="about">
                     <div class="about__item">
                         <div class="about__wraper-icon"><svg width="73" height="72" viewBox="0 0 73 72" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -170,7 +174,7 @@
         </div>
     </div>
 
-    <div class="pricing">
+    <div class="pricing" id="pricing">
         <div class="container">
             <div class="head">
                 <h2 class="head__title">PRICING OPTIONS</h2>
@@ -221,7 +225,7 @@
         </div>
     </div>
 
-    <div class="customers">
+    <div class="customers" id="reviews">
         <div class="container">
             <div class="head">
                 <h2 class="head__title">WHAT OUR CUSTOMERS ARE SAYNG</h2>
@@ -299,7 +303,7 @@
           <button class="baner-button">Download</button>
     </section>
 
-    <footer class="footer">
+    <footer class="footer" id="contact">
         <div class="container">
           <div class="footer__icon">
             <a class="footer__link" href="#">
