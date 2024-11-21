@@ -1,109 +1,112 @@
-*{
+* {
     font-family: "Open Sans", sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.container{
-    margin:0 auto;
+.container {
+    margin: 0 auto;
     padding: 0 16px;
     max-width: 1202px;
 }
 
-.header__container{
-    display:flex;
+.header__container {
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.header{
+.header {
     background-color: black;
 }
 
-.header__logo{
-    margin:22px 0 22px;
+.header__logo {
+    margin: 22px 0 22px;
 }
 
-.header__list{
+.header__list {
     display: flex;
     list-style-type: none;
     justify-content: flex-end;
 }
 
-.header__list-item{
+.header__list-item {
     width: 113px;
     text-align: center;
 }
 
-.header__list-link{
+.header__list-link {
     text-decoration: none;
     color: white;
     font-size: 14px;
     font-weight: 600;
 }
 
-.banner{
+.banner {
     padding: 306px 0px 185px;
     background: url(../img/image.png) center/cover no-repeat;
     position: relative;
 }
 
-.banner::before{
+.banner::before {
     content: '';
     display: block;
     width: 100%;
     height: 100%;
-    background-color:rgba( 0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     left: 0;
     top: 0;
 }
 
-.banner__container{
+.banner__container {
     position: relative;
+    display: flex;
+    align-items: center;
+    column-gap: 102px;
 }
 
 
-.banner__desk{
+.banner__desk {
     max-width: 670px;
     width: 100%;
 }
 
-.banner__logo{
+.banner__logo {
     margin-bottom: 73px;
 }
 
-.banner__title{
+.banner__title {
     font-family: "Raleway", serif;
-    font-size:48px;
+    font-size: 48px;
     line-height: 56px;
-    font-weight:500;
-    color:#fff;
+    font-weight: 500;
+    color: #fff;
     position: relative;
     margin-bottom: 97px;
 }
 
-.banner__title::after{
+.banner__title::after {
     content: '';
     display: block;
     width: 169px;
-    border:1px solid #fff;
-    position:absolute;
-    left:0;
-    bottom:-55px
+    border: 1px solid #fff;
+    position: absolute;
+    left: 0;
+    bottom: -55px
 }
 
-.banner__text{
+.banner__text {
     width: 270px;
     font-family: "Raleway", serif;
     font-size: 18px;
     line-height: 21px;
-    color:#fff;
-    margin-bottom:42px;
+    color: #fff;
+    margin-bottom: 42px;
 }
 
-.banner__button{
+.banner__button {
     width: 270px;
     height: 58px;
     border: solid 1px #fff;
@@ -113,33 +116,79 @@
     font-weight: 600;
 }
 
-.design{
+.banner__form-wrapper {
+    max-width: 470px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.banner-form-text {
+    text-align: center;
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: bold;
+    margin-top:34px;
+    margin-bottom:77px;
+}
+
+.banner__span-color{
+    color:#EC7979;
+}
+
+.banner__form-item {
+    display: block;
+    width: 370px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    outline: none;
+    margin:0px auto 31px;
+}
+
+.banner__form-item_last{
+    margin-bottom: 77px;
+}
+
+.banner__form-button{
+    width: 100%;
+    height: 60px;
+    border:none;
+    background-color: #EC7979;
+    
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.design {
     padding: 70px 175px;
     background: url(../img/imagecitynight.png) center/cover no-repeat;
     position: relative;
 }
 
-.design::before{
+.design::before {
     content: '';
     display: block;
     width: 100%;
     height: 100%;
-    background-color:rgba( 0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     left: 0;
     top: 0;
 }
 
-.design__container{
+.design__container {
     position: relative;
 }
 
-.design__desk{
+.design__desk {
     max-width: 1170px;
     width: 100%;
 }
 
-.design__title{
+.design__title {
     text-align: center;
     font-family: "Raleway", serif;
     color: #fff;
@@ -150,28 +199,28 @@
     position: relative;
 }
 
-.design__title::after{
+.design__title::after {
     content: '';
     display: block;
     width: 169px;
-    border:1px solid #fff;
-    position:absolute;
-    left:490px;
-    bottom:-40px;
+    border: 1px solid #fff;
+    position: absolute;
+    left: 490px;
+    bottom: -40px;
 }
 
-.design__text{
+.design__text {
     text-align: center;
     font-family: "Raleway", serif;
     color: #fff;
     font-size: 18px;
     line-height: 21px;
-    margin-bottom:80px;
+    margin-bottom: 80px;
 }
 
-.design__button{
+.design__button {
     margin: 0 auto;
-    display: block ;
+    display: block;
     width: 370px;
     height: 58px;
     border: solid 1px #fff;
@@ -181,30 +230,106 @@
     font-weight: 600;
 }
 
-.footer{
+.contact {
+    padding: 64px 170px;
+}
+
+.contact__title {
+    text-align: center;
+    font-family: "Raleway", serif;
+    font-size: 36px;
+    line-height: 42px;
+    margin: 0px auto 80px;
+    text-transform: uppercase;
+    font-weight: 400;
+    position: relative;
+}
+
+.contact__title::after {
+    content: '';
+    display: block;
+    width: 170px;
+    border: 1px solid #EC7979;
+    position: absolute;
+    left: 490px;
+    bottom: -40px;
+
+}
+
+.contact__text {
+    text-align: center;
+    font-family: "Raleway", serif;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    margin-bottom: 89px;
+}
+
+.contact__form {
+    display: flex;
+    column-gap: 30px;
+}
+
+.contact__form-input {
+    width: 50%;
+}
+
+.contact__form-textarea {
+    width: 50%;
+}
+
+.contact__textarea {
+    width: 571px;
+    height: 215px;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    outline: none;
+}
+
+.contact__form-item {
+    width: 571px;
+    height: 38px;
+    margin-bottom: 50px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    outline: none;
+}
+
+.contact__button {
+    margin: 0 auto;
+    display: block;
+    width: 370px;
+    height: 58px;
+    border: none;
+    background-color: #EC7979;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer {
     padding-top: 35px;
     padding-bottom: 27px;
     background-color: black;
 }
 
-.footer__icons{
-    display:flex;
+.footer__icons {
+    display: flex;
     column-gap: 33px;
     justify-content: center;
-    margin-bottom:28px;
+    margin-bottom: 28px;
 }
 
-.footer__wraper-icon{
+.footer__wraper-icon {
     width: 53px;
     height: 53px;
 }
 
-.footer__text{
+.footer__text {
     text-align: center;
     font-family: "Raleway", serif;
     font-size: 18px;
     line-height: 21px;
-    color:rgba( 255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
 }
-
-
