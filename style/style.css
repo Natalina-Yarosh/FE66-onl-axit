@@ -152,7 +152,7 @@ padding: 306px 0 185px;
   cursor: pointer;
   padding: 17px 10px;
   max-width: 270px;
-  
+
 }
 
 .banner-button:hover { 
@@ -330,7 +330,6 @@ cursor: pointer;
 padding: 17px 10px;
 max-width: 270px;
 margin-top: 84px;
-
 }
 
 .table__button:hover {
@@ -338,14 +337,13 @@ margin-top: 84px;
    border-color: #AB4949 ;
 }
 
-
 .table__button:active {
   background-color: #EC7979;
    border-color: #EC7979;
 
 }
 
-  /*  */
+  /*  about*/
   .about{
     margin-bottom: 110px;
   }
