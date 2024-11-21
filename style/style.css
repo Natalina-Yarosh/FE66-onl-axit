@@ -545,7 +545,7 @@ justify-content: center;
   background-position: center;
   background-size: cover;
   position: relative;
-  margin-bottom: 42px;
+ 
 }
 
 
@@ -624,10 +624,13 @@ justify-content: center;
 .footer__container{
 width: 1170px;
 align-content: center;
+padding-top: 35px;
+margin-bottom: 27.8px;
 }
 
 .footer__icons{
   justify-content: center;
+  margin-bottom: 27.8px;
   }
 
 
@@ -637,6 +640,7 @@ align-content: center;
   line-height: 21px;
   text-align: center;
   width: 100%;
+  padding-bottom: 27px;
   
 }
     
