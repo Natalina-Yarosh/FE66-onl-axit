@@ -5,9 +5,59 @@
 	font-family: "Raleway", serif;
 }
 
+.contacts{
+	background: #F8EFEF;
+	padding-top: 32px;
+	padding-bottom: 18px;	
+	margin-bottom: 81px;
+}
+
+.contacts__content{
+	display: flex;
+	column-gap: 30px;
+	/* не добавлял центр потому что там не по центру (17 и 3px) */
+}
+
+.contacts__wrapper-text{
+	max-width: 470px;
+	width: 100%;
+}
+
+.contacts__title{
+	font-family: "Open Sans", serif;
+	font-size: 24px;
+	line-height: 33px;
+	font-weight: 700;
+	margin-bottom: 16px;
+	color: #333333;
+}
+
+.contacts__text{
+	font-size: 18px;
+	line-height: 21px;
+	font-weight: 400;
+	color: #86878B;
+}
+
+.contacts__wrapper-icons{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end	;
+	column-gap: 30px;
+
+}
+
+.contacts__icon{
+	height: 70px;
+	width: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* ------------------------------------- */
+
 .tabs{
-	/* убрать топ?просто плохо видно бордер будет */
-	margin-top: 100px;
 	margin-bottom: 118px;
 }
 
@@ -180,7 +230,6 @@
 }
 
 .price__box{
-	background-color: #FFFFFF;
 	max-width: 364px;	
 	width: 100%;
 	text-align: center;
