@@ -43,6 +43,14 @@ body {
     font-size: 14px;
     line-height: 19px;
 }
+.nav__link:hover {
+    color: #EC7979;
+    
+}
+.nav__link:active {
+    color: #AB4949;
+    
+}
                            /* Блок banner*/
 .banner {
     background: url(../images/main_background.jpg) center/cover no-repeat;
@@ -110,6 +118,17 @@ body {
     border: 1px solid #fff;
     margin-top: 0;
 }
+.button.banner__button:hover {
+    border: 1px solid #EC7979;
+    color: #EC7979;
+    
+}
+.button.banner__button:active {
+    background-color: #AB4949;
+    border: 1px solid #AB4949;
+    color: #FFFFFF;
+    
+}
 .banner__form {
     max-width: 470px;
     width: 100%;
@@ -147,6 +166,13 @@ body {
     color: #000;
     width: 100%;
 }
+.form__input:hover {
+    border-color: #EC7979;
+    box-shadow: 0px 2px 4px #AB4949;
+}
+.form__input:focus {
+    border-bottom: 3px solid #EC7979;
+}
 .form__input::placeholder {
     font-size: 14px;
     line-height: 19px;
@@ -165,6 +191,15 @@ body {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     cursor: pointer;
+}
+.form__button:hover {
+    background-color: #AB4949;
+    color: #FFFFFF;
+    
+}
+.form__button:active {
+    filter: drop-shadow(0px 4px 4px #AB4949);
+    background-color: #EC7979;
 }
 
                            /* Блок social_media */
@@ -204,6 +239,13 @@ body {
     align-items: center; /* Вертикальное выравнивание */
     width: 70px;
     height: 70px;
+}
+.social__link path:hover {
+    fill: #EC7979;
+    
+}
+.social__link path:active {
+    fill: #AB4949;
 }
                            /* Блок tabs */
 .tabs {
@@ -275,6 +317,15 @@ body {
     background-color: #EC7979;
     border: none;
     cursor: pointer;
+}
+.button.tab__button:hover {
+    background-color: #AB4949;
+    color: #FFFFFF;
+    
+}
+.button.tab__button:active {
+    filter: drop-shadow(0px 4px 4px #AB4949);
+    background-color: #EC7979;
 }     
 .tab__wrapper-image {
     overflow:hidden;
@@ -538,6 +589,16 @@ p.customers__text::after {
     margin-top: 0;
     cursor: pointer;
 }
+.button.design__button:hover {
+    border: 1px solid #EC7979;
+    color: #EC7979;
+    
+}
+.button.design__button:active {
+    background-color: #AB4949;
+    border: 1px solid #AB4949;
+    color: #FFFFFF;
+}
                            /* Блок contact */
 .contact {
     margin-bottom: 67px;
@@ -583,6 +644,15 @@ p.customers__text::after {
     border: none;
     cursor: pointer;
 }
+.contact__button:hover {
+    background-color: #AB4949;
+    color: #FFFFFF;
+    
+}
+.contact__button:active {
+    filter: drop-shadow(0px 4px 4px #AB4949);
+    background-color: #EC7979;
+}  
                            /* Блок footer */
 .footer {
     background-color: #000;
@@ -602,6 +672,13 @@ p.customers__text::after {
     align-items: center; /* Вертикальное выравнивание */
     width: 53.2px;
     height: 53.2px;
+}
+.footer__link path:hover {
+    fill: #EC7979;
+    
+}
+.footer__link path:active {
+    fill: #AB4949;
 }
 .footer__text {
     color: #fff;
