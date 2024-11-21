@@ -54,6 +54,10 @@
   min-width: 113px;
       
   }
+  .nav__link:hover { transform: scale(1.6); 
+   } 
+  .nav__link:active { color: #EC7979;
+   }
   
 
 
@@ -218,6 +222,10 @@ padding: 306px 0 185px;
     align-items: center;
     justify-content: center;
   }
+
+  .social__network-icon:hover {
+     transform: scale(1.4); 
+   }
 
   
   /* tabs */
@@ -694,6 +702,10 @@ margin-top: 84px;
   align-items: center;
   justify-content: center;
 }
+
+.footer__link:hover {
+   transform: scale(1.6); 
+ }
 
 .footer__text {
   font-size: 18px;
