@@ -101,6 +101,7 @@ body {
 .banner__container {
     display: flex;
     column-gap: 31px;
+    align-items: center;
 }
 
 .banner__description {
@@ -133,10 +134,6 @@ body {
     color: #FFFFFF;
     max-width: 270px;
     width: 100%;
-}
-
-.banner__wrapper-input {
-    padding-top: 27px;
 }
 
 .banner__form {
@@ -196,8 +193,14 @@ body {
     padding: 10px 0;
 }
 
-.banner__form-input:focus {
+.banner__form-input:hover {
     box-shadow: 5px 5px 10px 0 #EC7979;
+    outline: none;
+}
+
+.banner__form-input:focus {
+    box-shadow: 5px 5px 10px 0 #AB4949;
+    border-radius: 10px;
     outline: none;
 }
 
@@ -304,6 +307,14 @@ body {
     align-items: center;
     width: 70px;
     height: 70px;
+}
+
+.media__wrapper-icon:hover {
+    transform: scale(1.5);
+}
+
+.media__wrapper-icon path:active {
+    fill: #EC7979;
 }
 
 .tabs {
@@ -629,13 +640,17 @@ body {
 }
 
 .design__btn {
-    margin-top: 80px;
     max-width: 370px;
-    width: 100%;
+    display: block;
+    margin: 80px auto 0;
 }
 
 .contact__head {
     margin-bottom: 89px;
+}
+
+.contact__form {
+    margin-bottom: 66px;
 }
 
 .contact__wrapper-input {
@@ -676,7 +691,7 @@ body {
 
 .contact__btn {
     display: block;
-    margin: 50px auto 66px;
+    margin: 50px auto;
     background-color: #EC7979;
     color: #FFFFFF;
     max-width: 370px;
