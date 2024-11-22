@@ -644,7 +644,6 @@ p.customers__text::after {
 .contact__button:hover {
     background-color: #AB4949;
     color: #FFFFFF;
-    
 }
 .contact__button:active {
     filter: drop-shadow(0px 4px 4px #AB4949);
@@ -658,15 +657,15 @@ p.customers__text::after {
 }
 .footer__icons {
     display: flex;
-    justify-content: center; /* Горизонтальное выравнивание */ 
-    align-items: center; /* Вертикальное выравнивание */
+    justify-content: center;
+    align-items: center;
     column-gap: 32.8px;
     margin-bottom: 27.8px;
 }
 .footer__link {
     display: flex;
-    justify-content: center; /* Горизонтальное выравнивание */ 
-    align-items: center; /* Вертикальное выравнивание */
+    justify-content: center; 
+    align-items: center; 
     width: 53.2px;
     height: 53.2px;
 }
