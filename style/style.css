@@ -626,10 +626,10 @@ border-color: #EC7979;
     display: flex;
     justify-content: center;
 }
-.contact__form-button:hover{
+.contact__button:hover{
     background-color: #AB4949;
 }
-.contact__form-button:active{
+.contact__button:active{
     background-color: #EC7979;
     filter: drop-shadow(0px 4px 4px #AB4949);
 }
