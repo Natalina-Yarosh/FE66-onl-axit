@@ -15,7 +15,6 @@
 .contacts__content{
 	display: flex;
 	column-gap: 30px;
-	/* не добавлял центр потому что там не по центру (17 и 3px) */
 }
 
 .contacts__wrapper-text{
@@ -307,6 +306,17 @@
 	padding: 38px 25px;
 	border-radius: 10px;
 	margin-bottom: 66px;
+	position: relative;
+}
+
+p.rewiews__text::after{
+	content: '';
+	display: inline-block;
+	border: 15px solid transparent;
+	border-top: 22px solid #E2E2E2;
+	position: absolute;
+	left: 70px;
+	bottom: -35px;
 }
 
 .rewiews__person{
