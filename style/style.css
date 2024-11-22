@@ -127,14 +127,14 @@ body {
 
 .banner__form {
     max-width: 470px;
-    height: 450px;
+    height: max-content;
     background-color: #FFFFFF;
     transform: translateY(27px);
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px;
+    padding-top: 36px;
 }
 
 .banner__form-legend {
-    padding-top: 36px;
     font-family: "Open Sans", serif;
     font-weight: 700;
     font-size: 24px;
@@ -607,10 +607,13 @@ p.reviews__text::after {
 
 /* contact start */
 
+.contact {
+    margin-bottom: 66px;
+}
+
 .contact__form {
     text-align: center;
     position: relative;
-    margin-bottom: 66px;
 }
 
 .contact__form_wrapper {
@@ -618,10 +621,15 @@ p.reviews__text::after {
     flex-wrap: wrap;
     column-gap: 30px;
     margin-bottom: 50px;
-    justify-items: center;
+    justify-content: space-between;
 }
 
-.contact__textarea {
+.contact__form-about {
+    max-width: 570px;
+    width: 100%;
+}
+
+.contact__form-textarea {
     max-width: 570px;
     height: 254px;
     resize: none
