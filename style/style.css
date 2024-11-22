@@ -434,7 +434,6 @@ p.rewiews__text::after{
 		padding-top: 35px;
 		padding-bottom: 27px;	
 		text-align: center;
-		margin: 0 auto;
 }
 
 .footer__icon-wrapper{
@@ -454,7 +453,7 @@ p.rewiews__text::after{
 }
 
 .footer__text{
-	color: rgba(255 255 255 .5);
+	color: rgba(255, 255, 255, 0.5);
 	font-size: 18px;
 	line-height: 21px;
 	font-weight: 400;
