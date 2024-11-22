@@ -19,10 +19,15 @@
 
 .header{
     background-color: black;
+    padding:22px 0;
 }
 
 .header__logo{
-    margin:22px 0 22px;
+    display: flex;
+}
+
+.header__logo svg{
+    width: 100%;
 }
 
 .header__list{
@@ -32,7 +37,7 @@
 }
 
 .header__list-item{
-    width: 113px;
+    min-width: 113px;
     text-align: center;
 }
 
@@ -41,6 +46,7 @@
     color: white;
     font-size: 14px;
     font-weight: 600;
+    line-height: 16px;
 }
 
 .banner{
@@ -95,7 +101,7 @@
 }
 
 .banner__text{
-    width: 270px;
+    max-width: 270px;
     font-family: "Raleway", serif;
     font-size: 18px;
     line-height: 21px;
@@ -104,17 +110,19 @@
 }
 
 .banner__button{
-    width: 270px;
-    height: 58px;
+    max-width: 270px;
+    width: 100%;
     border: solid 1px #fff;
     background-color: transparent;
     color: #fff;
     font-size: 18px;
+    line-height: 24px;
     font-weight: 600;
+    padding: 16px 10px;
 }
 
 .design{
-    padding: 70px 175px;
+    padding: 70px 0;
     background: url(../img/imagecitynight.png) center/cover no-repeat;
     position: relative;
 }
@@ -134,10 +142,7 @@
     position: relative;
 }
 
-.design__desk{
-    max-width: 1170px;
-    width: 100%;
-}
+
 
 .design__title{
     text-align: center;
@@ -156,8 +161,9 @@
     width: 169px;
     border:1px solid #fff;
     position:absolute;
-    left:490px;
+    left:50%;
     bottom:-40px;
+    transform: translateX(-50%);
 }
 
 .design__text{
@@ -172,13 +178,15 @@
 .design__button{
     margin: 0 auto;
     display: block ;
-    width: 370px;
-    height: 58px;
+    max-width: 370px;
+    width: 100%;
     border: solid 1px #fff;
     background-color: transparent;
     color: #fff;
     font-size: 18px;
+    line-height: 24px;
     font-weight: 600;
+    padding: 16px 10px;
 }
 
 .footer{
@@ -194,9 +202,12 @@
     margin-bottom:28px;
 }
 
-.footer__wraper-icon{
-    width: 53px;
-    height: 53px;
+.footer__link{
+    width: 54px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer__text{
