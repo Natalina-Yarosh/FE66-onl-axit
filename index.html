@@ -2,8 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css" />
-    <title>dz5</title>
+    <title>dz</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -43,27 +44,36 @@
           </ul>
         </nav>
       </header>
-    <section class="axit">
-  <div class="container axit__container">
-    <div class="axit__desc">
-      <div class="axit__logo">
+    <section class="banner">
+  <div class="container banner__container">
+    <div class="banner__desc">
+      <div class="banner__logo">
         <svg width="170" height="55" viewBox="0 0 170 55" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M20.3089 0H31.161L51.3924 55H40.3853L35.2693 41.2887H16.0456L11.0071 55H0L20.3089 0ZM33.3314 33.7747L25.735 11.0775L17.8284 33.7747H33.3314Z" fill="white"/>
         <path d="M63.165 0L76.8076 20.2958L90.3728 0H102L82.9313 27.8873L101.38 55H89.7526L76.8076 35.4789L63.7851 55H52.0804L70.5289 27.8873L51.4602 0H63.165Z" fill="white"/>
         <path d="M107 55V0H117.64V55H107Z" fill="#EC7979"/>
         <path d="M170 9.37324H152.499V55H141.936V9.37324H124.435V0H170V9.37324Z" fill="#EC7979"/>
         </svg>
-        <h1 class="axit__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
-        <div class="axit__line"></div>
-        <p class="axit__text">
+      </div>
+        <h1 class="banner__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+        <div class="banner__line"></div>
+        <p class="banner__text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit 
         </p>
-        <button class="axit__button">Download</button>
+        <button class="banner__button">Download</button>
       </div>
-    </div>
+      <form class="banner__form">
+        <legend class="form__legend">TRY YOUR <span class="form__legend-main">FREE </span>TRIAL TODAY</legend>
+        <div class="form__wrapper-input">
+            <input class="form__input" type="text" placeholder="Name">
+            <input class="form__input" type="email" placeholder="Email">
+            <input class="form__input" type="password" placeholder="Password">
+        </div>
+        <button type="submit" class="form__button">Get Started</button>
+    </form>
   </div> 
       </section>
-    <div class="media">
+    <section class="media">
         <div class="container media__container">
         <div class="media__wrapper-text">
           <h2 class="media__title">Social Media</h2>
@@ -117,7 +127,7 @@
               </a>
             </div>
         </div>
-      </div>
+      </section>
     <div class="tabs">
       <div class="container">
         <div class="tabs__head">
@@ -146,7 +156,7 @@
         </div>
       </div>
       </div>
-    <div class="awesome">
+    <section class="awesome">
         <div class="container">
           <div class="head">
             <h2 class="head__title">WHY THIS IS AWESOME</h2>
@@ -230,8 +240,8 @@
             </div>
           </div>
         </div>
-      </div>
-    <div class="pricing">
+      </section>
+    <section class="pricing">
         <div class="container">
           <div class="head">
             <h2 class="head__title">PRICING OPTIONS</h2>
@@ -291,7 +301,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
     <div class="customers">
         <div class="container">
           <div class="head">
@@ -301,7 +311,6 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
           </div>
-
           <div class="customers__messages">
             <div class="customers__message">
               <div class="customers__message-text">
@@ -321,7 +330,6 @@
                 </div>
               </div>
             </div>
-
             <div class="customers__message">
               <div class="customers__message-text">
                 <p class="customers__text">
@@ -331,19 +339,15 @@
                 </p>
               </div>
               <div class="customers__info">
-                <div class="customers__img">
                   <div class="customers__wrapper-icon">
                     <img src="images/img2.png" alt="jaydon" class="customers__img"/>
                   </div>
-                </div>
-
                 <div class="customers__about">
                   <h3 class="customers__name">Jaydon Rosser</h3>
                   <p class="customers__role">Manager</p>
                 </div>
               </div>
             </div>
-
             <div class="customers__message">
               <div class="customers__message-text">
                 <p class="customers__text">
@@ -352,13 +356,10 @@
                   aspernatur ex, architecto eaque quo suscipit.
                 </p>
               </div>
-
               <div class="customers__info">
-                <div class="customers__img">
                   <div class="customers__wrapper-icon">
                     <img src="images/img3.png" alt="cooper" class="customers__img"/>
                   </div>
-                </div>
                 <div class="customers__about">
                   <h3 class="customers__name">Cooper Dorwart</h3>
                   <p class="customers__role">Manager</p>
@@ -368,25 +369,35 @@
           </div>
         </div>
       </div>
-
-<div class="wrapper">
-  <div class="container wrapper__container">
-    <div class="wrapper__head">
-      <h2 class="wrapper__title">STYLISH AXURE DESIGN</h2>
-      <div class="wrapper__line"></div>
-      <p class="wrapper__text">
+    <section class="contact">
+      <div class="container contact__container">
+        <h2 class="contact__title">CONTACT US</h2>
+        <div class="contact__line"></div>
+        <p class="contact__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <form class="contact__form">
+            <div class="contact__wrapper-form">
+                <div class="form__wrapper-input">
+                    <input class="form__input" type="text" placeholder="Name">
+                    <input class="form__input" type="email" placeholder="Email">
+                    <input class="form__input" type="password" placeholder="Password">
+                </div>
+                <textarea type="textarea" class="form__input form__textarea" placeholder="Message"></textarea>
+            </div>
+            <button type="submit" class="contact__button">Send Message</button>
+        </form>
+    </div>
+    </section>  
+    <section class="design">
+  <div class="container design__container">
+      <h2 class="design__title">STYLISH AXURE DESIGN</h2>
+      <div class="design__line"></div>
+      <p class="design__text">
         Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!
       </p>
-      <button class="wrapper__button">Download</button>
-    </div>
+      <button class="design__button">Download</button>
 </div>
-</div>
-
-
-
-
-
-<footer class="footer">
+      </section>
+    <footer class="footer">
   <div class="container footer__container">
     <div class="footer__icons">
       <a href="#" class="footer__icon"><svg width="24" height="43" viewBox="0 0 24 43" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -422,8 +433,8 @@
     </div>
     <p class="footer__text">© 2015 Axure Themes</p>
   </div>
-</footer>
-
-
+      </footer>
   </body>
 </html>
+
+
