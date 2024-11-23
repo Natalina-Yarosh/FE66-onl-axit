@@ -662,7 +662,13 @@
     line-height: 19px;
     text-transform: capitalize;
     outline:none;
+    color: #000;
+}
+.banner__form-item::placeholder
+{
     color: #BDBDBD;
+    font-size: 14px;
+    line-height: 19px;
 }
 .banner__form-item:hover{
     border-bottom: 1px solid #EC7979;
@@ -729,7 +735,13 @@
     line-height: 19px;
     text-transform: capitalize;
     outline:none;
+    color: #000;
+}
+.contact-form__item::placeholder
+{
     color: #BDBDBD;
+    font-size: 14px;
+    line-height: 19px;
 }
 .contact-form__item:hover{
     border-bottom: 1px solid #EC7979;
