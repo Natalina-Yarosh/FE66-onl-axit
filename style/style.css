@@ -411,7 +411,7 @@ p.rewiews__text::after{
 }
 
 .download__separator{
-	background-color: #fff;
+	border: 1px solid #fff;
 }
 
 .download__description{
