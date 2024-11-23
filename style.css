@@ -161,7 +161,6 @@ body {
     padding: 16px 0;
     border: none;
     border-bottom: 1px solid rgba(189, 189, 189, 1);
-    outline: none;
 }
 
 .contact__form-message {
@@ -313,10 +312,9 @@ body {
 
 .banner__form-input {
     margin-bottom: 17px;
-    border: none;
+    border-color: #EC7979;
     border-bottom: 1px solid rgba(189, 189, 189, 1);
     background-color: transparent;
-    outline: none;
     width: 100%;
     padding: 16px 0;
     font-size: 14px;
@@ -415,16 +413,16 @@ input:hover {
     justify-content: center;
 }
 
-.socials__wrapper-icon svg{
+.social__wrapper-icon svg{
     max-width: 100%;
     max-height: 100%;
 }
 
-#svg:hover {
+.social__wrapper-icon:hover path{
     fill: #EC7979;
 }
 
-#svg:active {
+.social__wrapper-icon:active path{
     fill: #AB4949;
 }
 
@@ -772,6 +770,14 @@ input:hover {
     justify-content: center;
     margin-bottom: 27px;
     
+}
+
+.footer__link:hover path{
+    fill: #EC7979;
+}
+
+.footer__link:active path{
+    fill: #AB4949;
 }
 
 .footer__link {
