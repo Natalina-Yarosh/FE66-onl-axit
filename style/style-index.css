@@ -93,6 +93,7 @@
     display: flex;
     text-align: center;
     column-gap: 30px;
+    justify-content: space-between;
 }
 .pricing__item
 {
@@ -160,6 +161,7 @@
 {
     display: flex;
     column-gap: 30px;
+    justify-content: space-between;
 }
 .reviews__item
 {
@@ -700,7 +702,6 @@
 }
 .contact-form
 {
-    padding: 64px 0 64px 0;
     text-align: center;
     margin-bottom: 66px;
 }
