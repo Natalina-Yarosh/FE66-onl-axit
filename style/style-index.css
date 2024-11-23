@@ -776,7 +776,7 @@
     box-shadow: 0px 2px 4px #AB4949;
     border-radius: 5px;
 }
-.contact-form__button {
+.contact-form__btn {
     max-width: 370px;
     width: 100%;
     font-family: "Open Sans", sans-serif;
@@ -789,14 +789,14 @@
     background-color: #EC7979;
     padding: 16.5px 10px;
 }
-.contact-form__button:hover
+.contact-form__btn:hover
 {
     content: '';
     display: block;
     margin: 0 auto;
     background-color: #AB4949;
 }
-.contact-form__button:active
+.contact-form__btn:active
 {
     content: '';
     display: block;
