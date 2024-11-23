@@ -23,6 +23,7 @@
               <path d="M215 13.1225H192.776V77H179.363V13.1225H157.139V0H215V13.1225Z" fill="#EC7979"/>
               </svg>
             </a>
+            <nav class="header__wrapper-items">
           <ul class="header__items">
             <li class="header__item"><a href="#" class="header__item-link">features</a></li>
             <li class="header__item"><a href="#about" class="header__item-link">about</a></li>
@@ -30,6 +31,7 @@
             <li class="header__item"><a href="#reviews" class="header__item-link">reviews</a></li>
             <li class="header__item"><a href="#contact" class="header__item-link">contact</a></li>
           </ul>
+        </nav>
       </div>
     </header>
     <section class="banner">
@@ -50,7 +52,15 @@
         </p>
           <button class="banner__button">Download</button>
         </div>
-        <div class="banner__form"></div>
+        <form class="banner__form">
+            <legend class="banner__form-title">try your <span>free</span> trial today</legend>
+          <div class="banner__form-items">
+            <input type="text" class="banner__form-item" placeholder="name">
+            <input type="email" class="banner__form-item" placeholder="email">
+            <input type="password" class="banner__form-item" placeholder="password">
+          </div>
+          <button class="banner__form-button">get started</button>
+        </form>
       </div>
     </section>
     <section class="social-media">
@@ -309,6 +319,26 @@
           </p>
         </div>
         <button class="design__button">Download</button>
+      </div>
+    </section>
+    <section class="contact-form">
+      <div class="container contact-form__container">
+        <div class="heading">
+          <h2 class="heading__title">contact us</h2>
+          <div class="heading__line"></div>
+          <p class="heading__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+        <form class="contact-form__wrapper-items" id="contact-form">
+          <div class="contact-form__wrapper-input">
+            <input type="text" class="contact-form__item" placeholder="name">
+            <input type="email" class="contact-form__item" placeholder="email">
+            <input type="password" class="contact-form__item" placeholder="password">
+          </div>
+            <textarea placeholder="message" class="contact-form__textarea"></textarea>
+        </form>
+        <button class="contact-form__button" form="contact-form">send message</button>
       </div>
     </section>
     <footer class="footer">
