@@ -122,23 +122,93 @@
 .banner__form{
     background-color: #FFFFFF;
     border-radius: 10px;
+    border: none;
     display: flex;
-    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column;  */
     position: relative;
     z-index: 1;
 }
-/* .banner__form::before{
-    content: "";
-    display: block;
+.banner__fieldset{
+    
+    background-color: #FFFFFF;
+    /* position: absolute; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
     width: 470px;
     height: 450px;
-    background: linear-gradient(to right, #FFFFFF 10%,#EC7979 10%);
-    background-size: 90%;
-    position: absolute;  
-    left: 0px;
-    top: 0px;
-} */
+    /* left: 0px;
+    top: 0px; */
+    border: none;
+}
+.banner__form-name{
+    font-family: Open Sans, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33px;
+    color: #333333;
+    text-transform: uppercase;
+    text-align: center;
+}
+.spanRed{
+    color: #EC7979;
+}
+.banner__input{
+    width: 100%;
+    padding: 0 50px 33px;
+    font-family: Open Sans, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #BDBDBD;
+}
+.banner__form-btn{
+    width: 100%;;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #EC7979;
+    /* padding: ; */
+}
+/* 
+ Get Started 
 
+position: absolute;
+left: 0.22%;
+right: 0.01%;
+top: 0%;
+bottom: 0%;
+
+Email 
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 50%;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #333333;
+
+
+ */
 /*SOCIAL_MEDIA*/
 
 .social{
