@@ -5,24 +5,24 @@
 	font-family: "Raleway", serif;
 }
 
-.contacts{
+.social{
 	background: #F8EFEF;
 	padding-top: 32px;
 	padding-bottom: 18px;	
 	margin-bottom: 81px;
 }
 
-.contacts__content{
+.social__content{
 	display: flex;
 	column-gap: 30px;
 }
 
-.contacts__wrapper-text{
+.social__wrapper-text{
 	max-width: 470px;
 	width: 100%;
 }
 
-.contacts__title{
+.social__title{
 	font-family: "Open Sans", serif;
 	font-size: 24px;
 	line-height: 33px;
@@ -31,14 +31,14 @@
 	color: #333333;
 }
 
-.contacts__text{
+.social__text{
 	font-size: 18px;
 	line-height: 21px;
 	font-weight: 400;
 	color: #86878B;
 }
 
-.contacts__wrapper-icons{
+.social__wrapper-icons{
 	display: flex;
 	align-items: center;
 	justify-content: flex-end	;
@@ -46,7 +46,7 @@
 
 }
 
-.contacts__icon{
+.social__icon{
 	height: 70px;
 	width: 70px;
 	display: flex;
@@ -423,6 +423,12 @@ p.rewiews__text::after{
 	max-width: 370px;
 	display: block;
 	margin: 0 auto;
+}
+
+/* ------------------------------- */
+
+.kontacts{
+
 }
 
 /* ----------------------------- */
