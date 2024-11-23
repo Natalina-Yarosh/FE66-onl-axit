@@ -386,6 +386,7 @@ p.rewiews__text::after{
 	text-align: center;
 	padding: 100px 0;
 	position: relative;
+	margin-bottom: 66px;
 	background: url(../photos/night-city_axit-5.jpg) center/cover no-repeat;
 }
 
