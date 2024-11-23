@@ -7,33 +7,24 @@
 /*HEADER*/
 .header{
     background: #000000;
-    padding: 28px;
+    padding: 28px 0;
 }
-.container__header{
+.header__container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.header__wrapper-logo{
-    width: 86.8px;
-    height: 31px;
-}
 .header__logo{
-    width: 100%;
-}
-.nav{
-    width: 570px;
-}
-.ul__nav{
+    width: 86.8px;
     display: flex;
-    justify-content: space-around;
+}
+.nav__list{
+    display: flex;
     list-style-type: none;
 }
-.li__nav{
-    font-family: Open Sans, sans-serif;
-    font-size: 14px;
-    line-height: 14px;
-    color: #FFFFFF;
+.nav__item{
+    min-width: 113px;
+    text-align: center;
 }
 .nav__link{
     font-family: Open Sans, sans-serif;
@@ -66,14 +57,16 @@
     left: 0px;
     top: 0px;
 }
-.container__banner{
+.banner__container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
 }
 .banner__content{
     max-width: 670px;
-    position: relative;
-    z-index: 1;
+    width: 100%;
 }
 .banner__wrapper-logo{
     margin-bottom: 73px;
@@ -103,6 +96,8 @@
     line-height: 21px;
     margin-bottom: 42px;
     color: #FFFFFF;
+    max-width: 270px;
+    width: 100%;
 }
 .banner__button{
     max-width: 270px;
@@ -151,7 +146,7 @@
     background-color: #F8EFEF;
     padding: 32px 0 18px;
 }
-.container__social{
+.social__container{
     display: flex;
     justify-content: space-between;
     column-gap: 30px;
@@ -210,10 +205,6 @@
     border: none;
     text-align: center;
     text-decoration: none;
-}
-.tabs__link:first-child{
-    border: 1px solid #C6CBCD;
-    border-radius: 5px 5px 0 0;
 }
 .tabs__link_active{
     border: 1px solid #C6CBCD;
@@ -494,6 +485,10 @@
     text-align: center;
     position: relative;
 }
+.design__container{
+    position: relative;
+    z-index: 1;
+}
 .design::before{
     content: "";
     display: block;
@@ -504,18 +499,14 @@
     left: 0px;
     top: 0px; 
 }
-.design__content{
-    max-width: 100%;
-    position: relative;
-    z-index: 1;
-}
-.title_design{
+
+.design__title{
     color: #FFFFFF;
 }
-.line_design{
+.design__line{
     color: #FFFFFF;
 }
-.text_design{
+.design__text{
     color: #FFFFFF;
     margin-bottom: 80px;
 }
