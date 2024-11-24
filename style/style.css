@@ -54,6 +54,14 @@
 	justify-content: center;
 }
 
+.social__icon:hover path{
+    fill: #EC7979;
+}
+
+.social__icon:active path{
+    fill: #AB4949;
+}
+
 /* ------------------------------------- */
 
 .tabs{
@@ -444,7 +452,7 @@ p.rewiews__text::after{
 	background-color: #AB4949;
 	filter: none;
 	color: #FFFFFF;
-	border: none;
+	border: 2px solid #AB4949;	
 }
 
 /* ------------------------------- */
@@ -551,6 +559,14 @@ p.rewiews__text::after{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.footer__icon:hover path{
+    fill: #EC7979;
+}
+
+.footer__icon:active path{
+    fill: #AB4949;
 }
 
 .footer__text{
