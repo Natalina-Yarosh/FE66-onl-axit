@@ -46,6 +46,14 @@ body {
     text-decoration: none;
 }
 
+.header__nav-link:hover {
+    color: #EC7979;
+}
+
+.header__nav-link:active {
+    color: #AB4949;
+}
+
 /* header end */
 
 
@@ -71,6 +79,7 @@ body {
 .banner__container {
     position: relative;
     display: flex;
+    justify-content: space-between;
 }
 
 .banner__desc {
@@ -125,6 +134,19 @@ body {
     border: 2px solid #ffffff;
 }
 
+.banner__button:hover {
+    position: relative;
+    color: #EC7979;
+    border: 2px solid #EC7979;
+}
+
+.banner__button:active {
+    color: #FFFFFF;
+    position: relative;
+    background-color: #AB4949;
+    border: 2px solid #AB4949;
+}
+
 .banner__form {
     max-width: 470px;
     height: max-content;
@@ -171,6 +193,19 @@ body {
     color: #BDBDBD;
 }
 
+.banner__form-input:focus {
+    position: relative;
+    border: none;
+    border-bottom: 1px solid #EC7979;
+}
+
+.banner__form-input:hover {
+    border: none;
+    border-bottom: 1px solid #EC7979;
+    position: relative;
+    box-shadow: 0px 2px 4px #AB4949;
+}
+
 .banner__form-input:last-child {
     margin-bottom: 0;
 }
@@ -187,6 +222,15 @@ body {
     max-width: 470px;
     border: none;
     border-radius: 0px 0px 10px 10px;
+}
+
+.banner__form-btn:hover {
+    background-color: #AB4949;
+}
+
+.banner__form-btn:active {
+    position: relative;
+    filter: drop-shadow(0px 4px 4px #AB4949);
 }
 
 .banner__form-input::placeholder {
@@ -251,6 +295,14 @@ body {
     justify-content: center;
 }
 
+.social-media__icon:hover path {
+    fill: #EC7979;
+}
+
+.social-media__icon:active path {
+    fill: #AB4949;
+}
+
 /* social-media end */
 
 
@@ -258,13 +310,6 @@ body {
 
 .tabs__btns {
     display: flex;
-}
-
-.tabs__btn:first-child {
-    border: 1px solid #C6CBCD;
-    border-bottom: none;
-    border-radius: 5px 5px 0px 0px;
-    position: relative;
 }
 
 .tabs__btn:first-child::before {
@@ -290,6 +335,22 @@ body {
     width: 100%;
     max-width: 203px;
     border: none;
+}
+
+.tabs__btn_active {
+    border: 1px solid #C6CBCD;
+    border-bottom: none;
+    border-radius: 5px 5px 0px 0px;
+    position: relative;
+}
+
+.button:hover {
+    background-color: #AB4949;
+}
+
+.button:active {
+    position: relative;
+    filter: drop-shadow(0px 4px 4px #AB4949);
 }
 
 .tabs__content {
@@ -616,7 +677,7 @@ p.reviews__text::after {
     position: relative;
 }
 
-.contact__form_wrapper {
+.contact__form-wrapper {
     display: flex;
     flex-wrap: wrap;
     column-gap: 30px;
@@ -648,6 +709,19 @@ p.reviews__text::after {
     color: #BDBDBD;
 }
 
+.contact__form-input:focus {
+    position: relative;
+    border: none;
+    border-bottom: 1px solid #EC7979;
+}
+
+.contact__form-input:hover {
+    border: none;
+    border-bottom: 1px solid #EC7979;
+    position: relative;
+    box-shadow: 0px 2px 4px #AB4949;
+}
+
 .contact__form-input:last-child {
     margin-bottom: 0;
 }
@@ -665,12 +739,17 @@ p.reviews__text::after {
     border: none;
 }
 
-.contact__form-input::placeholder {
-    color: #BDBDBD;
+.contact__form-btn:hover {
+    background-color: #AB4949;
 }
 
-.contact__form-input:focus {
-    border: 1px solid #BDBDBD;
+.contact__form-btn:active {
+    position: relative;
+    filter: drop-shadow(0px 4px 4px #AB4949);
+}
+
+.contact__form-input::placeholder {
+    color: #BDBDBD;
 }
 
 /* contact end */
@@ -744,6 +823,19 @@ p.reviews__text::after {
     border: 2px solid #ffffff;
 }
 
+.design__button:hover {
+    position: relative;
+    color: #EC7979;
+    border: 2px solid #EC7979;
+}
+
+.design__button:active {
+    color: #FFFFFF;
+    position: relative;
+    background-color: #AB4949;
+    border: 2px solid #AB4949;
+}
+
 /* design end */
 
 
@@ -768,6 +860,14 @@ p.reviews__text::after {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.footer__icon:hover path {
+    fill: #EC7979;
+}
+
+.footer__icon:active path {
+    fill: #AB4949;
 }
 
 .footer__text {
