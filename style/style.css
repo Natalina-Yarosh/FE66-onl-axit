@@ -48,9 +48,9 @@ margin-bottom: 92px;
 .header__logo{
     display: flex;
 }
-.header__nav{
-    max-width: 570px;
-    width: 100%;
+.header__nav-items{
+    min-width: 113px;
+    text-align: center;
 }
 .header__nav-list{
     display: flex;
@@ -142,7 +142,7 @@ border-color: #EC7979;
 color: #EC7979;
 }
 .banner__button:active{
-border: none;
+border-color: #AB4949;
 background-color: #AB4949;
 color: #fff;
 }
@@ -176,6 +176,9 @@ color: #fff;
     padding: 10px 0;
     border: none;
     border-bottom: 1px solid #BDBDBD;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000;
     outline: none;
 }
 .banner__input::placeholder{
@@ -366,6 +369,7 @@ border-color: #EC7979;
 .about__elements{
     display: flex;
     column-gap: 27px;
+    justify-content: space-between;
 }
 .about__element{
     text-align: center;
@@ -403,6 +407,7 @@ border-color: #EC7979;
 .options__content{
     display: flex;
     column-gap: 30px;
+    justify-content: space-between;
 }
 .option{
     max-width: 370px;
@@ -463,6 +468,7 @@ border-color: #EC7979;
 .customers__content{
     display: flex;
     column-gap: 30px;
+    justify-content: space-between;
 }
 .customer{
     max-width: 370px;
@@ -568,7 +574,7 @@ border-color: #EC7979;
     color: #EC7979;
     }
 .design__button:active{
-    border: none;
+    border-color: #AB4949;
     background-color: #AB4949;
     color: #fff;
     }
@@ -584,7 +590,7 @@ border-color: #EC7979;
 }
 .contact__form-group{
     width: 100%;
-    width: 570px;
+    max-width: 570px;
 }
 .contact__input{
     width: 100%;
@@ -593,6 +599,9 @@ border-color: #EC7979;
     border: none;
     border-bottom: 1px solid #BDBDBD;
     outline: none;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000;
 }
 .contact__input::placeholder{
     font-family: "Open Sans", serif;
@@ -606,10 +615,14 @@ border-color: #EC7979;
 .contact__input-messange{
     resize: none;
     width: 100%;
+    max-width: 570px;
     padding: 10px 0;
     border: none;
     border-bottom: 1px solid #BDBDBD;
     outline: none;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000;
 }
 .contact__input-messange::placeholder{
     font-family: "Open Sans", serif;
