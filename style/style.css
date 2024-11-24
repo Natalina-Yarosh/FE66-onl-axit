@@ -5,6 +5,48 @@
 	font-family: "Raleway", serif;
 }
 
+.header{
+	padding: 22px 0;
+	background-color: #000;
+}
+
+.header__container{
+	margin: 0 122px 0 152px;
+	/* хотя по сути ширина контейнера одинаковая
+	(из-за того что в навигации 
+	статичная ширина слов та же ширина не выходит
+	ну и плюс не по центру) */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__logo{
+	
+}
+
+.nav__link{
+	color: #fff;
+    text-decoration: none;
+    font-family: "Open Sans", serif;
+	font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.nav__items{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	column-gap: 64px;
+}
+
+.nav__item{
+
+}
+
+/* ---------------------------------- */
+
 .main{
 		padding: 306px 0 185px;
 		position: relative;
