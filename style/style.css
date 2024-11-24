@@ -140,6 +140,14 @@
 	margin-top: 84px;
 }
 
+.btn:hover{
+	background-color: #AB4949;
+}
+
+.btn:active{
+	filter: drop-shadow(0px 4px 4px #AB4949);
+}
+
 .tabs__wrapper-image{
 	width: 40%;
 	overflow: hidden;
@@ -419,11 +427,24 @@ p.rewiews__text::after{
 }
 
 .btn--dark{
-	border: 1px solid #fff;
+	border: 2px solid #fff;
 	background-color: transparent;
 	max-width: 370px;
 	display: block;
 	margin: 0 auto;
+}
+
+.btn--dark:hover{
+	border: 2px solid #EC7979;
+	background-color: transparent;
+	color: #EC7979;
+}
+
+.btn--dark:active{
+	background-color: #AB4949;
+	filter: none;
+	color: #FFFFFF;
+	border: none;
 }
 
 /* ------------------------------- */
@@ -450,7 +471,26 @@ p.rewiews__text::after{
 	border: none;
 	border-bottom: 1px solid #BDBDBD;
 	margin-bottom: 50px;
+	outline: none;
+	padding-bottom: 16px;
 }
+
+.form__input::placeholder{
+	font-size: 14px;
+	line-height: 19px;
+	color: #BDBDBD;
+	font-weight: 400;
+	font-family: "Open Sans", serif; 
+}
+
+/* .form__input:focus{
+	border-bottom: 1px solid #EC7979;
+} */
+
+/* .form__input:hover{
+	border-bottom: 1px solid #EC7979;
+	box-shadow: 0px 2px 4px #AB4949;
+} */
 
 .form__textarea{
 	max-width: 570px;
@@ -458,7 +498,26 @@ p.rewiews__text::after{
 	resize: none;
 	border: none;
 	border-bottom: 1px solid #BDBDBD;
+	outline: none;
+	margin-bottom: 50px;
 }
+
+.form__textarea::placeholder{
+	font-size: 14px;
+	line-height: 19px;
+	color: #BDBDBD;
+	font-weight: 400;
+	font-family: "Open Sans", serif; 
+}
+
+/* .form__textarea:focus{
+	border-bottom: 1px solid #EC7979;
+}
+
+.form__textarea:hover{
+	border-bottom: 1px solid #EC7979;
+	box-shadow: 0px 2px 4px #AB4949;
+} */
 
 .btn--another{
 	max-width: 370px;
@@ -466,6 +525,8 @@ p.rewiews__text::after{
 	display: block;
 	/* нужен ли тут дисплей блок */
 }
+
+
 
 /* ----------------------------- */
 
