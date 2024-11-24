@@ -140,26 +140,11 @@ body {
     max-width: 470px;
     width: 100%;
     background-color: #FFFFFF;
-    padding: 36px 50px 75px;
+    padding: 36px 50px 60px;
     border-radius: 10px;
     position: relative;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
-
-/* .banner__form::before {
-    content: '';
-    display: block;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background:linear-gradient(to right, #FFFFFF 50%, #EC7979 0);
-    background-size:85px 100%;
-    border-radius: 10px;
-    position: absolute;
-    opacity: 0.2;
-    z-index: 1;
-} */
 
 .banner__legend {
     color: #333333;
@@ -210,7 +195,6 @@ body {
 
 .banner__form-btn {
     border: none;
-    max-width: 470px;
     width: 100%;
     background-color: #EC7979;
     color: #FFFFFF;
@@ -309,12 +293,12 @@ body {
     height: 70px;
 }
 
-.media__wrapper-icon:hover {
-    transform: scale(1.5);
+.media__wrapper-icon path:hover {
+    fill: #EC7979;
 }
 
 .media__wrapper-icon path:active {
-    fill: #EC7979;
+    fill: #AB4949;
 }
 
 .tabs {
@@ -649,19 +633,23 @@ body {
     margin-bottom: 89px;
 }
 
-.contact__form {
+.contact {
     margin-bottom: 66px;
 }
 
 .contact__wrapper-input {
     display: flex;
     column-gap: 29px;
-    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contact__input-group {
+    max-width: 570px;
     width: 100%;
 }
 
 .contact__input, .contact__textarea {
-    max-width: 570px;
     width: 100%;
     padding: 10px 0;
     margin-bottom: 50px;
@@ -678,20 +666,26 @@ body {
     margin-bottom: 0;
 }
 
+.contact__input:hover,
+.contact__textarea:hover {
+    border-bottom: 1px solid #EC7979;
+}
+
 .contact__input:focus,
 .contact__textarea:focus {
-    box-shadow: 5px 5px 10px 5px #EC7979;
+    box-shadow: 0 2px 4px 0 #AB4949;
     outline: none;
 }
 
 .contact__textarea {
     resize: none;
     margin-bottom: 0;
+    max-width: 570px;
 }
 
 .contact__btn {
     display: block;
-    margin: 50px auto;
+    margin: 50px auto 0;
     background-color: #EC7979;
     color: #FFFFFF;
     max-width: 370px;
