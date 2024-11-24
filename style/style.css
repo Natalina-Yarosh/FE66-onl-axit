@@ -71,8 +71,14 @@
   }
   
 
+.logo{
+  display: flex;
+}
+
+
   .header{
     background-color: #000000;
+    padding: 28px 0;
   }
 
 
@@ -86,9 +92,7 @@ align-items: center;
   .nav{
     display: flex;
         align-items: center;
-        width: 570px;
-        justify-content: space-between;
-        padding: 28px 0;
+       column-gap: 60px;
   }
 
 
@@ -98,19 +102,17 @@ align-items: center;
     font-weight: 600;
     color: #FFFFFF;
     text-decoration: none;
-    max-width: 113.8px;
-    width: 100%;
     text-align: center;
   }
 
 
   .banner{
-    height: 1026px;
     background-image: url(../media/1.png) ;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
+    padding: 306px 0 185px;
   }
   
 
@@ -133,7 +135,6 @@ align-items: center;
     .banner__content{
       max-width: 670px;
       width: 100%;
-      padding-top: 306px;
   }
     
 
@@ -168,6 +169,7 @@ align-items: center;
     font-size:18px ;
     line-height: 21px;
     margin:0 0 42px;
+    max-width: 270px;
   }
   
 
@@ -539,7 +541,6 @@ justify-content: center;
 }
 
 .design{
-  height: 425px;
   background-image: url(../media/2.jpg) ;
   background-repeat: no-repeat;
   background-position: center;
@@ -562,15 +563,9 @@ justify-content: center;
 
 
 .design__container{
-   
-}
-
-
-.design__content{
-  max-width: 1170px;
-  width: 100%;
-  text-align: center;
-  padding: 70px 170px;
+   position: relative;
+   text-align: center;
+   padding: 70px 0;
 }
 
 
@@ -590,8 +585,9 @@ justify-content: center;
   border: 1px solid #fff;
   width: 170px;
   position: absolute;
-  left: 0px;
+  left: 50px;
   bottom: -40px;
+  transform: translateX(-50px);
 }
 
 
@@ -618,15 +614,17 @@ justify-content: center;
 
 .footer{
   background-color: #000000;
-  height: 164px;
+  padding: 35px 0 27px;
 }
 
-.footer__container{
-width: 1170px;
-align-content: center;
-padding-top: 35px;
-margin-bottom: 27.8px;
+.footer__media-wrapper{
+  width: 53px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 
 .footer__icons{
   justify-content: center;
@@ -639,8 +637,5 @@ margin-bottom: 27.8px;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
-  width: 100%;
-  padding-bottom: 27px;
-  
 }
     
