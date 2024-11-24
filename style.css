@@ -157,11 +157,11 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
-    color: rgba(189, 189, 189, 1);
     padding: 16px 0;
     border: none;
     border-bottom: 1px solid rgba(189, 189, 189, 1);
     outline: none;
+    color: #000000;
 }
 
 .contact__form-input::placeholder {
@@ -344,7 +344,7 @@ body {
     font-size: 14px;
     line-height: 19px;
     outline: none;
-    color: rgba(189, 189, 189, 1);
+    color: #000000;
 }
 
 .banner__form-input::placeholder {
