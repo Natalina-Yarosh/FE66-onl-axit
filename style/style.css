@@ -34,10 +34,10 @@
     color: #FFFFFF;
 }
 .nav__link:hover{
-    background: #EC7979;
+    color: #EC7979;
 }
 .nav__link:active{
-    background-color: #AB4949;
+    color: #AB4949;
 }
 /* BANNER */
 .banner{
@@ -123,14 +123,7 @@
     background-color: #FFFFFF;
     border-radius: 10px 10px 10px 10px; 
     border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    z-index: 1;
     padding-top: 36px;
-    width: 470px;
-    /* height: 450px; */
 }
 .banner__fieldset{
     border-radius: 10px 10px 10px 10px;
@@ -141,6 +134,7 @@
     align-items: center;
 }
 .banner__form-name{
+    white-space: pre;
     font-family: Open Sans, sans-serif;
     font-size: 24px;
     font-weight: 600;
@@ -149,7 +143,6 @@
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 73px;
-    display: flex;
 }
 .spanRed{
     color: #EC7979;
@@ -164,9 +157,7 @@
     border: none;
     border-bottom: 1px solid #BDBDBD;
     margin-bottom: 73px;
-    display: flex;
-    align-items: center;
-    justify-content: start;
+    padding-bottom: 17px;
 }
 .banner__input:focus{
      border-bottom: 1px solid #EC7979;
@@ -179,9 +170,6 @@
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    /* display: flex; */
-    align-items: center;
-    text-align: center;
     color: #FFFFFF;
     background-color: #EC7979;
     padding: 19px 10px;
@@ -601,11 +589,11 @@
 .contact__text{
     margin-bottom: 89px;
 }
-.contact__wrapper-form{
+/* .contact__wrapper-form{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 .contact__form{
     width: 100%;
     border: none;
@@ -624,7 +612,17 @@
     line-height: 19px;
     font-weight: 400;
     color: #BDBDBD;
-    resize: none;
+    padding-bottom: 19px;
+}
+.contact__input:focus{
+    outline: none;
+    border-bottom: 1px solid #EC7979;
+}
+.contact__input:active{
+    outline: none;
+    border-bottom: 1px solid #EC7979;
+    box-shadow: 0px 2px 4px #AB4949;
+
 }
 .contact__textarea{
     max-width: 570px;
@@ -633,6 +631,16 @@
     border: none;
     border-bottom: 1px solid #BDBDBD;
     margin-bottom: 50px;
+    padding-bottom: 185px;
+}
+.contact__textarea:focus{
+    outline: none;
+    border-bottom: 1px solid #EC7979;
+}
+.contact__textarea:active{
+    outline: none;
+    border-bottom: 1px solid #EC7979;
+    box-shadow: 0px 2px 4px #AB4949;
 }
 .contact__button{
     max-width: 370px;
