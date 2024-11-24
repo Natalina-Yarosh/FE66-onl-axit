@@ -49,6 +49,7 @@
 {
     display: flex;
     column-gap: 27px;
+    justify-content: space-between;
 }
 .about__item
 {
@@ -660,7 +661,6 @@
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     line-height: 19px;
-    text-transform: capitalize;
     outline:none;
     color: #000;
 }
@@ -669,6 +669,7 @@
     color: #BDBDBD;
     font-size: 14px;
     line-height: 19px;
+    text-transform: capitalize;
 }
 .banner__form-item:hover{
     border-bottom: 1px solid #EC7979;
@@ -733,7 +734,6 @@
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     line-height: 19px;
-    text-transform: capitalize;
     outline:none;
     color: #000;
 }
@@ -742,6 +742,7 @@
     color: #BDBDBD;
     font-size: 14px;
     line-height: 19px;
+    text-transform: capitalize;
 }
 .contact-form__item:hover{
     border-bottom: 1px solid #EC7979;
@@ -766,8 +767,14 @@
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     line-height: 19px;
-    text-transform: capitalize;
+    color: #000;
+}
+.contact-form__textarea::placeholder
+{
     color: #BDBDBD;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: capitalize;
 }
 .contact-form__textarea:hover{
     border-bottom: 1px solid #EC7979;
