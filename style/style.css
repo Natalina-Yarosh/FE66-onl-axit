@@ -293,11 +293,11 @@ body {
     height: 70px;
 }
 
-.media__wrapper-icon path:hover {
+.media__wrapper-icon:hover path {
     fill: #EC7979;
 }
 
-.media__wrapper-icon path:active {
+.media__wrapper-icon:active path {
     fill: #AB4949;
 }
 
@@ -722,6 +722,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer__wrapper-icon:hover path {
+    fill: #EC7979;
+}
+
+.footer__wrapper-icon:active path {
+    fill: #AB4949;
 }
 
 .footer__text {
