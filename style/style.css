@@ -22,7 +22,7 @@
 }
 
 .header__logo{
-	
+	display: flex;
 }
 
 .nav__link{
@@ -47,6 +47,7 @@
 	justify-content: space-between;
 	align-items: center;
 	column-gap: 64px;
+	list-style-type: none;
 }
 
 .nav__item{
@@ -55,13 +56,13 @@
 
 /* ---------------------------------- */
 
-.main{
+.banner{
 		padding: 306px 0 185px;
 		position: relative;
 		background: url(../photos/main-town.jpg) center/cover no-repeat;
 }
 
-.main::after{
+.banner::after{
 	content: '';
 	display: block;
 	width: 100%;
@@ -72,21 +73,23 @@
 	top: 0;
 }
 
-.main__content{
+.banner__container{
 	display: flex;
 	justify-content: space-between;
 	column-gap: 100px;
+	align-items: center;
 }
 
-.main__text{
+.banner__text{
 
 }
 
 .logo{
 	margin-bottom: 73px;
+	display: flex;
 }
 
-.main__title{
+.banner__title{
 	font-weight: 500;
 	color: #FFFFFF;
 	margin-bottom: 55px;
@@ -95,18 +98,20 @@
 	text-transform: uppercase;
 }
 
-.main__description{
+.banner__description{
 	margin-bottom: 42px;
+	max-width: 270px;
+	width: 100%;
+	margin-bottom: 42px;
+	color: #fff;
+	font-size: 18px;
+	line-height: 21px;
+	font-weight: 400;
 }
 
-.main__separator{
-	margin: 0;
-}
-/* я не догадался пока как сделать сепаратор
-не по центру */
-
-.main__btn{
-	margin-right: 0;
+.separator.banner__separator{
+	margin: 0 0 42px;
+	background-color: #FFFFFF;
 }
 
 .pop_up{
@@ -115,11 +120,7 @@
 	border-radius: 10px;
 	background-color: #FFFFFF;
 	text-align: center;
-}
-
-.pop_up__container{
-	margin: 0 auto;
-	padding: 36px 50px 0;
+	padding-top: 36px;
 }
 
 .pop_up__title{
@@ -141,12 +142,47 @@
 }
 
 .form__inputs{
-
+	padding: 0 50px;
+	margin-bottom: 75px;
 }
 
 .form__input{
-
+	max-width: 570px;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #BDBDBD;
+	margin-bottom: 50px;
+	outline: none;
+	padding: 0 0 16px;
 }
+
+/* не понял почему стили для текста не в плейсхолдере */
+
+.banner__input{
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #BDBDBD;
+	margin-bottom: 50px;
+	outline: none;
+	padding: 16px 0;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.btn.btn--dark{
+	border: 2px solid #FFFFFF;
+	background-color: transparent;
+	display: block;
+	margin: 0;
+}
+
+.btn.pop_up__btn{
+	width: 100%;
+	max-width: 100%;
+	margin: 0;
+	border-radius: 0 0 10px 10px;
+}
+
 
 .pop_up__btn{
 	margin: 0 auto;
@@ -330,7 +366,7 @@
 
 .about__content{
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	column-gap: 28px;
 }
 
@@ -408,7 +444,7 @@
 
 .price__content{
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	column-gap: 30px;
 }
 
@@ -477,7 +513,7 @@
 
 .rewiews__content{
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	column-gap: 30px;
 }
 
@@ -579,8 +615,12 @@ p.rewiews__text::after{
 	color: #FFFFFF;
 }
 
-.download__separator{
-	border: 1px solid #fff;
+.separator.separator--dark{
+	border-color: #FFFFFF;
+}
+
+.separator--dark{
+	border-color: #FFFFFF;
 }
 
 .description--dark{
@@ -614,6 +654,12 @@ p.rewiews__text::after{
 	margin-bottom: 66px;
 }
 
+.contacts.form__input{
+	padding: 0;
+	width: 100%;
+	max-width: 570px;
+}
+
 .contacts__content{
 	
 }
@@ -625,22 +671,16 @@ p.rewiews__text::after{
 	margin-bottom: 50px;
 }
 
-.form__input{
-	max-width: 570px;
-	width: 100%;
-	border: none;
-	border-bottom: 1px solid #BDBDBD;
-	margin-bottom: 50px;
-	outline: none;
-	padding-bottom: 16px;
-}
-
 .form__input::placeholder{
 	font-size: 14px;
 	line-height: 19px;
 	color: #BDBDBD;
 	font-weight: 400;
 	font-family: "Open Sans", serif; 
+}
+
+.form__input:last-child{
+	margin-bottom: 0;
 }
 
 /* .form__input:focus{
@@ -659,7 +699,7 @@ p.rewiews__text::after{
 	border: none;
 	border-bottom: 1px solid #BDBDBD;
 	outline: none;
-	margin-bottom: 50px;
+	padding: 16px 0;
 }
 
 .form__textarea::placeholder{
@@ -686,7 +726,11 @@ p.rewiews__text::after{
 	/* нужен ли тут дисплей блок */
 }
 
-
+.btn.btn--another{
+	max-width: 370px;
+	margin: 0 auto;
+	display: block;
+}
 
 /* ----------------------------- */
 

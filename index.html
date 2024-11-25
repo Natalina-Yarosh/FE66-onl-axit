@@ -36,10 +36,9 @@
 
 	<!-- --------------------------------------- -->
 
-	<div class="main">
-		<div class="container--dark container">
-			<div class="main__content">
-				<div class="main__text">
+	<section class="banner">
+		<div class="container--dark container banner__container">
+				<div class="banner__text">
 					<div class="logo">
 						<svg width="170" height="55" viewBox="0 0 170 55" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path d="M20.3089 0H31.161L51.3924 55H40.3853L35.2693 41.2887H16.0456L11.0071 55H0L20.3089 0ZM33.3314 33.7746L25.735 11.0775L17.8284 33.7746H33.3314Z" fill="white"/>
@@ -48,29 +47,26 @@
 							<path d="M170 9.37324H152.499V55H141.936V9.37324H124.435V0H170V9.37324Z" fill="#EC7979"/>
 						</svg>						
 					</div>
-					<h1 class="main__title title--dark">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
-					<div class="separator separator--dark main__separator"></div>
-					<p class="main__description description--dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-					<button class="main__btn btn btn--dark">Download</button>
+					<h1 class="banner__title title--dark">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+					<div class="separator separator--dark banner__separator"></div>
+					<p class="banner__description description--dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+					<button class="btn btn--dark">Download</button>
 				</div>
-				<div class="pop_up">
-					<div class="pop_up__container">
-							<h2 class="pop_up__title">Try Your <span class="span">FREE</span> Trial Today</h2>
-							<form>
-								<div class="form">
-									<div class="form__inputs">
-										<input class="form__input" type="text" placeholder="Name">
-										<input class="form__input" type="email" placeholder="Email">
-										<input class="form__input" type="password" placeholder="Password">
-									</div>
-								</div>
-							</form>
-					</div>
+				<form class="pop_up">
+						<legend class="pop_up__title">
+							Try You
+							<span class="span">FREE</span>
+							Trial Today
+						</legend>			
+							<div class="form__inputs">
+								<input class="form__input banner__input" type="text" placeholder="Name">
+								<input class="form__input banner__input" type="email" placeholder="Email">
+								<input class="form__input banner__input" type="password" placeholder="Password">
+							</div>
 					<button class="btn pop_up__btn">Get Started</button>
-				</div>
-			</div>
+				</form>
 		</div>
-	</div>
+	</section>
 
 <!-- ------------------------------------------- -->
 
@@ -313,19 +309,17 @@
 		<h2 class="title">contact us</h2>
 		<div class="separator"></div>
 		<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-		<div class="contacts__content">
-			<form>
+		<form class="contacts__content">
 				<div class="form">
 					<div class="form__inputs">
 						<input class="form__input" type="text" placeholder="Name">
 						<input class="form__input" type="email" placeholder="Email">
-						<input class="form__input" type="password" placeholder="Password">
+						<input class="form__input" type="password" placeholder="Password" style="margin: 0;">
 					</div>
 					<textarea class="form__textarea" name="" placeholder="Message"></textarea>
 				</div>
-			</form>
 			<button class="btn btn--another">Send Message</button>
-		</div>
+		</form>
 	</div>
 </section>
 
