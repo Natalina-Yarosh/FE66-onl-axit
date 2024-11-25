@@ -190,10 +190,11 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
-    color: #BDBDBD;
+    color: #000000;
 }
 
 .banner__form-input:focus {
+    outline: none;
     position: relative;
     border: none;
     border-bottom: 1px solid #EC7979;
@@ -465,6 +466,7 @@ body {
 .about__element {
     max-width: 371px;
     text-align: center;
+    justify-content: space-between;
 }
 
 .about__wrapper-icon {
@@ -510,6 +512,7 @@ body {
 .pricing__boxes {
     display: flex;
     column-gap: 30px;
+    justify-content: space-between;
 }
 
 .pricing__box {
@@ -592,6 +595,7 @@ body {
 .reviews__elements {
     display: flex;
     column-gap: 30px;
+    justify-content: space-between;
 }
 
 .reviews__element {
@@ -706,10 +710,11 @@ p.reviews__text::after {
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
-    color: #BDBDBD;
+    color: #000000;
 }
 
 .contact__form-input:focus {
+    outline: none;
     position: relative;
     border: none;
     border-bottom: 1px solid #EC7979;
