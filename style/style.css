@@ -70,7 +70,7 @@
     column-gap: 30px;
   }
   
-
+  
 .logo{
   display: flex;
 }
@@ -186,9 +186,82 @@ align-items: center;
     text-align: center;
     background-color: transparent;
   }
-  
 
+  .banner__button:hover{
+    border-color: #EC7979;
+    color:#EC7979 ;
+  }
+
+  .banner__button:active{
+    background-color: #AB4949;
+    color: #FFFFFF;
+  }
   
+.form{
+  max-width: 450px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-top: 36px;
+  position: absolute;
+  transform: translate(785px, -520px);
+}
+  .form__title{
+  font-weight: 700;
+  font-size: 24px;
+  font-family:"Open Sans", sans-serif; 
+  line-height: 33px;
+  margin-bottom: 73px;
+  text-align: center;
+ 
+  }
+
+  .form__title-new{
+    color: #EC7979;
+  }
+.form__input-list{
+text-align: center;
+}
+.form__input{
+  margin-bottom: 33px;
+  padding-bottom: 20px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #BDBDBD;
+  max-width: 370px;
+}
+
+.form__input:last-child{
+  margin-bottom: 0;
+}
+  .form__input::placeholder{
+    color: #BDBDBD;
+    font-size: 14px;
+    font-family:"Open Sans", sans-serif;
+  }
+
+  .form__submit{
+    background-color: #EC7979;
+    color: #ffffff;
+    width: 100%;
+    font-size: 15px;
+    padding: 21px 0;
+    border: none;
+    margin-top: 75px;
+    font-weight: 700;
+  }
+
+  .form__submit:hover{
+    background-color: #AB4949;
+    text-decoration: underline;
+
+  }
+  
+  .form__submit:focus{
+    background-color: #AB4949;
+
+    
+      }
 
   .about__wrapper{
     display: flex;
@@ -482,6 +555,16 @@ align-items: center;
     max-width: 270px;
     }
 
+    .tabs__button:hover{
+background-color: #AB4949;
+    }
+
+    .tabs__button:active{
+background: #EC7979;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    }
+
 
     .tabs__wrapper-img{
       width: 40%;
@@ -539,6 +622,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
+
 
 .design{
   background-image: url(../media/2.jpg) ;
@@ -605,6 +689,16 @@ justify-content: center;
   border: 1px solid #ffffff;
   max-width: 370px;
   background-color: transparent;
+}
+
+.design__button:hover{
+  border-color: #EC7979;
+  color:#EC7979 ;
+}
+
+.design__button:active{
+  background-color: #AB4949;
+  color: #FFFFFF;
 }
 
 
