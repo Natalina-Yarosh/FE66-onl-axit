@@ -120,6 +120,8 @@
     color: #FFFFFF;
 }
 .banner__form{
+    max-width: 450px;
+    width: 100%;
     background-color: #FFFFFF;
     border-radius: 10px 10px 10px 10px; 
     border: none;
@@ -134,7 +136,6 @@
     align-items: center;
 }
 .banner__form-name{
-    white-space: pre;
     font-family: Open Sans, sans-serif;
     font-size: 24px;
     font-weight: 600;
@@ -142,13 +143,14 @@
     color: #333333;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 73px;
+    margin-bottom: 54px;
 }
-.spanRed{
+.banner__form-name_elem{
     color: #EC7979;
 }
 .banner__input{
-    width: 370px;
+    max-width: 370px;
+    width: 100%;
     font-family: Open Sans, sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -156,15 +158,25 @@
     color: #BDBDBD;
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    margin-bottom: 73px;
-    padding-bottom: 17px;
+    margin-bottom: 14px;
+    padding: 17px 0;
 }
+/* .banner__input:last-of-type{
+    margin-bottom: 75px;
+} */
 .banner__input:focus{
-     border-bottom: 1px solid #EC7979;
+    outline: none;
+    border-bottom: 1px solid #EC7979;
+
+}
+.banner__input:active{
+    outline: none;
+    border-bottom: 1px solid #EC7979;
+    box-shadow: 0px 2px 4px #AB4949;
 
 }
 .banner__form-btn{
-    width: 470px;
+    width: 100%;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -176,6 +188,7 @@
     border: none;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    margin-top: 59px;
 }
 .banner__form-btn:hover{
         background: #AB4949;
@@ -600,12 +613,14 @@
     align-items: center;
 } */
 .contact__form{
-    width: 100%;
-    border: none;
     display: flex;
     column-gap: 30px;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.contact__form-group{
+    max-width: 570px;
+    width: 100%;
 }
 .contact__input{
     width: 100%;
@@ -617,7 +632,10 @@
     line-height: 19px;
     font-weight: 400;
     color: #BDBDBD;
-    padding-bottom: 19px;
+    padding: 19px 0;
+}
+.contact__input:last-of-type{
+    margin-bottom: 0;
 }
 .contact__input:focus{
     outline: none;
@@ -635,8 +653,7 @@
     resize: none;
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    margin-bottom: 50px;
-    padding-bottom: 185px;
+    padding: 19px 0;
 }
 .contact__textarea:focus{
     outline: none;
