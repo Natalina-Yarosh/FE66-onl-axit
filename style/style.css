@@ -106,13 +106,15 @@
 }
 
 .banner__button {
-    width: 270px;
-    height: 58px;
+    display: block ;
+    max-width: 270px;
+    width: 100%;
     border: solid 1px #fff;
     background-color: transparent;
     color: #fff;
     font-size: 18px;
     font-weight: 600;
+    padding: 16px 10px;
 }
 
 .banner__button:hover{
