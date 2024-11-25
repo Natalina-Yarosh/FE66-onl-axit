@@ -700,6 +700,7 @@ p.rewiews__text::after{
 	border-bottom: 1px solid #BDBDBD;
 	outline: none;
 	padding: 16px 0;
+	height: 217px;
 }
 
 .form__textarea::placeholder{
