@@ -579,8 +579,8 @@ p.rewiews__text::after{
 	color: #FFFFFF;
 }
 
-.separator--dark{
-	border-color: #FFFFFF;
+.download__separator{
+	border: 1px solid #fff;
 }
 
 .description--dark{
