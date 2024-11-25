@@ -34,6 +34,14 @@
     line-height: 19px;
 }
 
+.nav__link:hover{
+	color: #EC7979;
+}
+
+.nav__link:active{
+	color: #AB4949;
+}
+
 .nav__items{
 	display: flex;
 	justify-content: space-between;
@@ -91,19 +99,61 @@
 	margin-bottom: 42px;
 }
 
-/* .main__separator{
-	margin: 0 0 42px 0;
-} */
+.main__separator{
+	margin: 0;
+}
 /* я не догадался пока как сделать сепаратор
 не по центру */
 
-/* .main__btn{
+.main__btn{
 	margin-right: 0;
-} */
+}
 
 .pop_up{
 	max-width: 470px;
 	width: 100%;
+	border-radius: 10px;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+.pop_up__container{
+	margin: 0 auto;
+	padding: 36px 50px 0;
+}
+
+.pop_up__title{
+	font-family: "Open Sans", serif;
+	font-size: 24px;
+	line-height: 33px;
+	font-weight: 700;
+	margin-bottom: 73px;
+	color: #333333;
+	text-transform: uppercase;
+}
+
+.span{
+	color: #EC7979;
+}
+
+.form{
+
+}
+
+.form__inputs{
+
+}
+
+.form__input{
+
+}
+
+.pop_up__btn{
+	margin: 0 auto;
+	max-width: 470px;
+	width: 100%;
+	border-radius: 0 0 10px 10px;
+	/* флекс не получится как будто */
 }
 
 /* ----------------------------------- */
