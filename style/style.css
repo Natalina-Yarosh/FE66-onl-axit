@@ -4,7 +4,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 .container {
     margin: 0 auto;
     padding: 0 16px;
@@ -437,7 +436,6 @@ padding-bottom: 118px;
 .awesome__head-title{
     font-family: "Raleway", serif;
     font-weight: 500;
-    width: 1170px;
     line-height:40px ;
     font-size: 36px;
     text-align: center;
@@ -452,7 +450,6 @@ padding-bottom: 118px;
 
 .awesome__head-text{
     font-family: "Raleway", serif;
-    width: 1170px;
     font-size: 18px;
     text-align: center;
     margin: 40.4px auto 92.92px;
@@ -517,7 +514,6 @@ padding-bottom: 118px;
     text-align: center;
     color: #000000;
     margin-top: 24.24px;
-    width: 370px;
     line-height: 21px;
 }
 
