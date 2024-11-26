@@ -461,6 +461,7 @@ body {
 .about__elements {
     display: flex;
     column-gap: 27px;
+    justify-content: space-between;
 }
 
 .about__element {
@@ -696,7 +697,6 @@ p.reviews__text::after {
 
 .contact__form-textarea {
     max-width: 570px;
-    height: 254px;
     resize: none
 }
 
