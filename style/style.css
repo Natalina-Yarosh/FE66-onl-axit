@@ -95,7 +95,7 @@
     font-weight: 400;
     line-height: 21px;
     margin-bottom: 42px;
-    color: #FFFFFF;
+    color: #0d0c0c;
     max-width: 270px;
     width: 100%;
 }
@@ -114,7 +114,7 @@
     color: #EC7979;
     border: 1px solid #EC7979;
 }
-.banner__button:active{
+.banner__button:focus{
     background-color: #AB4949;
     border: 1px solid #AB4949;
     color: #FFFFFF;
@@ -155,25 +155,30 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 19px;
-    color: #BDBDBD;
+    color: #080808;
     border: none;
     border-bottom: 1px solid #BDBDBD;
     margin-bottom: 14px;
     padding: 17px 0;
 }
+.banner__input::placeholder{
+    font-family: Open Sans, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #BDBDBD;
+}
 /* .banner__input:last-of-type{
     margin-bottom: 75px;
 } */
+.banner__input:hover{
+    outline: none;
+    border-bottom: 1px solid #EC7979;
+}
 .banner__input:focus{
     outline: none;
     border-bottom: 1px solid #EC7979;
-
-}
-.banner__input:active{
-    outline: none;
-    border-bottom: 1px solid #EC7979;
     box-shadow: 0px 2px 4px #AB4949;
-
 }
 .banner__form-btn{
     width: 100%;
@@ -631,17 +636,24 @@
     font-size: 14px;
     line-height: 19px;
     font-weight: 400;
-    color: #BDBDBD;
+    color: #000;
     padding: 19px 0;
+}
+.contact__input::placeholder{
+    font-family: Open Sans, sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #BDBDBD;
 }
 .contact__input:last-of-type{
     margin-bottom: 0;
 }
-.contact__input:focus{
+.contact__input:hover{
     outline: none;
     border-bottom: 1px solid #EC7979;
 }
-.contact__input:active{
+.contact__input:focus{
     outline: none;
     border-bottom: 1px solid #EC7979;
     box-shadow: 0px 2px 4px #AB4949;
@@ -652,14 +664,26 @@
     width: 100%;
     resize: none;
     border: none;
+    font-family: Open Sans, sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #000;
     border-bottom: 1px solid #BDBDBD;
     padding: 19px 0;
 }
-.contact__textarea:focus{
+.contact__textarea::placeholder{
+    font-family: Open Sans, sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #BDBDBD;
+}
+.contact__textarea:hover{
     outline: none;
     border-bottom: 1px solid #EC7979;
 }
-.contact__textarea:active{
+.contact__textarea:focus{
     outline: none;
     border-bottom: 1px solid #EC7979;
     box-shadow: 0px 2px 4px #AB4949;
