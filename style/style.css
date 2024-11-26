@@ -661,11 +661,13 @@ align-items: center;
 justify-content: center;
 }
 
-.icon:hover{
+
+
+.media__wrapper-icon:hover path{
   fill: #EC7979;
 }
 
-.icon:active{
+.media__wrapper-icon:active path{
   fill: #AB4949;
 }
 .design{
@@ -817,6 +819,14 @@ margin-top: 50px;
   justify-content: center;
 }
 
+
+.footer__media-wrapper:hover path{
+  fill: #EC7979;
+}
+
+.footer__media-wrapper:active path{
+  fill: #86878B;
+}
 
 .footer__icons{
   justify-content: center;
