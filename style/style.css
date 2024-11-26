@@ -270,7 +270,7 @@ body {
 }
 .tabs__item-active {
   border-radius: 5px 5px 0px 0px;
-  border: 2px solid #c6cbcd;
+  border: 1px solid #c6cbcd;
   position: relative;
   border-bottom: none;
   line-height: 19px;
