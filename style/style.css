@@ -661,14 +661,12 @@ align-items: center;
 justify-content: center;
 }
 
-
-.media__wrapper-icon:hover{
-  background-color: #EC7979;
+.icon:hover{
+  fill: #EC7979;
 }
 
-
-.media__wrapper-icon:active{
-  background-color: #AB4949;
+.icon:active{
+  fill: #AB4949;
 }
 .design{
   background-image: url(../media/2.jpg) ;
@@ -817,14 +815,6 @@ margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.footer__media-wrapper:hover{
-  background-color: #EC7979;
-}
-
-.footer__media-wrapper:active{
-  background-color: #AB4949;
 }
 
 
