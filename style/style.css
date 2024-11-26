@@ -38,6 +38,7 @@
     display: flex;
     width: 100%;
     column-gap: 30px;
+    justify-content: space-between;
 }
 .awesome__title {
     font-family: "Open Sans", sans-serif;
@@ -89,6 +90,7 @@
     display: flex;
     width: 100%;
     column-gap: 30px;
+    justify-content: space-between;
 }
 .pricing-options__item{
     max-width: 371px;
@@ -151,7 +153,8 @@
 .reviews__description{
     display: flex;
     width: 100%; 
-    column-gap: 30px;   
+    column-gap: 30px;  
+    justify-content: space-between; 
 }
 .review__wrapper-text{
     background-color: #E2E2E2;
@@ -447,6 +450,8 @@ margin-bottom: 0px;
     position: relative;
     z-index: 1;
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 .design{
     background: url("/img/city.jpg") center/cover no-repeat;
@@ -537,7 +542,7 @@ margin-bottom: 0px;
     text-align: center;
     color: #333333;
 }
-.form__title-red {
+.form__title-elem {
     color: #EC7979;
 }
 .form__wrapper-input {
@@ -548,6 +553,7 @@ margin-bottom: 0px;
     padding: 0 50px;
 }
 .form__input {
+    font-family: "Open Sans", sans-serif;
     border: none;
     border-bottom: 1px solid #BDBDBD;
     padding: 17px 0;
@@ -587,6 +593,10 @@ margin-bottom: 0px;
 }
 .contact {
     margin-bottom: 67px;
+}
+.contact .form__button{
+    max-width: 370px;
+    border-radius: 0;
 }
 .contact__form {
     text-align: center;
