@@ -102,6 +102,7 @@
     border: none;
     border-bottom: 1px solid rgba(189, 189, 189, 1);
     position: relative;
+    outline: none;
 }
 
 .banner__form-input::before {
@@ -536,14 +537,10 @@ margin-top: 84px;
   
   }
 
-  .about__item:hover {
-    background-color: #EC7979;
-    scale: (1.2);
-  }
-
+  
   .about__item:active {
     background-color: #AB4949;
-    scale: (1.2);
+    
   }
   
   .about__wraper-icon {
@@ -891,6 +888,7 @@ margin-top: 84px;
   display: flex;
   column-gap: 30px;
   width: 100%;
+  
 }
 
 .contact__input {
@@ -924,6 +922,7 @@ margin-top: 84px;
   color:#bdbdbd;
   line-height: 19px;
   font-size: 14px;
+  padding: 16px 0;
 }
 
 
