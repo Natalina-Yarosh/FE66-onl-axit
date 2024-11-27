@@ -310,14 +310,20 @@
 		<div class="separator"></div>
 		<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 		<form class="contacts__content">
-				<div class="form">
-					<div class="form__inputs">
+			<div class="form">
+				<div class="form__inputs">
+					<div class="form__wrapper-input">
 						<input class="form__input" type="text" placeholder="Name">
-						<input class="form__input" type="email" placeholder="Email">
-						<input class="form__input" type="password" placeholder="Password" style="margin: 0;">
 					</div>
-					<textarea class="form__textarea" name="" placeholder="Message"></textarea>
+					<div class="form__wrapper-input">
+						<input class="form__input" type="email" placeholder="Email">
+					</div>	
+					<div class="form__wrapper-input">	
+						<input class="form__input" type="password" placeholder="Password" style="margin: 0;">
+					</div>	
 				</div>
+				<textarea class="form__textarea" name="" placeholder="Message"></textarea>
+			</div>
 			<button class="btn btn--another">Send Message</button>
 		</form>
 	</div>

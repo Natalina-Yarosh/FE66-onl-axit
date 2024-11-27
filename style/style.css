@@ -141,11 +141,6 @@
 
 }
 
-.form__inputs{
-	padding: 0 50px;
-	margin-bottom: 75px;
-}
-
 .form__input{
 	max-width: 570px;
 	width: 100%;
@@ -671,6 +666,10 @@ p.rewiews__text::after{
 	margin-bottom: 50px;
 }
 
+.form__inputs{
+	padding: 0 50px;
+}
+
 .form__input::placeholder{
 	font-size: 14px;
 	line-height: 19px;
@@ -683,14 +682,14 @@ p.rewiews__text::after{
 	margin-bottom: 0;
 }
 
-/* .form__input:focus{
+.form__input:focus{
 	border-bottom: 1px solid #EC7979;
-} */
+}
 
-/* .form__input:hover{
-	border-bottom: 1px solid #EC7979;
-	box-shadow: 0px 2px 4px #AB4949;
-} */
+.form__input:hover{
+	border-color:  #AB4949;
+	
+}
 
 .form__textarea{
 	max-width: 570px;
@@ -700,7 +699,6 @@ p.rewiews__text::after{
 	border-bottom: 1px solid #BDBDBD;
 	outline: none;
 	padding: 16px 0;
-	height: 217px;
 }
 
 .form__textarea::placeholder{
@@ -711,20 +709,19 @@ p.rewiews__text::after{
 	font-family: "Open Sans", serif; 
 }
 
-/* .form__textarea:focus{
+.form__textarea:focus{
 	border-bottom: 1px solid #EC7979;
 }
 
 .form__textarea:hover{
 	border-bottom: 1px solid #EC7979;
 	box-shadow: 0px 2px 4px #AB4949;
-} */
+} 
 
 .btn--another{
 	max-width: 370px;
 	margin: 0 auto;
 	display: block;
-	/* нужен ли тут дисплей блок */
 }
 
 .btn.btn--another{
