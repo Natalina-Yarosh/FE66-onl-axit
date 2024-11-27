@@ -54,7 +54,7 @@ body {
     align-items: center;
 
 }
-.header__list-text{
+.header__link{
     font-family: "Open Sans", sans-serif;
     color:#fff;
     font-size: 14px;
@@ -63,10 +63,10 @@ body {
     text-align: center;
     text-decoration: none;
 }
-.header__list-text:hover{
+.header__link:hover{
     color:#EC7979;
 }
-.header__list-text:active{
+.header__link:active{
     color:#AB4949;
 }
 .header__list{
@@ -76,7 +76,7 @@ body {
     list-style-type: none;
     text-align: center;
 }
-.header__list-item{
+.header__item{
     min-width: 113px;
 }
 /*banner*/
@@ -99,6 +99,7 @@ body {
     display: flex;
     justify-content: space-between;
     position: relative;
+    align-items: center;
 }
 .banner__icon{
     margin-bottom: 73px;
@@ -117,6 +118,7 @@ body {
     width: 100%;
 }
 .banner__text{
+    max-width: 270px;
     color:#fff;
     font-size: 18px;
     line-height: 21px;
@@ -154,12 +156,11 @@ body {
 .banner__form{
     max-width: 470px;
     width: 100%;
-}
-.banner__wrapper-form{
     background-color: #FFF;
     border-radius: 10px;
     padding-top: 36px;
 }
+
 .banner__legend{
     color:#000;
     font-family: "Open Sans", sans-serif;
@@ -176,18 +177,18 @@ body {
 .banner__wrapper-inputs{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    padding: 0 50px;
     row-gap: 33px;
 }
 .banner__input{
-    width: 370px;
+    width: 100%;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     line-height: 19px;
     padding: 10.5px 0;
     border: none;
     border-bottom: 1px solid #BDBDBD;
+    outline: none;
     color:#000000;
 }
 .banner__input::placeholder{
@@ -579,13 +580,12 @@ body {
 .contact__wrapper-inputs{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
     row-gap: 50px;
+    max-width: 570px;
+    width: 100%;
 }
 .contact__input{
-    width: 571px;
+    width: 100%;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     line-height: 19px;
@@ -607,7 +607,6 @@ body {
 }
 .contact__textarea{
     resize: none;
-    height: 100%;
 }
 .contact__submit{
     max-width: 370px;
