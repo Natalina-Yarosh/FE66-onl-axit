@@ -670,6 +670,10 @@ p.rewiews__text::after{
 	padding: 0 50px;
 }
 
+.form__inputs-banner{
+	margin-bottom: 75px;
+}
+
 .form__input::placeholder{
 	font-size: 14px;
 	line-height: 19px;
