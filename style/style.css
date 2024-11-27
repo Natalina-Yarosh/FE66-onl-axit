@@ -151,8 +151,6 @@
 	padding: 0 0 16px;
 }
 
-/* не понял почему стили для текста не в плейсхолдере */
-
 .banner__input{
 	width: 100%;
 	border: none;
@@ -177,7 +175,6 @@
 	margin: 0;
 	border-radius: 0 0 10px 10px;
 }
-
 
 .pop_up__btn{
 	margin: 0 auto;
@@ -687,12 +684,11 @@ p.rewiews__text::after{
 }
 
 .form__input:focus{
-	border-bottom: 1px solid #EC7979;
+	border-color:  #EC7979;
 }
 
 .form__input:hover{
-	border-color:  #AB4949;
-	
+	border-color:  #EC7979;
 }
 
 .form__textarea{
@@ -714,13 +710,13 @@ p.rewiews__text::after{
 }
 
 .form__textarea:focus{
-	border-bottom: 1px solid #EC7979;
+	border-color:  #EC7979;
 }
 
 .form__textarea:hover{
-	border-bottom: 1px solid #EC7979;
-	box-shadow: 0px 2px 4px #AB4949;
-} 
+	border-color:  #EC7979;
+}
+
 
 .btn--another{
 	max-width: 370px;
