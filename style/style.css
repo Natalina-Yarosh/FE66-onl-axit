@@ -35,6 +35,188 @@ margin-bottom: 92px;
     line-height: 21px;
 }
 
+/*header*/
+.header{
+    padding: 22px 0;
+    background-color: #000;
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo{
+    display: flex;
+}
+.header__nav-items{
+    min-width: 113px;
+    text-align: center;
+}
+.header__nav-list{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.header__nav-link{
+    font-family: "Open Sans", serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+}
+.header__nav-link:hover{
+    color: #EC7979;
+}
+.header__nav-link:active{
+    color: #AB4949
+}
+
+
+/*banner*/
+
+.banner{
+    padding: 306px 0 185px;
+    background: url(../media/banner.png) center/cover no-repeat;
+    position: relative;
+}
+.banner::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    left: 0;
+    top: 0;
+}
+.banner__container{
+    position: relative;
+    display: flex;
+    column-gap: 86px;
+    align-items: center;
+}
+.banner__desk{
+    max-width: 670px;
+    width: 100%;
+}
+.banner__logo{
+    margin-bottom: 73px;
+}
+.banner__title{
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    font-weight: 400;
+    margin-bottom: 55px;
+}
+.banner__line{
+    border-bottom: 1px solid #fff;
+    width: 170px;
+    margin-bottom:  42px;
+    text-align: left;
+}
+.banner__text{
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-bottom: 42px;
+    max-width: 270px;
+}
+.banner__button{
+    border: 1px solid #fff;
+    background: rgba(255, 255, 255, 0);
+    max-width: 270px;
+    width: 100%;
+    padding: 16px 10px;
+    font-family: "Open Sans", serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.banner__button:hover{
+border-color: #EC7979;
+color: #EC7979;
+}
+.banner__button:active{
+border-color: #AB4949;
+background-color: #AB4949;
+color: #fff;
+}
+.banner__form{
+    max-width: 470px;
+    width: 100%;
+    background-color: #fff;
+    padding-top: 34px;
+    border-radius: 10px;
+}
+.banner__form-group{
+    padding: 0 50px;
+    margin-bottom: 77px;
+}
+.banner__form-title{
+    font-family: "Open Sans", serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #333333;
+    margin-bottom: 77px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.banner__title-span{
+    color: #EC7979;
+}
+.banner__input{
+    width: 100%;
+    margin-bottom: 31px;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000;
+    outline: none;
+}
+.banner__input::placeholder{
+    font-family: "Open Sans", serif;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+}
+.banner__input:hover{
+    border-color: #EC7979;
+}
+.banner__input:focus{
+box-shadow: 0px 2px 4px #AB4949;
+border-color: #EC7979;
+}
+.banner__input:last-of-type{
+    margin-bottom: 0px;
+}
+.banner__form-button{
+    border: none;
+    background: #EC7979;
+    width: 100%;
+    padding: 20px 10px;
+    font-family: "Open Sans", serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border-radius: 0 0 10px 10px;
+}
+.banner__form-button:hover{
+    background-color: #AB4949;
+}
+.banner__form-button:active{
+    background-color: #EC7979;
+    filter: drop-shadow(0px 4px 4px #AB4949);
+}
+
 /*media*/
 .media{
     background-color: #F8EFEF;
@@ -75,7 +257,12 @@ margin-bottom: 92px;
     align-items: center;
     justify-content: center;
 }
-
+.media__link:hover path{
+    fill: #EC7979;
+}
+.media__link:active path{
+    fill: #AB4949;
+}
 
 
 /*tabs*/
@@ -156,6 +343,13 @@ margin-bottom: 92px;
     color: #FFFFFF;
     margin-top: 84px;
 }
+.tabs__btn:hover{
+    background-color: #AB4949;
+}
+.tabs__btn:active{
+    background-color: #EC7979;
+    filter: drop-shadow(0px 4px 4px #AB4949);
+}
 .tabs__wrapper-img{
     border: none;
     overflow: hidden;
@@ -175,6 +369,7 @@ margin-bottom: 92px;
 .about__elements{
     display: flex;
     column-gap: 27px;
+    justify-content: space-between;
 }
 .about__element{
     text-align: center;
@@ -212,6 +407,7 @@ margin-bottom: 92px;
 .options__content{
     display: flex;
     column-gap: 30px;
+    justify-content: space-between;
 }
 .option{
     max-width: 370px;
@@ -272,6 +468,7 @@ margin-bottom: 92px;
 .customers__content{
     display: flex;
     column-gap: 30px;
+    justify-content: space-between;
 }
 .customer{
     max-width: 370px;
@@ -328,6 +525,178 @@ margin-bottom: 92px;
     line-height: 21px;
     color: #000;
     font-weight: 400;
+}
+
+/*design*/
+.design{
+    background: url(../media/stylish.jpg);
+    position: relative;
+    padding: 70px 0;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.design::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.design__container{
+    position: relative;
+}
+.head__title--design{
+    color: #FFFFFF;
+}
+.head__line--design{
+    border-color: #FFFFFF;
+}
+.head__text--design{
+    color: #FFFFFF;
+}
+.design__button{
+    border: 1px solid #fff;
+    background: rgba(255, 255, 255, 0);
+    max-width: 370px;
+    width: 100%;
+    padding: 19px 10px;
+    font-family: "Open Sans", serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 16px 10px;
+}
+.design__button:hover{
+    border-color: #EC7979;
+    color: #EC7979;
+    }
+.design__button:active{
+    border-color: #AB4949;
+    background-color: #AB4949;
+    color: #fff;
+    }
+/*contact*/
+.contact{
+    margin-bottom: 66px;
+}
+.contact__form{
+    width: 100%;
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 50px;
+}
+.contact__form-group{
+    width: 100%;
+    max-width: 570px;
+}
+.contact__input{
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    outline: none;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000;
+}
+.contact__input::placeholder{
+    font-family: "Open Sans", serif;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+}
+.contact__input:last-child{
+    margin-bottom: 0;
+}
+.contact__input-messange{
+    resize: none;
+    width: 100%;
+    max-width: 570px;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    outline: none;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000;
+}
+.contact__input-messange::placeholder{
+    font-family: "Open Sans", serif;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+}
+.contact__input-messange:hover{
+    border-color: #EC7979;
+}
+.contact__input-messange:focus{
+box-shadow: 0px 2px 4px #AB4949;
+border-color: #EC7979;
+}
+.contact__input:hover{
+    border-color: #EC7979;
+}
+.contact__input:focus{
+box-shadow: 0px 2px 4px #AB4949;
+border-color: #EC7979;
+}
+.contact__button{
+    border: none;
+    background: #EC7979;
+    max-width: 370px;
+    width: 100%;
+    padding: 16px 10px;
+    font-family: "Open Sans", serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #FFFFFF;
+    display: block;
+    margin: 0 auto;
+}
+
+.contact__button:hover{
+    background-color: #AB4949;
+}
+.contact__button:active{
+    background-color: #EC7979;
+    filter: drop-shadow(0px 4px 4px #AB4949);
+}
+
+
+/*footer*/
+.footer{
+    padding: 35px 0 27px;
+    background-color: #000;
+    text-align: center;
+}
+.footer__links{
+    display: flex;
+    column-gap: 32px;
+    justify-content: center;
+    margin-bottom: 28px;
+}
+.footer__link{
+    width: 53px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__link:hover path{
+    fill: #EC7979;
+}
+.footer__link:active path{
+    fill: #AB4949;
+}
+.footer__text{
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 
