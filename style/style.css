@@ -13,7 +13,7 @@ body {
     background-color: #000;
     padding: 22px 0;
 }
-.header__elements {
+.header__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -209,7 +209,7 @@ body {
     background-color: #F8EFEF;
     padding: 32px 0 18px;
 }
-.social__items {
+.social__container {
     display: flex;
     column-gap: 30px;
     align-items: center;
@@ -272,8 +272,6 @@ body {
     border-bottom: none;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    max-width: 203px;
-    width: 100%;
     position: relative;
 }
 .tabs__item--active::before {
@@ -361,6 +359,7 @@ body {
 .awesome__items {
     display: flex;
     column-gap: 27px;
+    justify-content: space-between;
 }
 .awesome__item:last-child {  /*  Либо .awesome__items :last-child { margin-right: 0px; }  */
     margin: 0;
@@ -416,6 +415,7 @@ body {
 .pricing__options {
     display: flex;
     column-gap: 30px;
+    justify-content: space-between;
 }
 .pricing__option:last-child{
     margin: 0;
@@ -450,7 +450,7 @@ body {
     background-color: #333333;
     border-bottom: 2px solid #f5f5f5;  
 }
-.pricing__desscription {
+.pricing__description {
     padding: 14.5px 10px; 
     font-size: 18px;
     text-align: center;
@@ -478,6 +478,7 @@ body {
 .customers__items {
     display: flex;
     column-gap: 30px;
+    justify-content: space-between;
 }
 .customers__item:last-child {
     margin: 0;
@@ -620,7 +621,6 @@ p.customers__text::after {
     width: 100%;
 }
 .contact__input {
-    width: 100%;
     padding: 16px 0;
 }
 .contact__textarea {
@@ -644,7 +644,6 @@ p.customers__text::after {
 .contact__button:hover {
     background-color: #AB4949;
     color: #FFFFFF;
-    
 }
 .contact__button:active {
     filter: drop-shadow(0px 4px 4px #AB4949);
@@ -658,15 +657,15 @@ p.customers__text::after {
 }
 .footer__icons {
     display: flex;
-    justify-content: center; /* Горизонтальное выравнивание */ 
-    align-items: center; /* Вертикальное выравнивание */
+    justify-content: center;
+    align-items: center;
     column-gap: 32.8px;
     margin-bottom: 27.8px;
 }
 .footer__link {
     display: flex;
-    justify-content: center; /* Горизонтальное выравнивание */ 
-    align-items: center; /* Вертикальное выравнивание */
+    justify-content: center; 
+    align-items: center; 
     width: 53.2px;
     height: 53.2px;
 }
