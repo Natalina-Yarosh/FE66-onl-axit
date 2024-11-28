@@ -746,11 +746,11 @@ object-fit: cover;
     margin-bottom: 0;
 }
 
-.contact__form-item:focus{
+.contact__item:focus{
     border-color:#EC7979;
 }
 
-.contact__form-item:hover{
+.contact__item:hover{
     box-shadow: 0px 2px 0px #AB4949;
 }
 
@@ -798,6 +798,7 @@ object-fit: cover;
     align-items: center;
     justify-content: center;
 }
+
 
 .footer__link :hover path{
      fill: #EC7979;
