@@ -13,7 +13,7 @@
 .header__container{
 	margin: 0 122px 0 152px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-between;	
 	align-items: center;
 }
 
@@ -144,7 +144,7 @@
 	border-bottom: 1px solid #BDBDBD;
 	margin-bottom: 50px;
 	outline: none;
-	padding: 0 0 16px;
+	padding: 16px 0;
 }
 
 .banner__input{
