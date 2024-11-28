@@ -12,10 +12,6 @@
 
 .header__container{
 	margin: 0 122px 0 152px;
-	/* хотя по сути ширина контейнера одинаковая
-	(из-за того что в навигации 
-	статичная ширина слов та же ширина не выходит
-	ну и плюс не по центру) */
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -57,9 +53,9 @@
 /* ---------------------------------- */
 
 .banner{
-		padding: 306px 0 185px;
-		position: relative;
-		background: url(../photos/main-town.jpg) center/cover no-repeat;
+	padding: 306px 0 185px;
+	position: relative;
+	background: url(../photos/main-town.jpg) center/cover no-repeat;
 }
 
 .banner::after{
